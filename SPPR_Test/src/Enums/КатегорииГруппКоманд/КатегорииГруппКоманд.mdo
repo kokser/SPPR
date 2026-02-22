@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8c2f51-b901-4652-b619-ff359d1a39ed">
+  <producedTypes>
+    <refType typeId="a70e3d0d-ba01-435a-ab0f-06fecbf9153b" valueTypeId="9bfbcff9-c306-4eb6-9ca0-99b4950c0a4f"/>
+    <listType typeId="829e5e35-bdc0-4a8e-bbee-6449c3a9ea8b" valueTypeId="cce58565-aa05-465f-8a64-8cfb78c98cdb"/>
+    <managerType typeId="639ac2bd-c1a9-4d76-a71c-22a1950334e9" valueTypeId="9464320e-7ff1-4623-9f25-38cb8201c7b5"/>
+  </producedTypes>
+  <name>КатегорииГруппКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории групп команд</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4404ded6-f548-4507-8042-8470d9f0f9b0">
+    <name>ПанельНавигации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c5e370e-bfe3-4c75-b6a3-41b9e92f7e6b">
+    <name>ПанельНавигацииФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации формы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23e058e9-a655-49f5-840b-eafe7e2125ed">
+    <name>ПанельДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель действий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44ca7fff-a937-402f-983c-3cae0bd014fc">
+    <name>КоманднаяПанельФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командная панель формы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

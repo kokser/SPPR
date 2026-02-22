@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a077c231-6378-4b70-9810-45c9209a9724">
+  <producedTypes>
+    <selectionType typeId="aa2bcbcd-49b9-4d6a-bc78-2dc07df3d3eb" valueTypeId="28233620-cee2-4b83-a831-4b8484e541e8"/>
+    <listType typeId="5a6539ba-7c88-4334-bd84-c3bd1040c6df" valueTypeId="75129375-ef5d-4f46-81d4-dbc366d9b76c"/>
+    <managerType typeId="e0466252-47f2-4a6e-a90e-a3f807e548ea" valueTypeId="c3b679ef-f07d-485d-9b9a-1c419fe0f96f"/>
+    <recordSetType typeId="d1e8e93d-da2e-4a66-aaf1-94e93c21c49e" valueTypeId="de7357b6-54f4-47be-bce3-f5cfb1bb94ca"/>
+    <recordKeyType typeId="e08b32d5-2d1e-4732-bda6-1a1d8d4a2cd9" valueTypeId="a2f3e1cf-1254-4844-a245-554f87753321"/>
+    <recordType typeId="06693c29-b4e5-4355-b1d9-2eb000970392" valueTypeId="080b72a9-46f0-483a-9042-eecf1a024e72"/>
+    <recordManagerType typeId="dfd85c6e-7f4e-4e1e-9738-59b89af734e4" valueTypeId="7b1eef74-ce5f-427c-b063-2838e1f7dea1"/>
+  </producedTypes>
+  <name>ПротоколСогласованияРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протокол планирования и согласования ресурсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись протокола планирования и согласования ресурса</value>
+  </recordPresentation>
+  <resources uuid="d577027d-e391-4d5d-8025-1a367238e91d">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e876ceb6-c7d3-469a-811f-92004d6f51ac">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f3880aed-8e88-4596-8710-d31152754a8e">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиПроцесса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача, для которой выполнялись действия по согласованию ресурса.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7cfc8b49-5c57-4659-bb79-3dafd7c42a9f">
+    <name>ВидРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСогласуемыхРесурсов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид согласуемого ресурса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f11bf957-1ff5-4681-9c83-a7bbbdf2d4c5">
+    <name>СтатусСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСогласованияРесурса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запрашивался или согласовывался ресурс.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b6c72ae1-5e16-4dd6-8dd5-c5c8487415ca">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a2a3dfed-54b5-41d8-9bc4-cf567c79bc42">
+    <name>ПараметрическаяОтЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметрическая от задачи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

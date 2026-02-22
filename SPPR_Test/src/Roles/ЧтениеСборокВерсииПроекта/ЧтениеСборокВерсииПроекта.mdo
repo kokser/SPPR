@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99a21ead-d7ea-4c0e-9a26-5f9d7ca7229d">
+  <name>ЧтениеСборокВерсииПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение сборок версии проекта</value>
+  </synonym>
+</mdclass:Role>

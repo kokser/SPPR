@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b79cbc61-89ca-4510-850f-040fa955db1d">
+  <producedTypes>
+    <managerType typeId="0e1e9f3c-1eb1-4ae1-baec-d60bfed8d1a1" valueTypeId="1649eb42-c1b6-42f3-a925-f4646a3e4433"/>
+    <valueManagerType typeId="8ebcf0c5-436d-49f5-917b-b27850619551" valueTypeId="048b1b36-c7b9-4f66-acfe-4fc1afc29ad1"/>
+    <valueKeyType typeId="a0730a8d-9e89-536b-8812-d56d7ba143dc" valueTypeId="e86719bc-59a1-50da-9dd8-01e7e58ceb15"/>
+  </producedTypes>
+  <name>ИспользоватьИнтеграциюСВнешнимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с внешними системами</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f156ea5a-0474-4b03-b766-73064a0fc661">
+  <name>Органайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органайзер</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделОрганайзер</picture>
+  </picture>
+  <content>Catalog.Регламенты</content>
+  <content>CommonCommand.ПерсональныеНастройки</content>
+  <content>Catalog.Файлы</content>
+  <content>CommonCommand.ПанельОтчетовОрганайзер</content>
+  <content>DataProcessor.ИнтеграцияС1СДокументооборот</content>
+  <content>CommonCommand.ДополнительныеОбработкиОрганайзер</content>
+  <content>CommonCommand.ДополнительныеОтчетыОрганайзер</content>
+  <content>Catalog.РассылкиОтчетов</content>
+  <content>Catalog.ЦелевыеЗадачи</content>
+  <content>Report.СводнаяИнформацияПоВыпускуВерсий</content>
+  <content>Report.ВерсииБиблиотекиВСоставеКонфигураций</content>
+  <content>Report.ТрудоемкостьЗадач</content>
+  <content>InformationRegister.ЗамещениеПользователейПоРаботеСОшибками</content>
+  <content>Report.МоиДела</content>
+  <content>CommonPicture.ИзученныеСтандартыКоллекция</content>
+  <content>Enum.СостоянияСтандартов</content>
+  <content>InformationRegister.ИзучаемыеСтандарты</content>
+  <content>Catalog.СтандартыРазработки</content>
+  <content>Report.ИзучениеСтандартовРазработки</content>
+  <content>Report.НарушенияСтандартовРазработки</content>
+  <content>Catalog.ОбщиеЗадачи</content>
+  <content>Report.ВыполнениеОбщихЗадач</content>
+  <content>Catalog.ВидыСогласуемыхРесурсов</content>
+  <content>Catalog.ШаблоныПроцесса</content>
+  <content>Catalog.ЗадачиПроцесса</content>
+  <content>InformationRegister.КалендариПользователей</content>
+  <content>Document.УчетВремени</content>
+  <content>Catalog.ВидыДеятельности</content>
+  <content>DataProcessor.Планирование</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>Report.ЗатратыВремениИРезультатыПользователей</content>
+  <content>Report.ЗатратыВремениПоТехническимПроектам</content>
+  <content>DataProcessor.КонтрольОбъектов</content>
+  <content>Catalog.ПриоритетыРабот</content>
+  <content>Catalog.Подразделения</content>
+</mdclass:Subsystem>

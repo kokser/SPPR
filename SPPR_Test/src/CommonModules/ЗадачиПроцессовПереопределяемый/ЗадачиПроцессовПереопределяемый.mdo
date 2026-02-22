@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a69d3be6-0720-42d6-85c0-5699bf2698a9">
+  <name>ЗадачиПроцессовПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи процессов переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="466eaeab-0f00-47d3-9f14-cd7915006363">
+  <producedTypes>
+    <managerType typeId="b1e8ec40-7aba-41b6-9768-1cc10d737b5d" valueTypeId="2ee76bff-c480-4da0-82be-e7f67b58f850"/>
+    <valueManagerType typeId="e5515e72-9a60-4e8c-97c4-d2353cc3ba80" valueTypeId="ee12dd2d-895d-49cd-84b8-49de63e510f7"/>
+    <valueKeyType typeId="1113b88f-d83d-4eec-99bd-dbd7f169ff85" valueTypeId="92f9f173-4f60-4cc8-bb72-6ed630ad8954"/>
+  </producedTypes>
+  <name>ДатаПоследнегоПериодическогоСозданияУведомленийСистемаВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата последнего периодического создания уведомлений система взаимодействия</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Дата, в которую в последний раз было выполнено периодическое создание уведомлений через систему взаимодействия</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

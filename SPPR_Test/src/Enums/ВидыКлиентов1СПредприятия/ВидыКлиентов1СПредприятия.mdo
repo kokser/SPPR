@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac8d7de4-b83b-440f-92a2-1e3bb9df8f93">
+  <producedTypes>
+    <refType typeId="e830eeae-971a-4b72-88c6-dc4e852adb71" valueTypeId="9cbbd123-734d-4f75-b35a-a565e26f35a5"/>
+    <listType typeId="413b92eb-bc3b-4b3d-9a50-45820c2c2b05" valueTypeId="79a15594-030d-4e6b-a32a-5429bd22bd9c"/>
+    <managerType typeId="780c0262-a21e-45a3-84d0-78c0bf139277" valueTypeId="40c00561-86c5-4b39-9190-cc67f1dbbc8a"/>
+  </producedTypes>
+  <name>ВидыКлиентов1СПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды клиентов1С:Предприятия</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="736dcb6c-2a19-4cb5-9525-0df43473db22">
+    <name>Толстый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толстый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1736a2f-8383-425f-ae4d-5ffffc919b17">
+    <name>Тонкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ccd823e-f6b2-4a95-9085-bf777edf4208">
+    <name>Веб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3c3eca9-889a-43c0-b556-e9f4b8eba098">
+    <name>Мобильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

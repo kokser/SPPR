@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87752ada-d4d5-44f8-843d-831e8be9ab8d">
+  <name>Патчи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Патчи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ПатчиСлужебный</content>
+  <content>CommonTemplate.ШаблонПатча</content>
+  <content>Enum.СтатусыПатчей</content>
+  <content>InformationRegister.ВерсииПатчей</content>
+  <content>InformationRegister.ПрименимостьПатчей</content>
+  <content>ScheduledJob.СозданиеПатчей</content>
+  <content>ScheduledJob.ПубликацияПатчей</content>
+  <content>ScheduledJob.ОбновлениеПрименимостиИПубликацияПатчей</content>
+  <content>XDTOPackage.Patch</content>
+  <content>Constant.АдресСервисаПубликацииИсправлений</content>
+  <content>InformationRegister.ЗакрытыеКлючиБазовыхВерсий</content>
+  <content>Constant.ИспользоватьПубликациюПатчейВСервисе</content>
+  <content>Catalog.Патчи</content>
+  <content>Role.ДобавлениеИзменениеПатчей</content>
+  <content>Role.ИзменениеПометкиУдаленияПатчей</content>
+  <content>Role.ЧтениеПатчей</content>
+  <content>Report.ОпубликованныеПатчиПоСборкамКонфигураций</content>
+  <content>Report.СтатистикаПатчейПоСборкам</content>
+</mdclass:Subsystem>

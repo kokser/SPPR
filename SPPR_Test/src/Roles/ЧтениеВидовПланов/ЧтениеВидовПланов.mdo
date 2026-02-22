@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="017dfac4-be1f-40ea-8741-d206e8f222dd">
+  <name>ЧтениеВидовПланов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов планов</value>
+  </synonym>
+</mdclass:Role>

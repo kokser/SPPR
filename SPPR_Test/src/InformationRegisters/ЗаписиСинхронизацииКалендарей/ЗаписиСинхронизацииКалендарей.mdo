@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bb7c9c3-7703-4f86-8812-9dceed8f2d49">
+  <producedTypes>
+    <selectionType typeId="e1ae1b45-c02e-4e7d-b488-b2d0e659dad0" valueTypeId="a78edb67-3893-4517-86f5-d16130ff9dae"/>
+    <listType typeId="1cd1e50d-5f3f-4b26-a743-f46fc7bda0ef" valueTypeId="98ecb866-d3df-4bc7-a913-891d32756611"/>
+    <managerType typeId="f07c4234-03fc-4454-b135-fe1b30544f71" valueTypeId="d992edb6-ed8c-433b-9ea3-5d344ba6b50d"/>
+    <recordSetType typeId="ea817f6d-888c-488c-bd6e-b47afe24c24f" valueTypeId="6138111d-fc40-4990-87df-09992f711387"/>
+    <recordKeyType typeId="bd81678e-3938-4437-bc3d-857d10cd487b" valueTypeId="a2cc99e6-5c8a-4957-a30e-e7cb6ab2da3e"/>
+    <recordType typeId="0a718696-43f3-43b8-a5c0-13fb16f736c8" valueTypeId="e02bc1a0-70e7-4a82-92dc-d7a77b1707b4"/>
+    <recordManagerType typeId="0524cc45-5935-413c-8304-940f86874535" valueTypeId="71f44584-b76c-400d-9b50-1586f8aa2293"/>
+  </producedTypes>
+  <name>ЗаписиСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записи синхронизации календарей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЗаписиСинхронизацииКалендарей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись синхронизации календаря</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Записи синхронизации календарей</value>
+  </listPresentation>
+  <resources uuid="054b7d58-27a6-4930-a306-9308433f01ec">
+    <name>ИдентификаторКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор календаря</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4971cb56-5f8f-4903-8731-7eff8b7191ec">
+    <name>ИдентификаторЗаписиВоВнешнемКалендаре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи во внешнем календаре</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3891fe43-d456-46ae-b0b9-6e0a287ccfd1">
+    <name>БезОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без описания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0929e34-518e-4484-8f38-7319d25ebabd">
+    <name>ОтпечатокОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпечаток объекта</value>
+    </synonym>
+    <comment>Etag</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3cf13c6d-0ef8-4620-9032-0f376359cbb2">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="00226512-5f4a-42d9-8b4f-e8f2e560bada">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b644859b-edce-422c-8d3f-d7e9c402b01d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

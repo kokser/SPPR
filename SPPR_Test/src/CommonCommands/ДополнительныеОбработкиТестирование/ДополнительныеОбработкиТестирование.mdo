@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf664775-8d4a-45fe-80db-97bb087eac5c">
+  <name>ДополнительныеОбработкиТестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные обработки</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

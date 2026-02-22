@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="379d7944-2c7f-4e31-9ca8-dd5b2742f07d">
+  <name>FunctionModel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Function model</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SPPR/FunctionModel</namespace>
+</mdclass:XDTOPackage>

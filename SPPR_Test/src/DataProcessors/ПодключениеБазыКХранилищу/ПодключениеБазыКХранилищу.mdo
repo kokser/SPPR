@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5148de23-9cb2-4926-b3c4-c6dc520c8e61">
+  <producedTypes>
+    <objectType typeId="2deeea96-ed72-4bfb-9027-c4cf17fd6c8a" valueTypeId="8ef3d59b-ac86-4e38-a18c-9e0ccf8beadf"/>
+    <managerType typeId="35d93e04-9a79-459f-a75f-8fea653e868f" valueTypeId="56c3cc71-3566-4696-b193-c285132bb857"/>
+  </producedTypes>
+  <name>ПодключениеБазыКХранилищу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключить базу к хранилищу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодключениеБазыКХранилищу.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7950d4d5-0886-4007-9922-c252a5db32a7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

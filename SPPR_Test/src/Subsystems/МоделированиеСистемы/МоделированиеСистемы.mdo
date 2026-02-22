@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3067c6d2-e910-40b9-bb8f-d8b9b7ba3857">
+  <name>МоделированиеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моделирование системы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделМоделирование</picture>
+  </picture>
+  <content>Catalog.Процессы</content>
+  <content>Catalog.ПрофилиПользователей</content>
+  <content>CommonCommand.ПанельОтчетовМоделированиеСистемы</content>
+  <content>Report.Процессы</content>
+  <content>Catalog.ФункцииСистемы</content>
+  <content>DataProcessor.КопированиеСравнениеОбновлениеОбъектов</content>
+  <content>DataProcessor.ФункцииИОбъектыМетаданных</content>
+</mdclass:Subsystem>

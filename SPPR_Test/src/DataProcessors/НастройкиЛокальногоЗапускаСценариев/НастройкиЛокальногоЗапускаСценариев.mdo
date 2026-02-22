@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac409f1-077b-47de-87f0-2858baf0ae8d">
+  <producedTypes>
+    <objectType typeId="74ae6526-e3e7-43b8-9107-18b08d1fbb1c" valueTypeId="a85dffb7-6107-41a9-951b-3e3518db1e1b"/>
+    <managerType typeId="ebc4918f-8e72-4305-8705-8ff28ef834f8" valueTypeId="e4db641b-8a6e-46ab-ad69-932d5435c2de"/>
+  </producedTypes>
+  <name>НастройкиЛокальногоЗапускаСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки локального запуска сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкиЛокальногоЗапускаСценариев.Form.ЗапускТестов</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="cb150024-9f8f-451c-b957-8cbf8344713d">
+    <name>ЗапускТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск тестов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

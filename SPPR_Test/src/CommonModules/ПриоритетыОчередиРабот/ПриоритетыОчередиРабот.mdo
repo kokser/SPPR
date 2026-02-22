@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3d81a58-be06-4d70-ae66-0ad981d54c67">
+  <name>ПриоритетыОчередиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты очереди работ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

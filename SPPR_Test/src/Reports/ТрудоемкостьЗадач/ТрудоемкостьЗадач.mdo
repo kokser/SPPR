@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd830b3b-cde5-46b1-96e1-af86ad606a65">
+  <producedTypes>
+    <objectType typeId="b94ef18f-e09d-4d2a-9735-12908bb2ac16" valueTypeId="0f0daba5-cd6f-447b-a812-17e632bc61cd"/>
+    <managerType typeId="b11667c7-16c0-4c03-8020-4292b33b2498" valueTypeId="d7fa010d-d3b7-47e7-a2d7-48e477eac158"/>
+  </producedTypes>
+  <name>ТрудоемкостьЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудоемкость задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТрудоемкостьЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="8342dc77-d213-4044-8e5e-fd66f61b7b7d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="4a094b0b-5ae5-4ca4-b607-e50621f9443e">
+    <name>ТрудоемкостьЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудоемкость задач</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Процессы</types>
+      <types>CatalogRef.ПрофилиПользователей</types>
+      <types>CatalogRef.ТехническиеПроекты</types>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

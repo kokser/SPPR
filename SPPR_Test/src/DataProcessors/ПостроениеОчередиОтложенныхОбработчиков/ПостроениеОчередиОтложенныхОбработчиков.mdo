@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8451fce-4a11-45b9-baa6-2b0677d6b7a6">
+  <producedTypes>
+    <objectType typeId="5ff42308-d5ba-4eec-8b87-2192976f16f1" valueTypeId="39179432-6a7f-4013-bfcc-313e638be843"/>
+    <managerType typeId="a08524d4-1b94-4dc6-9019-30e76e2d812d" valueTypeId="57624b60-26df-4147-a310-d035635fa4ed"/>
+  </producedTypes>
+  <name>ПостроениеОчередиОтложенныхОбработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Построение очереди отложенных обработчиков</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8692de65-66f3-4ade-b750-27612ba7fa21">
+    <name>ЗапускПостроенияОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск построения очереди</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

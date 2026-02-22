@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2d2c4fa-8b0d-4c94-b6d0-f48dda507a00">
+  <name>ИспользоватьКонтрольОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль объектов</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольОбъектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СпискиКонтроля</content>
+  <content>DataProcessor.КонтрольОбъектов</content>
+  <content>InformationRegister.ОбъектыНаКонтроле</content>
+  <content>DataProcessor.КонтрольОбъектов.Command.НаКонтролеУМеня</content>
+  <content>DataProcessor.КонтрольОбъектов.Command.НаКонтролеУДругих</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abdf37d-701d-4a51-976d-398150a7730f">
+  <name>НастройкаПодключенияКСервисуПубликацииПатчей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка подключения к сервису публикации патчей</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

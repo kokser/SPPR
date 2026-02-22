@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d00f56a-c318-49a7-a071-1b916fe2d0af">
+  <producedTypes>
+    <managerType typeId="a76ae87e-4338-4b83-b885-074f05dc58c0" valueTypeId="3a22c493-93cd-4e43-b03c-c8de999758ce"/>
+    <valueManagerType typeId="960aecd4-0b96-4e12-aa5f-2b21674f328f" valueTypeId="48048721-7ace-42ed-9761-0879c4bef75f"/>
+    <valueKeyType typeId="f6ac4d3c-d497-46fb-a58e-17852ba8a63c" valueTypeId="325f2534-9175-429f-af54-38a92edf4f66"/>
+  </producedTypes>
+  <name>ДопустимыйИнтервалОкругленияВУчетеВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимый интервал округления в учете времени</value>
+  </synonym>
+  <comment>Допустимый интервал округления в учете времени (в минутах)</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="048f5a28-ec48-4a6c-bded-59fc7b0bc338">
+  <producedTypes>
+    <objectType typeId="41e805fd-5319-4b39-8b54-76a9f8e44ce2" valueTypeId="01a70d8e-8bc6-4b01-8027-4f5626867164"/>
+    <managerType typeId="70fba774-4620-441d-b93c-65a98a535d6c" valueTypeId="bcf11789-b4aa-45bc-b44c-54449883790a"/>
+  </producedTypes>
+  <name>ИсходящиеИдеи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящие идеи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсходящиеИдеи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="bffb832b-42da-4995-9551-264ba7fb2b9f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="b6617920-e775-4ca9-b80b-91a490360c19">
+    <name>ИсходящиеИдеи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие идеи</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТехническиеПроекты</types>
+      <types>CatalogRef.Ошибки</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

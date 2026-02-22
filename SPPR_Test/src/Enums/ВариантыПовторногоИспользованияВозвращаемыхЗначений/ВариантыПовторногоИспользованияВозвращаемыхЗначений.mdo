@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a91e9d9-a2f4-4786-92d7-dc21488fc9c8">
+  <producedTypes>
+    <refType typeId="686d7fe5-fed7-45dc-af37-8c021178fe5a" valueTypeId="7f395b44-611b-436a-a08b-a8596e5e38c5"/>
+    <listType typeId="9ba06f89-241b-49db-92c7-f5e5f140156d" valueTypeId="d89acd20-2340-46e4-9ff8-f5c160919f34"/>
+    <managerType typeId="32a7c161-c4f8-49e6-bd44-80a28fd13357" valueTypeId="321c258a-ec46-475c-ad8f-d30009c0c4ff"/>
+  </producedTypes>
+  <name>ВариантыПовторногоИспользованияВозвращаемыхЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты повторного использования возвращаемых значений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35d48533-93c6-411b-8c52-59ce77e21c92">
+    <name>НаВремяВызова</name>
+    <synonym>
+      <key>ru</key>
+      <value>На время вызова</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="067a3d49-f02a-4d0e-a8e1-fc9108c71aa8">
+    <name>НаВремяСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>На время сеанса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d19d7203-6fa9-4d9a-b7c5-5700a1036ecb">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

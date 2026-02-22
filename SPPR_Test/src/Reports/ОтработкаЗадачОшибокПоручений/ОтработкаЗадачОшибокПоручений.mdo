@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad62a086-971f-42b3-b31a-ac95b1ea1cf1">
+  <producedTypes>
+    <objectType typeId="1d62e6ab-ee43-493b-be46-1ac58ed24c49" valueTypeId="0c89e2f9-d716-4a09-add3-8a1b40338aad"/>
+    <managerType typeId="249100f2-484f-4144-a9ba-b23b6dc55bd4" valueTypeId="74bbe617-3aec-438f-b373-5d63babb54a7"/>
+  </producedTypes>
+  <name>ОтработкаЗадачОшибокПоручений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отработка задач, ошибок, поручений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтработкаЗадачОшибокПоручений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e2bf6fcf-f767-4118-ade9-11acc86a8c27">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

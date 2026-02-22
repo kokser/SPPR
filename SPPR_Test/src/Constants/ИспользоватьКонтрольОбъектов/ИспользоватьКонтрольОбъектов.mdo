@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1646f10-6461-415b-9fd5-61923e27ddcf">
+  <producedTypes>
+    <managerType typeId="af55cbfe-3677-4e5c-8d7f-50d0d5ac4717" valueTypeId="50a132de-6d1f-4910-9f28-f52b2b583c21"/>
+    <valueManagerType typeId="b1467436-f743-4251-9a40-05d0ae4546f2" valueTypeId="7d066a4f-a64d-465f-9088-ec1a833393dd"/>
+    <valueKeyType typeId="b3f99870-ddf0-40dc-a569-57f5af490d5e" valueTypeId="ef3adde1-2808-424d-a6ae-64935fb1954f"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль объектов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

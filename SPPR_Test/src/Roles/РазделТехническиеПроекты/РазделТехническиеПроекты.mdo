@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3f506de-eebb-49b5-9a26-bc0add2a6986">
+  <name>РазделТехническиеПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел Технические проекты</value>
+  </synonym>
+</mdclass:Role>

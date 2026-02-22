@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="295324ce-eab3-4090-823a-8ea47a9dddd7">
+  <producedTypes>
+    <managerType typeId="497b4c6f-771a-4fcb-aee4-c6ce31f12e3d" valueTypeId="84f56789-2dbb-4ae5-a633-f0e920a6fb4a"/>
+    <valueManagerType typeId="d8e57b05-cfe5-477e-bd84-cdb35efc372c" valueTypeId="99c2a678-310a-4213-acc5-a09b1e8fe48f"/>
+    <valueKeyType typeId="5f295466-44e6-4d18-b2ed-71b4e628ca4e" valueTypeId="7a5dc7cc-6817-4325-ab33-0f74faebdc5a"/>
+  </producedTypes>
+  <name>ИспользоватьПубликациюПатчейВСервисе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать публикацию патчей в сервисе</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

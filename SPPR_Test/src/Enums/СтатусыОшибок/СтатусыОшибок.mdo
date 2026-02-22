@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1859d597-5f38-4b5e-9ecd-d01b193e5aa0">
+  <producedTypes>
+    <refType typeId="f68782a7-305a-457b-bd0d-7cad49e79258" valueTypeId="5320c41b-fd0c-4dee-b752-393c71fa0827"/>
+    <listType typeId="8b61be0b-31f3-4cd7-8a93-d124dbb36928" valueTypeId="99b3448b-302a-441c-9558-42f2042f357e"/>
+    <managerType typeId="480763cf-7a8c-4813-83c4-04e6d4378cbf" valueTypeId="481fc5b7-335b-4947-b359-b2d91ff87f20"/>
+  </producedTypes>
+  <name>СтатусыОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ошибок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8836fc60-cd7f-42c9-90fd-52be3688bcf1">
+    <name>НеЗарегистрирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не зарегистрирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dc6fe5b-ee77-4a65-8fd0-ab1aeb85bf60">
+    <name>Зарегистрирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3302929d-011f-4613-b765-123b9dfeec4e">
+    <name>Признана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e345761-0df6-4bfc-9065-3b91f481dfa5">
+    <name>ОжидаетИсправленияПовторяемойОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает исправления повторяемой ошибки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1676da4b-b4af-4e3c-b8b2-b1733ef7aceb">
+    <name>Исправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df781439-be58-40e6-9f0c-93391a96567f">
+    <name>ПроверенаИсправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверена, исправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d243e1b-cacb-4879-a9e9-a2de7cda7596">
+    <name>НеПризнана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не признана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9d2891d-7fa0-4912-a26d-c924e55e6609">
+    <name>Отозвана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отозвана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8079c28a-7843-4f95-b5d6-823c2f06125a">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a92bf049-64c1-4cb0-b259-da5a83674194">
+    <name>НеПланируетсяИсправлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не планируется исправлять</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="8ed0c70b-8f2e-420b-b971-dfcf6df08418">
+    <name>ВыборСпискаСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные статусы ошибок</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d98e2181-5805-4ffe-938e-e3f36d3fb3af">
+  <producedTypes>
+    <selectionType typeId="956b2363-0b8d-43e4-9d13-25819389ea6e" valueTypeId="69b6cfce-cfba-4c93-85c0-715578e1a7e6"/>
+    <listType typeId="02ec2e01-5bc5-488c-8bec-2b22c1286eed" valueTypeId="bc9e09c0-5ed5-4fdc-b285-8cf38ca1fcb9"/>
+    <managerType typeId="0ce5a4d8-8e8f-4128-9869-3bf1774331b9" valueTypeId="e63eb101-db1e-4dd4-b871-75555d936b4e"/>
+    <recordSetType typeId="810affa6-2149-43de-9c6a-c47a9dddd4d6" valueTypeId="d6bde76c-5917-46b1-ab77-f1952e6f2a74"/>
+    <recordKeyType typeId="368b6a4a-4926-490b-9edf-d27837f4c2de" valueTypeId="8a8ca1a3-06f5-4e5e-af7e-4f59c2ef0f52"/>
+    <recordType typeId="cc02890a-c56c-41a5-83cb-050c98362428" valueTypeId="b54b6cbe-9fd8-44e7-b75e-8fb9bf42a085"/>
+    <recordManagerType typeId="341d4328-fbb7-4a2f-8ee3-287166b6ac58" valueTypeId="e29f3ed5-354f-4388-89cc-d13c6eb98121"/>
+  </producedTypes>
+  <name>ХронометражРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хронометраж рабочего времени</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись хронометража рабочего времени</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хронометраж рабочего времени</value>
+  </listPresentation>
+  <resources uuid="63cf63b9-a3a1-4566-871c-7ad06d0c9680">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехническиеПроекты</types>
+      <types>CatalogRef.ВидыДеятельности</types>
+      <types>CatalogRef.ЗадачиПроцесса</types>
+      <types>CatalogRef.Ошибки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90773922-00c6-4c47-9013-bdf308de811e">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a116b1dd-ba39-4c3a-82ab-1eac335c4d20">
+    <name>ОписаниеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание работы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="86f6e822-ddd6-4c90-8452-bdb8ba9049c2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

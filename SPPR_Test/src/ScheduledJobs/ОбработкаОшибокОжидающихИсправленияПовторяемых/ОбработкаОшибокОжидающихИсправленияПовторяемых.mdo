@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b142b27e-1165-4b85-9ab3-94ba9cce3ffa">
+  <name>ОбработкаОшибокОжидающихИсправленияПовторяемых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка ошибок, ожидающих исправления повторяемых</value>
+  </synonym>
+  <methodName>CommonModule.ОшибкиСервер.ОбработатьОшибкиОжидающиеИсправленияПовторяемых</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

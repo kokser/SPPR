@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47e0836a-23aa-4aba-8700-4eaea3beb203">
+  <producedTypes>
+    <objectType typeId="d32fc887-647c-462a-a10e-c874237ad92d" valueTypeId="cc54ef7f-44a9-423e-aec7-02f4fa27437c"/>
+    <managerType typeId="018da2dd-bef1-49b9-af2d-a22d1feee425" valueTypeId="3ffa547e-5a8f-4739-b73a-5236b8a92cd3"/>
+  </producedTypes>
+  <name>КонтрольПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль планирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КонтрольПланирования.Form.ФормаОтчета</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a76b3abd-0ff6-4e01-aab0-7a890acaa281">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0ba53461-9260-4928-8ee8-0491658365e9">
+    <name>ОтСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>От сотрудников</value>
+    </synonym>
+  </templates>
+  <templates uuid="71b4999d-3f41-46d0-9de1-855d9070ac8b">
+    <name>ОтТехническихПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>От технических проектов</value>
+    </synonym>
+  </templates>
+  <commands uuid="d88a5302-b459-4b3f-a623-b68a4258cc93">
+    <name>КонтрольПланированияПоТехпроекту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль планирования</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТехническиеПроекты</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9384b080-4059-45eb-bb7a-4f2813a5b1e3">
+  <producedTypes>
+    <managerType typeId="a6617b92-0b93-47e1-93f9-4d3c0d75e9ec" valueTypeId="361bd25d-b74c-49b6-be62-c8957254f56c"/>
+    <valueManagerType typeId="bf2f028e-0eb6-426e-a7fe-253f2db8def3" valueTypeId="ecdf502c-bf9b-45f4-8675-8b7d16e6e144"/>
+    <valueKeyType typeId="e35cd11a-4869-55e8-b2b4-9f79ddcf8a38" valueTypeId="801c6a10-8d71-57b9-af27-074eb576147a"/>
+  </producedTypes>
+  <name>ИспользоватьСогласованиеРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать согласование ресурсов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

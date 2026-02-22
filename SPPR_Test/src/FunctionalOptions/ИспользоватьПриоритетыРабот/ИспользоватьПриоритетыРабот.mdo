@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cbb4e62-9525-4137-b358-7d76f55de059">
+  <name>ИспользоватьПриоритетыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать приоритеты работ</value>
+  </synonym>
+  <location>Constant.ИспользоватьПриоритетыРабот</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Проекты.Attribute.ИспользоватьПриоритеты</content>
+  <content>InformationRegister.ПриоритетыРабот</content>
+  <content>Catalog.ПриоритетыРабот</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="104769e3-953c-4e2b-8d1e-1413e37c4b6c">
+  <name>НеАктуально</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не актуально</value>
+  </synonym>
+</mdclass:CommonPicture>

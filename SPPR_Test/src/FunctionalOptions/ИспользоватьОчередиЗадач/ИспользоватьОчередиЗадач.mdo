@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0591e2ac-b489-4065-b433-27dda50a1bd8">
+  <name>ИспользоватьОчередиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать очереди задач</value>
+  </synonym>
+  <location>Constant.ИспользоватьОчередиЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ОчередиРаботСотрудников</content>
+</mdclass:FunctionalOption>

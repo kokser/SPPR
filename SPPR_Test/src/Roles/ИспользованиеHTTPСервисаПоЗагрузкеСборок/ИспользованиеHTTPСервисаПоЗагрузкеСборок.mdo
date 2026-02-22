@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11322306-b65f-4a75-a366-83d341fe1136">
+  <name>ИспользованиеHTTPСервисаПоЗагрузкеСборок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование HTTPСервиса по загрузке сборок</value>
+  </synonym>
+</mdclass:Role>

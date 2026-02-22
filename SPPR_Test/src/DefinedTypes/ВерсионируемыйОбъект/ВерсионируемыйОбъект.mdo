@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2f72fc0-7b86-4f74-b504-2542e73b5163">
+  <producedTypes>
+    <containerType typeId="38f812af-33fd-48fc-a8da-f95ac24c0533" valueTypeId="edf3d6ea-71fa-482b-b5d4-f35d7777c1db"/>
+  </producedTypes>
+  <name>ВерсионируемыйОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемый объект</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШагиПроцесса</types>
+    <types>CatalogRef.Процессы</types>
+    <types>CatalogRef.КлючевыеОперации</types>
+    <types>CatalogRef.ПрофилиПользователей</types>
+    <types>CatalogRef.Подсистемы</types>
+    <types>CatalogRef.ОбработчикиОбновленияИнформационнойБазы</types>
+    <types>CatalogRef.ТехническиеПроекты</types>
+    <types>CatalogRef.ВидыДоступа</types>
+    <types>CatalogRef.ВерсииПроекта</types>
+    <types>CatalogRef.ФормыОбъектовМетаданных</types>
+    <types>CatalogRef.ФункцииСистемы</types>
+    <types>CatalogRef.Ошибки</types>
+    <types>CatalogRef.ОбъектыМетаданных</types>
+    <types>CatalogRef.Идеи</types>
+  </type>
+</mdclass:DefinedType>

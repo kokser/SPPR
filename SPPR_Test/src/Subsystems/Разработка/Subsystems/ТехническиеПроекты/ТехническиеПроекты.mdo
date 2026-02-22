@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a664fca-0443-48a7-b1a3-8d4f9b16a4e7">
+  <name>ТехническиеПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технические проекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ИзмененияОбъектовТехническимиПроектами</content>
+  <content>Report.КалендарьТехническихПроектов</content>
+  <content>Report.ПланыРеализацииТехническихПроектов</content>
+  <content>Role.ОтчетыРазработка</content>
+  <content>Report.ГрафикВыполненияТехническихПроектов</content>
+  <parentSubsystem>Subsystem.Разработка</parentSubsystem>
+</mdclass:Subsystem>

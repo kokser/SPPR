@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045531e7-34a2-42c1-b807-b648e3809733">
+  <producedTypes>
+    <selectionType typeId="3956c121-aab3-448a-8541-b19e6180ce09" valueTypeId="0ff4e460-e78d-46ea-b641-8b3d9a04379a"/>
+    <listType typeId="3e4ceb4e-9d1e-4967-a0a3-81494ce0b731" valueTypeId="33f5e408-a51f-4439-abd0-ac15f1d5f176"/>
+    <managerType typeId="7ef7b87d-bb75-4c79-bd7d-b6ad3bba69d1" valueTypeId="656ca035-9856-4ea1-bffa-56d00a121ea8"/>
+    <recordSetType typeId="ada33367-b1b2-4b64-aac7-599e11be119a" valueTypeId="4b4a2764-1ad9-4090-b047-97d2c5bfa251"/>
+    <recordKeyType typeId="2e8aae91-fdd1-447e-9b3a-41c89db5352b" valueTypeId="6cae9955-384a-48f8-8378-a4f9d2aada58"/>
+    <recordType typeId="3ce618e3-c171-4f4f-8808-7f36b8523d0a" valueTypeId="9746cac5-7d67-40c0-ac65-af582b1b4e4e"/>
+    <recordManagerType typeId="774c6175-aba8-4b38-b425-951c5d75362b" valueTypeId="eb6056d3-a4f2-4ffb-a865-0683b43202bf"/>
+  </producedTypes>
+  <name>ПерсональныеНастройкиУведомленийПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки уведомлений пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="508574f8-0fb6-431f-9c72-48469d97a2ad">
+    <name>УведомлятьОНаправленииЗадачЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о направлении задач через электронную почту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="725153fb-5f8e-49b4-b3df-8f1e80727e53">
+    <name>УведомлятьОЗавершенииЗадачЗарегистрированныхПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о завершении задач зарегистрированных пользователем</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b653a8f4-12ff-46be-9fe3-c355a134c54c">
+    <name>УведомлятьОНаправленииОшибокИсполнителю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о направлении ошибок исполнителю</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6b19b1c-a00d-40a0-8f53-8166b976d0fa">
+    <name>УведомлятьОбИсправленииОшибокЗарегистрированныхПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять об исправлении ошибок, зарегистрированных пользователем</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уведомлять об исправлении ошибок, зарегистрированных пользователем</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b30b0a6-8d8c-45b3-bfb7-be9d7046b5af">
+    <name>УведомлятьОНаправленииЗадачСистемаВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о направлении задач через систему взаимодействия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d0930ff3-f046-4114-aec6-4047a81bf9ad">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

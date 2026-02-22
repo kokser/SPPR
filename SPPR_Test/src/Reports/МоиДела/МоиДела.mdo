@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce0184bd-4a72-4b4d-a91f-458cdde5fc8d">
+  <producedTypes>
+    <objectType typeId="4a10c469-f626-490a-943c-019feee102a0" valueTypeId="acf3dda7-adb5-4fd4-b89e-199ebe321ed6"/>
+    <managerType typeId="41669a14-ae99-439d-a1d9-ec488ba15661" valueTypeId="26cf0f58-1fdd-462b-8c0e-a484eebffff4"/>
+  </producedTypes>
+  <name>МоиДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мои дела</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.МоиДела.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="6280f8e5-7001-4bfc-b9b7-8ded56f46213">
+    <name>МоиДела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои дела</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="57bd6d22-467a-49cd-8040-5f79cea18696">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

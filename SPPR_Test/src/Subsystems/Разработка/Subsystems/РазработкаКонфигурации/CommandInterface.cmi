@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.КлючевыеОперации.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Подсистемы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ОбъектыМетаданных.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВидыДоступа.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.СправкаОбъектовМетаданных.Command.СправкаОбъектовМетаданных</commands>
+      <commands>Catalog.КартинкиСправки.StandardCommand.OpenList</commands>
+      <commands>Catalog.КлючевыеОперации.StandardCommand.OpenList</commands>
+      <commands>Catalog.КлючевыеОперации.Command.КлючевыеОперации</commands>
+      <commands>Catalog.ОбработчикиОбновленияИнформационнойБазы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричиныОсобогоПорядкаРазработкиОбработчиковОбновления.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФункцииМеханизмов.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ИзмененияВВетках.Command.ИзмененияВВетках</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

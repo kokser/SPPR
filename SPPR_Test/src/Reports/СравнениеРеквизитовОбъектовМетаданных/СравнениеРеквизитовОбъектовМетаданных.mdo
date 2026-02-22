@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab7b1cd-83d2-4e81-9f57-8fbe93b72152">
+  <producedTypes>
+    <objectType typeId="479e04b5-0ad4-4875-b667-32c532177a54" valueTypeId="658352c9-3d21-4243-a08b-a4d823eca85f"/>
+    <managerType typeId="997816d6-4991-47b9-ae1f-7c1a8992dc21" valueTypeId="52eff8f7-2df4-48ce-a16b-884351971139"/>
+  </producedTypes>
+  <name>СравнениеРеквизитовОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение реквизитов объектов метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СравнениеРеквизитовОбъектовМетаданных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="013ba26d-d590-40f6-8ef9-8b888588ca9f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="91b46feb-1ae6-434e-8f33-fbef65d405cd">
+    <name>СравнениеРеквизитовОбъектовМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнение реквизитов</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

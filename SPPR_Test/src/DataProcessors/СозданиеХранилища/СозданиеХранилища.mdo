@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="905fe443-6685-4d3d-8c24-b97e13edf0a3">
+  <producedTypes>
+    <objectType typeId="ea30fbb6-1e28-4d14-bf02-a7bd34ec261e" valueTypeId="afa5a1c9-2a6e-4646-91ad-b37a52b3e2f3"/>
+    <managerType typeId="07b134b2-bcbb-4733-84e0-d3adec41f7c8" valueTypeId="140d1131-eca2-49e1-afbc-bc3d3eefa20b"/>
+  </producedTypes>
+  <name>СозданиеХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание хранилища</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="084837b7-3639-4cad-a9b5-eebeda43d4e1">
+    <name>ТехническогоПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технического проекта</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1e40070-58f1-428b-9dbc-46e5dc86047c">
+    <name>ВерсииПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии проекта</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

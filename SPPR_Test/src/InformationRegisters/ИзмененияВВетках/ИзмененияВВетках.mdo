@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be7d0e91-42dc-4140-9611-af66a2e5e8cf">
+  <producedTypes>
+    <selectionType typeId="fb520698-d0d2-4123-92ac-2105c2dc07eb" valueTypeId="76d849a7-d9cb-4a70-bb2c-5f0151838f06"/>
+    <listType typeId="ffa8a674-b131-4033-97ce-69afcb58d04b" valueTypeId="5aba1fac-35ca-4e94-8116-e0931542eb70"/>
+    <managerType typeId="03a25d61-2a85-4816-a53c-35d28c23de42" valueTypeId="364062c0-c096-4ce4-80ca-0072cdf002af"/>
+    <recordSetType typeId="3acf34ad-5e1e-479c-9421-ba2d587fa27e" valueTypeId="28eb7bcc-9225-4912-b569-be8624b43f32"/>
+    <recordKeyType typeId="34f19976-849f-49ce-804c-7623aade00a2" valueTypeId="9450090b-b157-4274-8189-1e3af1c01e1a"/>
+    <recordType typeId="de2150c2-e59f-4638-933e-ca1c33d5bcdb" valueTypeId="fb89147b-3d9e-4424-ab7c-f42bb9605888"/>
+    <recordManagerType typeId="b4a01ca8-e6c5-4d5f-9fe1-e059e9921787" valueTypeId="6f59bd0b-4fb8-4c85-88b4-5dddb86b1d6c"/>
+  </producedTypes>
+  <name>ИзмененияВВетках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения метаданных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИзмененияВВетках.Form.ИзменениеВВетке</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИзмененияВВетках.Form.ИзмененияВВетках</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Изменение объекта метаданных</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Изменения метаданных</value>
+  </listPresentation>
+  <resources uuid="56743a9b-65aa-41d4-94da-0b043577558e">
+    <name>ОписаниеИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание изменений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="345e2a1b-ae23-43f3-b5d6-9d8ae0b26393">
+    <name>ПодробноеОписаниеИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробное описание изменений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4eaddeaf-70f6-44e4-90b6-b3bb1d1a9d9a">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, согласующий изменения объектов метаданных.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Недействителен</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="973c811b-7139-460d-aebe-914bfb9ebb92">
+    <name>СтатусСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСогласованияИзмененийВВетках</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус согласования изменений объектов метаданных в ветке.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="abf121cc-96b7-4924-a4d6-74da8125c6cb">
+    <name>УстановилСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установил статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, установивший текущий статус согласования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="780bc23d-5840-4879-8e45-fab80f32294d">
+    <name>ДатаИзмененияСтатусаСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения статуса согласования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df6157f8-7f8d-4cef-85c9-b8af5b7bdfab">
+    <name>КомментарийСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий согласования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c618963a-9293-499c-b339-8e9c6e17a536">
+    <name>ПредыдущееПодробноеОписаниеИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущее подробное описание изменений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f90ba86e-00bc-4a84-af65-7d00e3b71798">
+    <name>ПредыдущийСтатусСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущий статус согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСогласованияИзмененийВВетках</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус согласования изменений объектов метаданных в ветке.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="1f29b136-ed0b-43f8-80ab-18e0347edf8b">
+    <name>КоммитСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммит согласования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="403b39f8-99a8-4a86-a185-8249c455d777">
+    <name>ПредыдущаяДатаИзмененияСтатусаСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущая дата изменения статуса согласования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="433a9924-5d15-4a4e-8690-2c6f948601e9">
+    <name>ПредыдущийУстановилСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущий установил статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, установивший текущий статус согласования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cc219e31-b12c-4ea6-b3be-f66039e01d94">
+    <name>ТипИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыИзмененийОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c86ffdbe-a931-4304-8faa-75c3fc71acce">
+    <name>Ветка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ветки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06dce156-9517-4caa-a502-2fce3251313c">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подсистемы</types>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="484be4a3-327d-4c8d-a39c-75e4ce1cbdb4">
+    <name>ПодчиненныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РеквизитыОбъектовМетаданных</types>
+      <types>CatalogRef.МакетыОбъектовМетаданных</types>
+      <types>CatalogRef.ФормыОбъектовМетаданных</types>
+      <types>EnumRef.ТипыМодулейОбъектовМетаданных</types>
+      <types>CatalogRef.КомандыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0a3657af-9188-410a-85d5-7cae973e3c69">
+    <name>ИзменениеВВетке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение объекта метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b80e33fd-c473-4ece-bb3a-d87602257b4b">
+    <name>ИзмененияВВетках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ee8b350-37e3-44b9-aeb5-a372240ac55d">
+    <name>ИзмененияВВетке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1dd609c9-ec4b-46ad-aff1-0508f37ee969">
+    <name>КомментарийСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий согласования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e6092e8-ca68-4715-b182-8658a46242a0">
+    <name>НазначениеСогласующегоОтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение согласующего изменения, ответственного за объект метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="481153df-8437-4bf0-b09e-6dfe8789ab2f">
+    <name>ВыборПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор пользователя</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ea2f55c1-19d9-4807-b1ce-7010b056c78a">
+    <name>ИзмененияВВетках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения метаданных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="8ff0ecf8-c1fe-4716-9e36-ac821d172f3c">
+    <name>ИзмененияОбъектовВВетках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения метаданных</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.РеквизитыОбъектовМетаданных</types>
+      <types>CatalogRef.Подсистемы</types>
+      <types>CatalogRef.МакетыОбъектовМетаданных</types>
+      <types>CatalogRef.ФормыОбъектовМетаданных</types>
+      <types>CatalogRef.ПредопределенныеДанные</types>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+      <types>CatalogRef.КомандыОбъектовМетаданных</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="2a980bae-899f-45ba-9407-98b3ffc8e370">
+    <name>ИзмененияВВетке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения метаданных</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Ветки</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

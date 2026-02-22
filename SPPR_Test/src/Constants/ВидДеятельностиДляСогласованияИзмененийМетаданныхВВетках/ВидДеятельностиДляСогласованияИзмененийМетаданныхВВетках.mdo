@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3944615b-4c49-47f9-8440-efd53dc8a0e1">
+  <producedTypes>
+    <managerType typeId="f8fc0ae1-262d-4fca-951b-720b74b61d15" valueTypeId="72d677c0-a24d-47c1-a879-2966423f9f57"/>
+    <valueManagerType typeId="78342b9e-b309-46de-8f93-ffd2b617d46d" valueTypeId="a0e1d60f-c923-40d6-99c5-8e3114bcbac7"/>
+    <valueKeyType typeId="1d627aa2-725c-4fba-bb26-691f9c6b6c76" valueTypeId="4e4565c0-f01a-4375-a28e-24dc31fec056"/>
+  </producedTypes>
+  <name>ВидДеятельностиДляСогласованияИзмененийМетаданныхВВетках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид деятельности для согласования изменений метаданных в ветках</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыДеятельности</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

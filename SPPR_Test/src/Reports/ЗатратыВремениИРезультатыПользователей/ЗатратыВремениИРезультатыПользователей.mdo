@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a38f8716-183d-4819-8a30-5a6d16dbd0d2">
+  <producedTypes>
+    <objectType typeId="7d7597a5-7d5d-456b-aced-67ece97ea5fd" valueTypeId="8eae3282-c1d9-4a62-bb11-ea47f07671c9"/>
+    <managerType typeId="daccf992-0468-40b7-9118-2a499468ebe2" valueTypeId="5b2efbcb-73c1-47eb-803b-368a34301b4c"/>
+  </producedTypes>
+  <name>ЗатратыВремениИРезультатыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты времени и результаты пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗатратыВремениИРезультатыПользователей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="4891e61f-7e8b-4311-8789-183aeae639a9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="62e5d50a-c84d-4d62-ad03-71878c02a551">
+    <name>ЗатратыВремениИРезультаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты времени и результаты</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Пользователи</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

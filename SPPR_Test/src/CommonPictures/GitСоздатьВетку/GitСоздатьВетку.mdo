@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db157c0-1aeb-45cd-92b6-538043cbf3d6">
+  <name>GitСоздатьВетку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Git создать ветку</value>
+  </synonym>
+</mdclass:CommonPicture>

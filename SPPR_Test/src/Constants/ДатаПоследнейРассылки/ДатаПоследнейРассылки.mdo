@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca8a4817-40be-411a-bd1c-7ecbb7304631">
+  <producedTypes>
+    <managerType typeId="881d8e6f-aadf-48de-8f3f-b40e25923dd2" valueTypeId="41fed58b-0e89-4c2a-8918-c63ade3aaf20"/>
+    <valueManagerType typeId="f9e85fde-2195-4499-ae59-ad2591f3d3b1" valueTypeId="38748666-1b41-4944-8eb0-7275aa408525"/>
+    <valueKeyType typeId="37289402-c98f-5c4c-84bc-87f080f5de1d" valueTypeId="d78614e7-db1c-5874-8841-a89ab65c041a"/>
+  </producedTypes>
+  <name>ДатаПоследнейРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата последней рассылки</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

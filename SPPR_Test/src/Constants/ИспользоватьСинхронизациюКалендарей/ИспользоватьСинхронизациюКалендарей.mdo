@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98b45ae-22fc-4790-91e3-5df7f196e7dc">
+  <producedTypes>
+    <managerType typeId="60f7f31d-e1ec-4c8d-b0c2-d07e138ab018" valueTypeId="d3ecf2bb-3d9e-48b4-a7ef-40a7c7571207"/>
+    <valueManagerType typeId="5abdd419-7fae-435e-8c5d-77cda30e4134" valueTypeId="ae0f2938-42a0-42e8-8dba-5c1fa4b92934"/>
+    <valueKeyType typeId="deda3136-233b-4c3f-8ff9-8a77bdbb145b" valueTypeId="9b0b04fc-9744-4be5-b669-115dbc1ec214"/>
+  </producedTypes>
+  <name>ИспользоватьСинхронизациюКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию календарей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

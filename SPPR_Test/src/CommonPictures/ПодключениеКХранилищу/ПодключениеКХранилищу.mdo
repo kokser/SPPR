@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee549d47-e8ba-4046-a2c3-756d798385b5">
+  <name>ПодключениеКХранилищу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к хранилищу</value>
+  </synonym>
+</mdclass:CommonPicture>

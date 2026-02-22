@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e00f33b-8536-4538-8cc2-0ef6456c074a">
+  <producedTypes>
+    <refType typeId="ef1a70bc-bfde-42d1-a302-d05a63548405" valueTypeId="7c8fe53d-1a90-44a9-a786-fe9e4f9a82f7"/>
+    <listType typeId="8f4b89a4-a26f-4594-b109-268f50249603" valueTypeId="1ff5cb2d-b711-4db0-a4e8-1b5abd465591"/>
+    <managerType typeId="125d8f6d-ca43-4adb-8783-d83ba3a1f4dd" valueTypeId="875ab1e6-a19b-422a-9c12-772da3018117"/>
+  </producedTypes>
+  <name>ТипыВеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы веток</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5d1446e-13a7-4496-9dbc-81a798e11c3c">
+    <name>ОсновнаяВеткаПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная ветка проекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="355bab9a-0916-4a21-a9fe-76054944af65">
+    <name>ВеткаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка версии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecd2e1d0-0db7-4252-9c51-24f3b0eb9587">
+    <name>ВеткаТехническогоПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка технического проекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1b19aaa-ca87-4443-9731-42d94c1b957b">
+    <name>ВеткаДляИсправленияОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка для исправления ошибок</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="07638a8a-2db5-458d-9106-bd86ab871159">
+    <name>ВыборСпискаТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные типы веток</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

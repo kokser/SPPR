@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f8e1c17-3c88-4efb-b389-11fc2aafd73d">
+  <name>ФормированиеНапоминанийПоСпискамКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование напоминаний по спискам контроля</value>
+  </synonym>
+  <methodName>CommonModule.ОбъектыНаКонтроле.СформироватьНапоминанияПоОбъектамКонтроля</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

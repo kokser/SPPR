@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c554546-0cb4-4723-ac89-13c43b209ef4">
+  <producedTypes>
+    <refType typeId="61c3b687-3b4e-44e3-ba23-b9bd1d50cf6d" valueTypeId="18206bfc-e8eb-4cc1-a978-c591f3cd967f"/>
+    <listType typeId="bbd58e40-bc9b-41d3-b2bf-59ed42623704" valueTypeId="1418a229-c1b7-44da-82b3-a312a0177ab4"/>
+    <managerType typeId="d964426f-2d0d-4452-9401-878bfd3ed809" valueTypeId="a29a8d37-ee1f-4231-8eaa-5bee0fb2d3ae"/>
+  </producedTypes>
+  <name>РежимРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим разработки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d6a513a-529f-485a-a6a2-e6219e878d72">
+    <name>БезИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без изменений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc077603-3b76-4b2f-b357-f780c8e03767">
+    <name>ВGitРепозитории</name>
+    <synonym>
+      <key>ru</key>
+      <value>В Git репозитории</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="327e73cb-b31c-4635-9de3-55fe221dd01c">
+    <name>ВХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>В хранилище</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

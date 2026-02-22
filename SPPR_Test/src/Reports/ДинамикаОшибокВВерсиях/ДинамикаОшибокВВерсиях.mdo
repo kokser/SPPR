@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abe8848a-a98e-4e71-8293-e0a937372bfc">
+  <producedTypes>
+    <objectType typeId="9e2d8338-153c-4980-ace3-af84695bbb44" valueTypeId="fe93051f-e8bb-4337-a7be-d7f212248b43"/>
+    <managerType typeId="fe5acaea-8b50-4f9c-9b7f-0bbcf28db2b7" valueTypeId="764ff7a2-1b22-4106-afcd-9b17f84370fd"/>
+  </producedTypes>
+  <name>ДинамикаОшибокВВерсиях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика ошибок в версиях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДинамикаОшибокВВерсиях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="7ce50ea3-2542-4568-a091-fcecdb47ecd4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

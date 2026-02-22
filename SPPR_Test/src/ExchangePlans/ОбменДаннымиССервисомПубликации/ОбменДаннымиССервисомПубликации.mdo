@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="399fdd25-9ca5-4c50-bd10-6ee59a3d4bce" thisNode="cf663057-36b0-4199-a8e8-47f69b71ebb2">
+  <producedTypes>
+    <objectType typeId="47691073-7178-4d59-a2e1-004fb5d10940" valueTypeId="0cf4580c-45d5-4593-89bd-c15d1377a090"/>
+    <refType typeId="3a9be7e1-14f8-4433-b12d-68d2e4d33a02" valueTypeId="b61a6ce7-4276-45a7-8fa6-8a22256d85c0"/>
+    <selectionType typeId="53a4c655-f696-4071-8595-a1bc72f954d4" valueTypeId="0aaa1be8-8f83-47e8-921c-c2334c56e180"/>
+    <listType typeId="a2675814-eb98-45c9-97b2-bbf7eaa8ed77" valueTypeId="85598cf3-a173-428d-bee2-7d3f57372fdc"/>
+    <managerType typeId="0f2241a2-c41a-4626-afda-a5364fab1f71" valueTypeId="5d075d29-29c9-4897-9ea7-1c1d52ecbb8a"/>
+  </producedTypes>
+  <name>ОбменДаннымиССервисомПубликации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с сервисом публикации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменДаннымиССервисомПубликации.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменДаннымиССервисомПубликации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.СборкиВерсии</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="26944399-ec52-42c4-a8a8-cbe7b3efce89">
+    <producedTypes>
+      <objectType typeId="45f3b4b8-8d24-4806-a9dd-600ca051289b" valueTypeId="17f9adb8-6e77-45b4-b41e-c361a004ce2d"/>
+      <rowType typeId="272e5453-f894-42c7-8e76-033420b5fe47" valueTypeId="864ab6bd-00a9-4022-87b9-16abdc9aed28"/>
+    </producedTypes>
+    <name>НеуспешноеОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неуспешное обновление</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5c3a4e83-cd6d-4a71-9046-241aa6080fe1">
+      <name>Сборка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СборкиВерсии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aa9c963b-8a2e-499a-bf70-16eeeaea411e">
+      <name>ДатаПервойПопыткиПубликации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата первой попытки публикации</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32a26d44-56fc-41e2-817e-16836108d91d">
+      <name>ДатаПоследнейПопыткиПубликации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата последней попытки публикации</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:ExchangePlan>

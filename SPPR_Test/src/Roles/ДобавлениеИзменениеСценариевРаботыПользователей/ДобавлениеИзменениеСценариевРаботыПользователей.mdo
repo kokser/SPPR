@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fdc243c-1222-41f1-97fa-5f74847bf86e">
+  <name>ДобавлениеИзменениеСценариевРаботыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение сценариев работы пользователей</value>
+  </synonym>
+</mdclass:Role>

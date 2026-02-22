@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d913e64-1786-400c-b86e-6f8c122e9f80">
+  <producedTypes>
+    <objectType typeId="5e83401f-b54e-4b8b-bbad-551abb115838" valueTypeId="3f3154cd-5696-4994-8b88-e4204618513f"/>
+    <managerType typeId="95810990-c752-474c-b796-c8c522e433a3" valueTypeId="2e7460df-5928-4455-ac2f-65a035ffd5ee"/>
+  </producedTypes>
+  <name>КопированиеСравнениеОбновлениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование, сравнение, обновление объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КопированиеСравнениеОбновлениеОбъектов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="236e44b1-4988-4649-9161-e6fa21caf430">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac271f22-39bd-4dcb-aa86-789bbebad0a8">
+  <producedTypes>
+    <refType typeId="d7d75a21-dbb2-477b-b7c7-ba88bc50375b" valueTypeId="8ae2c694-965a-4126-8d88-72d77cc3e9c1"/>
+    <listType typeId="527e243f-ee12-42c1-93cc-69e924fabfcf" valueTypeId="1bdb4481-884d-4dc8-bbb7-a4853c49a32d"/>
+    <managerType typeId="cc1e6b68-1aa3-488a-a712-143053fef7f0" valueTypeId="b88132cd-c524-456f-8e2c-0b799cc07153"/>
+  </producedTypes>
+  <name>ВариантыПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты проверки заполнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="bde65030-133e-4845-8d5f-fce56280f001">
+    <name>ВыдаватьОшибку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдавать ошибку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fbbcb8f-65ff-4418-997d-c920fc7730ce">
+    <name>НеПроверять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

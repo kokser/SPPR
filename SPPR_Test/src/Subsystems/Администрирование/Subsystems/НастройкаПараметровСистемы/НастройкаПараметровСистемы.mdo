@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0337edec-2c11-4bfd-ace7-19d787d9d6bf">
+  <name>НастройкаПараметровСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка параметров системы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Календари</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.СтилиФорматирования</content>
+  <content>Catalog.ПравилаПроверкиОбъектов</content>
+  <content>InformationRegister.ЗамещениеПользователейПоРаботеСОшибками</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
+  <content>Constant.АдресСтандартов</content>
+  <content>DataProcessor.ПанельАдминистрированияСтандартов</content>
+  <content>Catalog.РазделыОбщихЗадач</content>
+  <content>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</content>
+  <content>Catalog.ИсточникиИдей</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

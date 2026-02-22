@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f969bf6-f929-48c0-965c-e2530babbcfc">
+  <producedTypes>
+    <objectType typeId="d193cca5-03a3-453e-a523-881cc523e2de" valueTypeId="7e9111ba-e686-421c-93b0-afa80f89f976"/>
+    <refType typeId="a9dcebe4-0eea-4117-b672-37d189a74b5a" valueTypeId="b449d3b8-876c-49dc-a4aa-1d7e3b129911"/>
+    <selectionType typeId="676d1182-921c-4df0-89b2-5dd4a44c85aa" valueTypeId="f45e28e9-db1b-4916-b592-7b5468eea2ff"/>
+    <listType typeId="d5bf3b71-c8c1-42e0-8bbd-6589efb7add7" valueTypeId="173d7054-b614-4209-a7e4-46c556b2bef7"/>
+    <managerType typeId="6c217baf-6b79-4151-a2b2-0441153a6806" valueTypeId="2ac4870f-1dab-43c3-98d6-03b7b592621a"/>
+  </producedTypes>
+  <name>СтилиФорматирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стили форматирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтилиФорматирования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.СтилиФорматирования.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Стиль форматирования</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9ec49f10-7610-4d9f-a465-492c37b943b8">
+      <name>ОбщиеСтили</name>
+      <description>Общие стили</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4623e776-3f00-4e76-b92b-24503227d4e0">
+        <name>Важно</name>
+        <description>Важно</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="a6e97504-0048-42da-819c-f3926e6d4c08">
+        <name>Заголовок2</name>
+        <description>Заголовок2</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="1605a399-51a6-4e22-b122-c533a018205d">
+        <name>Заголовок3</name>
+        <description>Заголовок3</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="4db74d2f-4aa3-4a54-8b6e-f708c9e14db6">
+        <name>Картинка</name>
+        <description>Картинка</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="327b1914-74a1-466f-a334-c85618ca6b14">
+        <name>МаркированныйСписок</name>
+        <description>Маркированный список</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="94f2d761-cbad-4329-95a2-90919b6fb6c2">
+        <name>ОбычныйТекст</name>
+        <description>Обычный текст</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="8120b8b1-9651-4096-ab2c-45e101789adb">
+        <name>Пример</name>
+        <description>Пример</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+    </items>
+    <items id="470bea41-0a3b-45cb-ad50-4f2bbbb5908d">
+      <name>СтилиМетаданных</name>
+      <description>Стили метаданных</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="70e1ad14-0627-4cff-80d8-e544d3013fc4">
+        <name>СтильМетаданныхПоУмолчанию</name>
+        <description>Стиль метаданных по умолчанию</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+    </items>
+    <items id="1edf1f37-101f-4663-a79a-7fb082d944bc">
+      <name>СтилиПодсистем</name>
+      <description>Стили подсистем</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4925c57b-7843-44a9-8b15-9ce6718a65d0">
+        <name>СтильПодсистемыПоУмолчанию</name>
+        <description>Стиль подсистемы по умолчанию</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+    </items>
+    <items id="bcf94947-2459-4cb9-bdb8-123dfc0f16fb">
+      <name>СтилиФорм</name>
+      <description>Стили форм</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4236b934-b7c8-4573-b39a-8816a41d4bb4">
+        <name>СтильФормыПоУмолчанию</name>
+        <description>Стиль формы по умолчанию</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтилиФорматирования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтилиФорматирования.Form.СписокСтилей</defaultListForm>
+  <attributes uuid="55f91ac2-2d86-4a64-8a11-c41fd0c5ce9c">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d698f37-5585-4f0b-82e7-f0cc704ff3f6">
+    <name>РазделительАбзацев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель абзацев</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b253364a-68dd-4066-891c-a27ed10d677a">
+    <name>СтильКартинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стиль картинка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dbc108bc-cf81-46e2-b78d-939328ed654d">
+    <name>СписокСтилей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список стилей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1acd25a9-911c-4a16-9a58-a9feff8fd4f4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="efaf48d2-35b2-4789-a7b3-0adbab778db9">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="1132996f-05f7-4912-8e7c-2b4177aba283">
+    <name>ЭталонныеСтилиФорматирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонные стили форматирования</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

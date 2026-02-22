@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12167070-9a38-4887-a6e1-4fbbf01252a1">
+  <producedTypes>
+    <refType typeId="2b6f3edc-79f8-4103-94d9-2a58ce3c9681" valueTypeId="bd2029eb-a8e2-417c-a10d-c85acc4a2295"/>
+    <listType typeId="53e3030f-3506-402b-9530-861b7aadf497" valueTypeId="3227c6cf-784f-4a88-b030-160451406fc6"/>
+    <managerType typeId="112f6d8e-611e-4925-a87b-9cfb9636e147" valueTypeId="e2cff850-039b-44cb-a2b9-41d53d901299"/>
+  </producedTypes>
+  <name>ТипСтрокиДереваСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип строки дерева сценариев</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3ca2e826-ddaf-41bb-8b18-344f9e0e1c03">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="faef0425-cb42-471d-89ac-c722f9b2a5f0">
+    <name>ПараметрыИсходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры исходящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac028602-905a-4dab-a1d5-0241c975d2f1">
+    <name>ПараметрыВходящие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры входящие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="986352fb-15d1-4bf4-ba26-f611a316d178">
+    <name>ПараметрИсходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр исходящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="732be995-65df-4854-965a-870a86d20f3b">
+    <name>ПараметрВходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a9f6053-ae18-4044-90dc-33233a40be3c">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

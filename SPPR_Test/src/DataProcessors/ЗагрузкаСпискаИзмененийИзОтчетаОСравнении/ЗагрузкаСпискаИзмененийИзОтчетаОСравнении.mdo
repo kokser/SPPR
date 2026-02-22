@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8324356e-7314-41a3-898e-550a147383c7">
+  <producedTypes>
+    <objectType typeId="865299c7-f6a1-48cf-82e5-9f9ce07dca87" valueTypeId="e69dd00c-b8d3-485b-988a-6b46d05bd3d9"/>
+    <managerType typeId="a88298e4-9ac6-4e1e-8381-e1df2a715e2e" valueTypeId="847603ff-92b4-4495-8944-fdf2e6bca1b1"/>
+  </producedTypes>
+  <name>ЗагрузкаСпискаИзмененийИзОтчетаОСравнении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка списка изменений из отчета о сравнении</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСпискаИзмененийИзОтчетаОСравнении.Form.ЗагрузкаИзменений</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="00fc7d1c-9230-4def-af7f-ab3d5ae3fd24">
+    <name>ЗагрузкаИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка списка изменений из отчета о сравнении конфигураций</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

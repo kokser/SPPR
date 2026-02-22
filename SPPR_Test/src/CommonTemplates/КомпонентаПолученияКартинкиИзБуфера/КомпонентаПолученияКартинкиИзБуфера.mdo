@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5986e3a-66c5-4673-bc44-417e8e3d3e90">
+  <name>КомпонентаПолученияКартинкиИзБуфера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента получения картинки из буфера</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

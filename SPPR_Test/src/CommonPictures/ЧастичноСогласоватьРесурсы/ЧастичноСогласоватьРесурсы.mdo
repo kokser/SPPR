@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa929874-15d3-4cc6-b63f-6342ce6419ae">
+  <name>ЧастичноСогласоватьРесурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Частично согласовать ресурсы</value>
+  </synonym>
+</mdclass:CommonPicture>

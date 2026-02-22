@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="958db8af-5ef6-4016-aad5-00543e4ba888">
+  <producedTypes>
+    <refType typeId="e0e7d991-5ed2-4775-b0c9-7f9a7071faaf" valueTypeId="56200095-148f-4853-babc-dfdd4d91163d"/>
+    <listType typeId="1a3b73af-f282-4112-9ad7-a90631bf93ff" valueTypeId="99352d3f-c3d8-4c43-9437-38a8cbf5714d"/>
+    <managerType typeId="96ccb669-651b-4b79-ada4-3a5f3e3ea708" valueTypeId="aeece738-31fa-4eac-823d-d2eca5a2c144"/>
+  </producedTypes>
+  <name>ВидыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="675695cc-1a99-46aa-ad81-eb55f8f72070">
+    <name>ТехническийПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="316670a3-3c6d-4a03-8e29-b367150a10ae">
+    <name>Функция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0935264-3ecf-4a55-8fd0-b8402790175b">
+    <name>СправкаОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка объекта метаданных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e655d2d-17c9-421e-b309-4ea307021dc3">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e22032b-65d4-49f4-b36e-7108b3f27ad2">
+    <name>КлючеваяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевая операция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

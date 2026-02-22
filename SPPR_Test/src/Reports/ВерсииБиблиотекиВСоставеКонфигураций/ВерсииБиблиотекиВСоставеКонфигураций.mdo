@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a66282a-39a1-4cfa-a0ee-87177e448e1a">
+  <producedTypes>
+    <objectType typeId="e0920810-40c5-4739-947c-d1ebc56c394d" valueTypeId="52042811-57b7-4d19-bdf6-84eb6f64d372"/>
+    <managerType typeId="00e65bcd-50f1-4a1a-bcb7-f055078a3094" valueTypeId="4a9b3927-040d-4fd1-877c-33ad182cec8c"/>
+  </producedTypes>
+  <name>ВерсииБиблиотекиВСоставеКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии библиотеки в составе конфигураций</value>
+  </synonym>
+  <defaultForm>Report.ВерсииБиблиотекиВСоставеКонфигураций.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВерсииБиблиотекиВСоставеКонфигураций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9db0fc86-c1f8-48c7-b7b2-6e52bc73fcf8">
+    <name>ТаблицаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица данных</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="073cc0d7-6598-4773-9c52-22586dd8bf85">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c03fd977-6b47-4494-9dfb-6ae56b6946f2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6653e295-de23-4dfd-9c80-fd014a3bcf05">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

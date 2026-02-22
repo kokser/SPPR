@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe812bc2-4f73-474c-8d7a-a167414229b9">
+  <producedTypes>
+    <selectionType typeId="98dff473-74a7-422a-a1c2-ce374613d553" valueTypeId="92196cfd-4608-464e-9730-4b0cc1821f26"/>
+    <listType typeId="04cd9c53-136b-4e7a-a070-3ace787c84ea" valueTypeId="336930d8-48d3-458a-95b4-b531c8e08ca5"/>
+    <managerType typeId="c6f71e21-b5b0-4fee-8926-1e02491cc443" valueTypeId="a381a387-a4ed-444d-8997-ba836578086b"/>
+    <recordSetType typeId="60f624fe-9997-44d4-b5c4-536da3a249d4" valueTypeId="c6779651-fb20-46bc-ba7c-525115e638b9"/>
+    <recordKeyType typeId="1beef326-8b1c-4f0d-a6aa-23bc16f576f8" valueTypeId="f2394a7f-4ead-4fbe-91dd-322dafe2a69c"/>
+    <recordType typeId="1c6f2820-56b4-49f8-9d45-ffd8e03c2baa" valueTypeId="8524c284-584a-4de4-a5d1-c7bceb9cea72"/>
+    <recordManagerType typeId="19617a4a-c4c9-43f4-89bc-32056f1fa0c5" valueTypeId="368366a3-785d-4633-abba-b970d1bd340d"/>
+  </producedTypes>
+  <name>ПриоритетыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты работ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Приоритет работы</value>
+  </recordPresentation>
+  <resources uuid="d0d69517-8327-4fb0-a655-f5f6ca7c89cf">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПриоритетыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="129dcc18-f8af-47e8-ae80-6e693ae3bbcc">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехническиеПроекты</types>
+      <types>CatalogRef.ЗадачиПроцесса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

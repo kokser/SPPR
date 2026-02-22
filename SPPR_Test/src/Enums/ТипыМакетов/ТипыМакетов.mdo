@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b40f5968-ec31-49de-9d0c-fb9472291fbb">
+  <producedTypes>
+    <refType typeId="ab34f81e-3a8a-4512-811b-43059971f733" valueTypeId="ca620edb-6a45-4738-9381-179af955ba5e"/>
+    <listType typeId="bdcc501d-d4f0-4a93-ae55-45f2118c61ab" valueTypeId="0a50c528-0088-4437-be52-4ff26e76df75"/>
+    <managerType typeId="7dbf98c7-c06b-412e-85cf-40d7f854cd4b" valueTypeId="c131129b-860d-4998-9eb4-2dbc6b78e410"/>
+  </producedTypes>
+  <name>ТипыМакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы макетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a53646e1-839f-48ac-b64a-e0bf6881014c">
+    <name>ActiveDocument</name>
+    <synonym>
+      <key>ru</key>
+      <value>Active document</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9d428b0-9203-4b9f-9f9d-8b889f3f1a9a">
+    <name>HTMLДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTMLДокумент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4defd995-403f-4bec-86aa-a62eb9917a56">
+    <name>ГеографическаяСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Географическая схема</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94dd51de-1c37-417a-8da4-6ec6e1c19c4e">
+    <name>ГрафическаяСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графическая схема</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="612ce814-8742-498d-b56d-62771592870a">
+    <name>ДвоичныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двоичные данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e81f0ff-1682-4876-aa9f-c5672c00527b">
+    <name>МакетОформленияКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет оформления компоновки данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1885b031-85ee-4472-95d8-939e07781263">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="799b8e60-3f2c-468f-94b2-4f345af6b474">
+    <name>ТабличныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="173337d5-1be5-46c7-997e-4c77b77dc084">
+    <name>ТекстовыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовый документ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

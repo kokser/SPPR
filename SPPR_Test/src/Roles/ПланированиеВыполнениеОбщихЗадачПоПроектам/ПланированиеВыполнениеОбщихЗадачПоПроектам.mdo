@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee07b8a7-a54d-462f-b69a-3aea16bcbe36">
+  <name>ПланированиеВыполнениеОбщихЗадачПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование, выполнение общих задач по проектам</value>
+  </synonym>
+</mdclass:Role>

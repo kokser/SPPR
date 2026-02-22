@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b1e638-7321-4c6e-aeff-04b73db05e23">
+  <name>ПриоритетыПриЗаписиОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты при записи объекта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.РазделыПроекта</types>
+    <types>CatalogObject.ФункцииСистемы</types>
+    <types>CatalogObject.ОбъектыМетаданных</types>
+    <types>CatalogObject.ВерсииПроекта</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.ТехническиеПроекты</types>
+    <types>CatalogObject.Ошибки</types>
+    <types>CatalogObject.ПрофилиПользователей</types>
+    <types>CatalogObject.ФункцииМеханизмов</types>
+    <types>CatalogObject.ОбработчикиОбновленияИнформационнойБазы</types>
+    <types>CatalogObject.Процессы</types>
+    <types>CatalogObject.Ветки</types>
+    <types>CatalogObject.СборкиВерсии</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПриоритетыОчередиРабот.ПриоритетыПриЗаписиОбъектаПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cbb0f96-9461-4d64-8826-27792fe1ecc1">
+  <name>ПриоритетПодменю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет подменю</value>
+  </synonym>
+</mdclass:CommonPicture>

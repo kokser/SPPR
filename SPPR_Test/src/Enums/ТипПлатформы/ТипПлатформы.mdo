@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c80e65b-ffdc-4eca-bff8-edb2d0a2406f">
+  <producedTypes>
+    <refType typeId="5c2839d3-8ff5-46cd-94b6-bdaaa23a4b08" valueTypeId="0ce7d0f6-bfb2-4ee9-b818-bffee10a65ad"/>
+    <listType typeId="5d180231-c9e8-441d-b42d-a1c71e351eef" valueTypeId="47d9da36-29ea-44b1-a918-2306a757714c"/>
+    <managerType typeId="1f786aff-dad5-4e6e-acdb-43b15ebfd2a6" valueTypeId="f05e58ca-0dcb-4dd2-8872-64cc6f8ae1ae"/>
+  </producedTypes>
+  <name>ТипПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип платформы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06f8ea15-7799-4a57-971a-846d66cecee7">
+    <name>Linux_x86</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux x86</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a685e46-1a9e-442e-a033-9739b469e68c">
+    <name>Linux_x86_64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux x86 64</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88609535-d199-4197-b8fb-74a32cbc51a8">
+    <name>MacOS_x86</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mac OS x86</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3db61b2-8464-4f75-993d-96ce3ca89ec8">
+    <name>MacOS_x86_64</name>
+    <synonym>
+      <key>ru</key>
+      <value>MacOS x86 64</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b847c227-80d0-4e8a-8f9f-cbb71cd26489">
+    <name>Windows_x86</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows x86</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dc92214-34d3-42ad-9361-aca5a37d4b6d">
+    <name>Windows_x86_64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows x86 64</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

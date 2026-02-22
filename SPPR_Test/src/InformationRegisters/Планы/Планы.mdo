@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cf705fd-9193-4752-8b95-dfa5612a0ab8">
+  <producedTypes>
+    <selectionType typeId="b8a75997-86f0-4c00-bfba-16b3530a83f8" valueTypeId="4b3d53cc-c274-4d4f-ab19-c5a37c66f220"/>
+    <listType typeId="e352ce76-8c29-4d8d-abc2-3ba3a2b3492f" valueTypeId="89e0bb17-55c2-4c8c-865f-278dce55318e"/>
+    <managerType typeId="07a6deca-0a10-42b5-b492-5d798c4d0425" valueTypeId="b337a1f0-9157-4b01-abb7-8d29aa431dd9"/>
+    <recordSetType typeId="322759c3-b6a3-45b2-b3e4-96d298433975" valueTypeId="4b92027c-15ba-4304-a11a-dd78f0747515"/>
+    <recordKeyType typeId="168ed525-5647-4647-874b-5e6901985764" valueTypeId="f5735e5d-8a96-40ea-98c3-0ad21fdd9776"/>
+    <recordType typeId="9ea72957-b2e5-4b3e-8ae0-e69007273abf" valueTypeId="fc053695-082b-4ea2-942b-9ef276db908f"/>
+    <recordManagerType typeId="30881745-fcd3-48cf-9aeb-ac048fd71d17" valueTypeId="72db4709-fc28-475d-b637-71694e4d6ae0"/>
+  </producedTypes>
+  <name>Планы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>План</value>
+  </recordPresentation>
+  <attributes uuid="18963694-4933-4d17-9d2a-0fcfc5feb496">
+    <name>ВидПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид плана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПланов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4065f1f1-a38b-4c5d-ac75-62e4cbdc8cdc">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bba258a-e43e-40f7-80a6-bfe6a73a7c10">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b524cefd-cc78-4c76-82bc-2e073e6a8de4">
+    <name>Зафиксирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зафиксирован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bc9f964-482b-4eb4-b920-4861eea45194">
+    <name>ЕстьЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d647011b-233f-4700-8738-02d8f53a76af">
+    <name>ИдентификаторПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор плана</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="95dbb847-6882-4234-8734-9f13b9c46fc9">
+    <name>ВыборПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор плана</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="471b2105-9d81-49a0-96b0-20fd0fb99eca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

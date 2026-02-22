@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba3f53d-2548-4abc-912f-7e2f30818cd5">
+  <name>РИБСОтборамиРегистрацияКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>РИБСОтборами регистрация константы</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ВидДеятельностиДляРаботыСОшибкамиАвтотестирования</types>
+    <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+    <types>ConstantValueManager.ПользовательСтандартногоИнтерфейсаOData</types>
+    <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
+    <types>ConstantValueManager.ИспользоватьГруппыВнешнихПользователей</types>
+    <types>ConstantValueManager.ТипПодписиКриптографииПоУмолчанию</types>
+    <types>ConstantValueManager.ОсновнойЯзык</types>
+    <types>ConstantValueManager.ВидДеятельностиДляРаботыСОшибками</types>
+    <types>ConstantValueManager.АдресаСерверовМетокВремени</types>
+    <types>ConstantValueManager.ДобавлятьМеткиВремениАвтоматически</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписей</types>
+    <types>ConstantValueManager.ОграничиватьДоступНаУровнеЗаписейУниверсально</types>
+    <types>ConstantValueManager.ИспользоватьШифрование</types>
+    <types>ConstantValueManager.ИспользоватьПланирование</types>
+    <types>ConstantValueManager.ИспользоватьЭлектронныеПодписи</types>
+    <types>ConstantValueManager.СписокРасширенийФайловOpenDocumentОбластиДанных</types>
+    <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+    <types>ConstantValueManager.МаксимальныйРазмерФайлаОбластиДанных</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныеРеквизитыИСведения</types>
+    <types>ConstantValueManager.ОсновнойКалендарь</types>
+    <types>ConstantValueManager.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</types>
+    <types>ConstantValueManager.ВидДеятельностиДляРаботыСОшибкамиАудита</types>
+    <types>ConstantValueManager.НаименованиеКорневойПапкиФайлов1СДокументооборот</types>
+    <types>ConstantValueManager.СписокРасширенийФайловOpenDocument</types>
+    <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
+    <types>ConstantValueManager.ИспользоватьУчетВремени</types>
+    <types>ConstantValueManager.ИспользоватьСогласованиеРесурсов</types>
+    <types>ConstantValueManager.СписокРасширенийТекстовыхФайлов</types>
+    <types>ConstantValueManager.ПризнакиПолученияИнформацииОбОшибкахИзВнешнихИсточников</types>
+    <types>ConstantValueManager.УсовершенствоватьПодписиСДаты</types>
+    <types>ConstantValueManager.СписокЗапрещенныхРасширенийОбластиДанных</types>
+    <types>ConstantValueManager.ЗапрещатьЗагрузкуФайловПоРасширению</types>
+    <types>ConstantValueManager.ШрифтФорматированногоТекста</types>
+    <types>ConstantValueManager.МаксимальныйРазмерФайлаДляПередачиВ1СДокументооборот</types>
+    <types>ConstantValueManager.ОсновнойВидДеятельности</types>
+    <types>ConstantValueManager.РазрешенныеНеаккредитованныеУЦ</types>
+    <types>ConstantValueManager.НастройкиКолонтитулов</types>
+    <types>ConstantValueManager.УсовершенствоватьПодписиАвтоматически</types>
+    <types>ConstantValueManager.ИспользоватьУдалениеПомеченныхОбъектов</types>
+    <types>ConstantValueManager.УчетнаяЗаписьДляВосстановленияПароля</types>
+    <types>ConstantValueManager.ИспользоватьНесколькоПроизводственныхКалендарей</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияСППР.ОбменДаннымиРИБСОтборамиПередЗаписьюКонстанты</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d49e4a0d-6b2b-4f2f-b78e-6763aeda7df8">
+  <name>ИспользоватьСогласованиеРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать согласование ресурсов</value>
+  </synonym>
+  <location>Constant.ИспользоватьСогласованиеРесурсов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыСогласуемыхРесурсов</content>
+  <content>Catalog.ШаблоныПроцесса.TabularSection.ВидыСогласуемыхРесурсов</content>
+  <content>Catalog.ЗадачиШаблонаПроцесса.TabularSection.ПланируемыеРесурсы</content>
+  <content>Report.ТрудоемкостьЗадач</content>
+  <content>Report.ТрудоемкостьЗадач.Command.ТрудоемкостьЗадач</content>
+  <content>Catalog.ВидыПланов.Attribute.ВидСогласуемогоРесурсаПлановыхРабот</content>
+</mdclass:FunctionalOption>

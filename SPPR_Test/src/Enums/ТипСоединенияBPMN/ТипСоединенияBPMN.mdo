@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d85ecaeb-886b-4477-b866-36649b468289">
+  <producedTypes>
+    <refType typeId="abae5991-4895-4544-a972-c22a15d60fe2" valueTypeId="a838877b-d96d-4d01-9fa9-540babb4b1fb"/>
+    <listType typeId="c294c8ec-d039-4f7c-b05d-023f6fbac8d2" valueTypeId="8bd321c1-8bf1-4d43-b698-545d435f438f"/>
+    <managerType typeId="f91a4c20-87b6-419f-ac05-19fa130c1070" valueTypeId="b86def78-867b-4008-bfbb-5d8462209e64"/>
+  </producedTypes>
+  <name>ТипСоединенияBPMN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип соединения BPMN</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee8b631d-16d7-4a1d-9692-19a19eb914fb">
+    <name>Управление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4dc6a80a-73ac-4f3c-ad48-90dcc00ae6c2">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

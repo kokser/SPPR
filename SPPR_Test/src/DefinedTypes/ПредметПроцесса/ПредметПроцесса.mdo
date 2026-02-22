@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d4e8c8-65e5-448d-ade6-6c52e2945c2c">
+  <producedTypes>
+    <containerType typeId="fac48c73-e952-4be3-b9d9-9ee9399c4617" valueTypeId="72dba511-82de-435e-9583-b32a2c1015ba"/>
+  </producedTypes>
+  <name>ПредметПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет процесса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Процессы</types>
+    <types>CatalogRef.ПрофилиПользователей</types>
+    <types>CatalogRef.ОбработчикиОбновленияИнформационнойБазы</types>
+    <types>CatalogRef.ТехническиеПроекты</types>
+    <types>CatalogRef.ФункцииМеханизмов</types>
+    <types>CatalogRef.ФункцииСистемы</types>
+    <types>CatalogRef.Ошибки</types>
+    <types>CatalogRef.Ветки</types>
+    <types>CatalogRef.ОбъектыМетаданных</types>
+    <types>CatalogRef.СборкиВерсии</types>
+  </type>
+</mdclass:DefinedType>

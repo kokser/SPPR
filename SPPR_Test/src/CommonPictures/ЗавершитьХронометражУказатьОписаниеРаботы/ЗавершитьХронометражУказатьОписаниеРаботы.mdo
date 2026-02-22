@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d4505c-504a-4bf8-b0b3-e6f8da27803c">
+  <name>ЗавершитьХронометражУказатьОписаниеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Завершить хронометраж указать описание работы</value>
+  </synonym>
+</mdclass:CommonPicture>

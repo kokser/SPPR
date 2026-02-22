@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8784c6a4-c735-41f9-8f6e-b80c31d4b83e">
+  <producedTypes>
+    <listType typeId="e0b1fbc7-89b3-4997-bc38-c09c681e75fc" valueTypeId="5dc9fedc-5c95-4716-a01e-c1cb68122ff8"/>
+    <managerType typeId="020243d7-f307-408a-ae66-13fdeb2cc976" valueTypeId="97952573-215a-4376-99cc-e0c267b3c485"/>
+  </producedTypes>
+  <name>ПредшествующийПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предшествующий процесс</value>
+  </synonym>
+  <comment>Предшествующий процесс</comment>
+  <type>
+    <types>CatalogRef.Процессы</types>
+  </type>
+  <content>Catalog.Процессы.TabularSection.ПредшествующиеПроцессы.Attribute.Процесс</content>
+  <auxiliaryForm>FilterCriterion.ПредшествующийПроцесс.Form.СписокПоследующихПроцессов</auxiliaryForm>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список последующих процессов</value>
+  </listPresentation>
+  <forms uuid="33b6c288-c822-4306-849b-bf583a6fc146">
+    <name>СписокПоследующихПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список последующих процессов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="55f3a831-c4ce-4853-b0b3-115ae0c5078c">
+    <name>СписокПоследующихПроцессов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список последующих процессов</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Процессы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:FilterCriterion>

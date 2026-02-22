@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d2f29d4-1df5-4b54-b162-abc4205a402f">
+  <name>ОтчетыМоделированиеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по моделированию системы</value>
+  </synonym>
+</mdclass:Role>

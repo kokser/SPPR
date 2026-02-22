@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c208221-7e69-4266-be47-2939bb3ca66d">
+  <name>РазрешенаРаботаСоСценариямиРаботыПользователейВСППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешена работа со сценариями работы пользователей в СППР</value>
+  </synonym>
+  <location>Catalog.Проекты.Attribute.ХранитьСценарииРаботыПользователейВСППР</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.СценарииРаботыПользователейВСППР</content>
+  <content>CommonCommand.НастройкиЗапускаСценариевСППР</content>
+</mdclass:FunctionalOption>

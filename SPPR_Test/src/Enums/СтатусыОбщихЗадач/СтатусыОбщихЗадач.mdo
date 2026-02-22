@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb0e6fa1-781b-4239-8845-0eb5cd80bc33">
+  <producedTypes>
+    <refType typeId="94a0dfbf-94ae-4328-ad83-fe3901ef6257" valueTypeId="e27b520a-0789-4317-ba83-fbaed6f440ea"/>
+    <listType typeId="644136f9-9ffe-45d3-a2b3-3fddeecc499f" valueTypeId="2ac67644-275b-44e1-9fa7-01370bb15bab"/>
+    <managerType typeId="c5fb19ed-efad-4a7c-99fa-2b70889db943" valueTypeId="2d54a2f9-0112-405e-bd0e-2c7f681d0bc5"/>
+  </producedTypes>
+  <name>СтатусыОбщихЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы общих задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c12f5d0-512c-453e-81d4-a9bd3d5dbd1d">
+    <name>ТребуетсяЗапланировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется запланировать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d535164-f34e-499b-a251-0b20a2599675">
+    <name>Запланирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20a62f2b-0115-49c8-8687-6f96544dfe4a">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eb0a415-0508-4099-a591-b55abd87b20c">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="44fb15c1-1473-4580-a2b1-327e0da5e1df">
+    <name>ВыборСпискаСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные статусы задач</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

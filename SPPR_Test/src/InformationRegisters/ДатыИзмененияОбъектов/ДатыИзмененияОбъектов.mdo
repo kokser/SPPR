@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5958c51-48c9-415f-a41e-c2f5429a97b6">
+  <producedTypes>
+    <selectionType typeId="53008ac2-588d-4a08-a2bc-526d4dd3f1e6" valueTypeId="7f67a0ef-2f1c-4cc2-8d5c-1e405dd1bf77"/>
+    <listType typeId="6489691e-8c19-402c-9b1f-0740a5029a03" valueTypeId="dc853531-eb9f-43a8-b174-2f6a343899c6"/>
+    <managerType typeId="eb3d7ec9-c66f-40c4-815c-e498c59d7dd0" valueTypeId="ff314a21-e324-43b4-a6ca-f47f3a6aff16"/>
+    <recordSetType typeId="3e954a96-37aa-4e83-9519-c985a1fd33b7" valueTypeId="d920df48-95d5-420d-bd38-a2b49265c98a"/>
+    <recordKeyType typeId="91651ae5-8acb-4c86-ad46-db65180acb05" valueTypeId="828790c3-e0f0-4c75-a292-23d305c9037d"/>
+    <recordType typeId="32b7392e-5ff7-4fc7-a48c-efe23cdaf82b" valueTypeId="cf522f9c-035e-4538-ba0a-a52e03d734a6"/>
+    <recordManagerType typeId="4e76a36c-72eb-43a9-9011-8fa6eed100d3" valueTypeId="d59149ff-9a72-4694-87f2-c395f75d7594"/>
+  </producedTypes>
+  <name>ДатыИзмененияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты изменения объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ДатыИзмененияОбъектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дата изменения</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Даты изменения</value>
+  </listPresentation>
+  <resources uuid="3c1dbc23-c332-428d-ba29-359bc95f0736">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="dc9d0852-c8b4-45b7-9e51-fe550ca68b79">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54853ee8-2fe0-4e9d-8668-1e9402516f5a">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8fd87733-5d28-4875-95e7-6e0726a1b4fe">
+    <name>КонтролируемыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролируемый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВерсионируемыйОбъект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="88fa9b4b-947b-4a76-a9ae-e2d674ba4ec3">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="96f7ba60-b750-456c-971e-1ebfcf21dc2e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты изменения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

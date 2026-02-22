@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fffc3236-4e98-4348-8cb0-0a5a72fc6943">
+  <name>ОтчетыОрганайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты (органайзер)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e557a4-b5a3-4ced-8418-8a6bf148c521">
+  <producedTypes>
+    <containerType typeId="9818d5de-2ce9-4aa5-94be-af01ae6ff1d0" valueTypeId="79de78ac-ea74-4b90-8061-629f9177f59b"/>
+  </producedTypes>
+  <name>ВладелецШаблонаПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец шаблона процесса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Проекты</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92ffb0b8-7384-493b-a648-65736a4fc9ab">
+  <name>ИспользоватьМакетыКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать макеты контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьМакеты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.Формы</content>
+  <content>Catalog.ОбъектыМетаданных.Command.Макеты</content>
+</mdclass:FunctionalOption>

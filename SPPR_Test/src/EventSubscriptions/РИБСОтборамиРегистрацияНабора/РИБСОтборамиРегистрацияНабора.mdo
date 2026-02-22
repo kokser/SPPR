@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d468a2a0-6629-46b7-a109-e6739a180362">
+  <name>РИБСОтборамиРегистрацияНабора</name>
+  <synonym>
+    <key>ru</key>
+    <value>РИБСОтборами регистрация набора</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.СостоянияЗадачПроцессов</types>
+    <types>InformationRegisterRecordSet.ЭтапыПроцесса</types>
+    <types>InformationRegisterRecordSet.НастройкиКомандПечати</types>
+    <types>InformationRegisterRecordSet.ИспользуемыеВидыДоступа</types>
+    <types>InformationRegisterRecordSet.Планы</types>
+    <types>InformationRegisterRecordSet.КонтрольИзменений</types>
+    <types>InformationRegisterRecordSet.ИзмененияВВетках</types>
+    <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
+    <types>InformationRegisterRecordSet.ДатыИзмененияОбъектов</types>
+    <types>InformationRegisterRecordSet.ВерсииОбъектов</types>
+    <types>InformationRegisterRecordSet.РезультатыПроверкиОбъектов</types>
+    <types>InformationRegisterRecordSet.НазначениеДополнительныхОбработок</types>
+    <types>InformationRegisterRecordSet.ГруппыЗначенийДоступа</types>
+    <types>InformationRegisterRecordSet.НаличиеФайлов</types>
+    <types>InformationRegisterRecordSet.КодировкиФайлов</types>
+    <types>InformationRegisterRecordSet.ПраваДоступаКОбъектамМетаданных</types>
+    <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.КалендариПользователей</types>
+    <types>InformationRegisterRecordSet.ОбъектыИнтегрированныеС1СДокументооборотом</types>
+    <types>InformationRegisterRecordSet.СертификатыШифрования</types>
+    <types>InformationRegisterRecordSet.ИерархияЗадачПроцесса</types>
+    <types>InformationRegisterRecordSet.НастройкиОчисткиФайлов</types>
+    <types>InformationRegisterRecordSet.НаборыЗначенийДоступа</types>
+    <types>InformationRegisterRecordSet.ДополнительныеСведения</types>
+    <types>InformationRegisterRecordSet.ПользовательскиеМакетыПечати</types>
+    <types>InformationRegisterRecordSet.ЗаписиПлана</types>
+    <types>AccumulationRegisterRecordSet.УчетВремени</types>
+    <types>InformationRegisterRecordSet.ОповещенияПользователейСертификатов</types>
+    <types>InformationRegisterRecordSet.ПротоколСогласованияРесурсов</types>
+    <types>InformationRegisterRecordSet.КалендарныеГрафики</types>
+    <types>InformationRegisterRecordSet.НастройкиПравОбъектов</types>
+    <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
+    <types>InformationRegisterRecordSet.ЭлектронныеПодписи</types>
+    <types>InformationRegisterRecordSet.СведенияОФайлах</types>
+    <types>InformationRegisterRecordSet.НаследованиеНастроекПравОбъектов</types>
+    <types>InformationRegisterRecordSet.РучныеИзмененияГрафиковРаботы</types>
+    <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
+    <types>InformationRegisterRecordSet.ЗаявленияНаВыпускСертификата</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияСППР.ОбменДаннымиРИБСОтборамиПередЗаписьюРегистра</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86421c4e-3ffd-4b29-9b2e-bb184f55cde4">
+  <name>ИнтеграцияСАПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АПК</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

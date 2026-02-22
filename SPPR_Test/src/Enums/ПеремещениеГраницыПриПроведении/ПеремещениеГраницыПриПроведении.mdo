@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f56c07ea-1b58-4931-8727-23b6b2d9035b">
+  <producedTypes>
+    <refType typeId="daf8cb9d-1bd0-44e7-a30b-d10252b804c7" valueTypeId="9a01063a-a4eb-4b12-948a-1715d5ffdc28"/>
+    <listType typeId="f77a83c9-3d7d-40aa-bbbb-0730b97ca1dd" valueTypeId="31160ec9-c288-4eb5-bfa5-6efca08a1e1c"/>
+    <managerType typeId="12943532-9704-4220-bd99-c978d87e4114" valueTypeId="8c399362-bbe0-486f-ab53-df0168b0fd30"/>
+  </producedTypes>
+  <name>ПеремещениеГраницыПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение границы при проведении</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59d39162-d310-4f6c-8dda-eccc98780726">
+    <name>НеПеремещать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не перемещать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f52272a1-16c6-4ac0-ac25-5eace1cee05f">
+    <name>Перемещать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

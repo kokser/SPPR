@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea585946-9e4a-4664-8966-13cb9b68fe6d">
+  <producedTypes>
+    <refType typeId="b4d05fe1-dc13-4476-9b5e-eb99e601ac41" valueTypeId="dbcb8f65-157b-472c-8809-28c738266169"/>
+    <listType typeId="38c0fc79-6f92-4ce9-b62f-f0bbcbb1df04" valueTypeId="bbee9655-3005-49fe-b055-c29439226799"/>
+    <managerType typeId="5b8e499f-e869-4747-8234-89bb5af1102d" valueTypeId="36768c0a-95b1-4b5d-b07d-70cd55dd9807"/>
+  </producedTypes>
+  <name>СтатусыСборокВерсииПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сборок версии проекта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa68aef6-230d-45c1-8f54-372b07b26b5e">
+    <name>Ознакомительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ознакомительная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3273ff9-76b4-4bd7-88dd-1fc256d5dc84">
+    <name>Тестовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3df86e9-eab3-414f-a133-705ebd9faae0">
+    <name>НеДляВстраивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не для встраивания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d2a72f6-6af9-47d3-b37d-d5f13b899509">
+    <name>ДляПредварительногоВстраивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для предварительного встраивания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2956065-dc51-44ce-aa25-0904f04910e4">
+    <name>Финальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финальная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

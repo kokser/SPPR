@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da5ff60-1fff-4fb1-913b-a5d203c8a407">
+  <producedTypes>
+    <refType typeId="1829406b-33d7-4afa-a3c9-641361d0e2a0" valueTypeId="2946a395-7aab-4ebe-8a58-1276aa57d2b5"/>
+    <listType typeId="1d54cd9b-0e80-418b-ac15-e60631a1ab5c" valueTypeId="e5c725dd-e6bb-4b1b-9103-7a90b616ee63"/>
+    <managerType typeId="8491df00-c49b-4878-9139-fe71fe437ac4" valueTypeId="a1cdc323-6156-4668-b13e-da5932b3881c"/>
+  </producedTypes>
+  <name>СУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>СУБД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="904c8c0b-3d21-4584-9ba9-9f14c78278c6">
+    <name>ФайловыйВариант1СПредприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловый вариант (1С:Предприятие)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a48a11a-62c3-4d4a-9f58-da85e4db30b5">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL Server</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3475f790-99ff-4e1b-a1ab-6464728a68c2">
+    <name>OracleDatabase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle database</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1bda202-dcde-4e52-944b-c7edf1e35fe9">
+    <name>IBMDB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB 2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74ccbdcf-88ca-42de-88a0-4228382e20ad">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Postgre SQL</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

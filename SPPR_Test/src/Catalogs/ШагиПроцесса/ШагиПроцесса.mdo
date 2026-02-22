@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745fa2c8-6098-458d-b517-a2dda88c8b49">
+  <producedTypes>
+    <objectType typeId="904060d5-a942-4e5e-8a6c-b6efb5e4ad36" valueTypeId="16e6adc0-0894-4cdb-9be1-e02531728d57"/>
+    <refType typeId="02239739-56ef-4974-a60d-ceae3adb8dc8" valueTypeId="bf252c95-c34b-4a41-81f5-55b068fea879"/>
+    <selectionType typeId="3d90dffa-ec9c-4a90-a4b5-80b23974a37a" valueTypeId="d656f438-bff0-472d-b31c-d89601e42516"/>
+    <listType typeId="b935380b-22b6-4cfa-875b-1670b51977e6" valueTypeId="9631a77f-80de-4528-a194-b20bea924848"/>
+    <managerType typeId="e60f55e9-f80c-4f7d-a37f-c9a0f41fc651" valueTypeId="da87f9c6-f299-4956-acfa-9ff16388aee6"/>
+  </producedTypes>
+  <name>ШагиПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаги процесса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШагиПроцесса.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШагиПроцесса.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ШагиПроцесса.Attribute.ПолныйКод</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Процессы.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа шагов</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ШагиПроцесса.EmptyRef</value>
+    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ШагиПроцесса.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаг процесса</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Шаг процесса</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаги процесса</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Шаги процесса</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <owners>Catalog.Процессы</owners>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШагиПроцесса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ШагиПроцесса.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ШагиПроцесса.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ШагиПроцесса.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="81c973b0-3bae-4a10-be4a-23009734236d">
+    <name>ВложенныйПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложенный процесс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Процессы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаг процесса является вложенным процессом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e35fbad7-7c44-4fa7-a0b7-be2ebce5272c">
+    <name>Заметки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заметки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заметки к шагу процесса</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54880c7c-b278-4ae3-b2a6-21765e371f49">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bcb0197-c12c-4227-8569-e00f681b8b6a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание шага-процесса</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18bde331-2c7c-4825-a329-95bec7d72716">
+    <name>ПолныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный код шага процесса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a346928b-e907-47d4-9a15-f15970c72be2">
+    <name>ТипШага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип шага</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип шага - шаг процесса, или вложенный процесс</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab1fd10e-25aa-42f4-a9a6-9f922e64c722">
+    <name>ТребованияКСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требования к системе</value>
+    </synonym>
+    <comment>Требования к системе</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6301827c-91c6-43ba-a513-a04228167c8f">
+    <name>ХранилищеЗаметок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище заметок</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b27511ab-c884-4345-9530-3d1792b1b915">
+    <name>ХранилищеОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище описания</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4043a34-4d29-4bbc-922e-729403082d36">
+    <name>СценарийРаботыПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий работы пользователя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СценарииРаботыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0113e755-9c1f-4cab-8d11-7ab13bd13ed9">
+    <name>ФункцияСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФункцииСистемы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Функция, в которой выполняется шаг процесса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="138f6111-c9b7-4bb8-b194-556bd04915dc">
+    <producedTypes>
+      <objectType typeId="7c44345b-bf5f-4474-a476-c70e045052d4" valueTypeId="3feac627-9f83-4f6d-b6ca-32a443120982"/>
+      <rowType typeId="c88ee26e-2244-4bd5-ad66-3a916e853847" valueTypeId="591e6d5c-4bc0-446f-afaf-2c403797df8e"/>
+    </producedTypes>
+    <name>ИспользуемыеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые формы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0533451b-d909-4b7d-9aed-eae14036bcfa">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбъектыМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2e29572-8237-459a-8a8c-e3e8d7d266ae">
+      <name>ТипФормы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип формы</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыФорм</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e58018ce-40e6-4df5-a94d-fad832ef7f89">
+      <name>ФормаОбъектаМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Форма объекта метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФормыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ШагиПроцесса.TabularSection.ИспользуемыеФормы.Attribute.ОбъектМетаданных</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="865c653b-bb0a-47e1-8531-328b9ae39f3d">
+    <producedTypes>
+      <objectType typeId="c8fbdf28-fef6-4de9-9a12-f3d87a626fdb" valueTypeId="2f822e26-32c8-478d-a0c8-1e5283a49cf5"/>
+      <rowType typeId="3d5bc532-1842-4011-bd8c-b9e1c4d29017" valueTypeId="5bef6ab8-7c57-4047-9bd2-5e50c0ed424f"/>
+    </producedTypes>
+    <name>ПараметрыСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сценария</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="782fecdf-60f3-4b77-b43a-01daef7498df">
+      <name>ЗначениеПоСсылке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение по ссылке</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5fdb6394-3ff9-41d1-9eaa-2d33c3967bf5">
+      <name>ЗначениеПроизвольное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение произвольное</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eee36dfe-cc25-4f1d-8f7d-c6049b4da3fd">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9520f4d7-a7d9-4d51-98f6-be355595064e">
+      <name>ИмяПараметраПоСсылке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра по ссылке</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81e61ca4-1db3-4afe-b5d5-231335898fb9">
+      <name>ИсходящийПараметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходящий параметр</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="378fc372-2ebe-4570-b7b8-476ca0860939">
+      <name>ТипПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип параметра</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипПараметраСценарияИлиПроцесса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd059c3a-6113-43a8-b394-3b28b251a1a1">
+      <name>ШагПроцессаЗначениеПоСсылке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаг процесса значение по ссылке</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ШагиПроцесса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="05aec978-05ea-47d4-8e72-3451fdd1c4f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52dced02-fd56-41c2-ae38-88466f70769a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2003fec-2ede-4927-a710-2b96e5e7e4e4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35c23999-d056-47b3-b796-c59775767616">
+    <name>ПроцессыИспользующиеФункцию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы использующие функцию</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8bf86438-92c0-471c-8bd1-a567eddaecd0">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ccddb51-cc01-4e35-a8b6-3ae025d81807">
+    <name>ПроцессыИспользующиеФорму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы, использующие форму</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2aa3b78-6071-4415-b6e3-a30748c78502">
+    <name>УстановкаЗначенияПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка значения параметра</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="65ed6541-2a69-482e-a06a-bb9120f706af">
+    <name>ПечатьОписаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать описаний</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ШагиПроцесса</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e2b4a95-68f1-45eb-ac31-3a1f546acdd2">
+  <producedTypes>
+    <selectionType typeId="bf489d73-05c8-4f54-8990-5cf26a7f575f" valueTypeId="e8aa5e4b-1a5e-4f53-9c53-5639e2d85088"/>
+    <listType typeId="a193fa71-8c20-4dcc-b893-2c10782409ff" valueTypeId="7a9c4ff0-3776-4e70-8d94-4e69089c660a"/>
+    <managerType typeId="309a2f71-d9f8-4938-a1d5-dc05d795eb86" valueTypeId="334841c3-e639-44c1-871b-30b3e8111f82"/>
+    <recordSetType typeId="7d40342f-d624-427f-a8ca-4abb010b6ec6" valueTypeId="be565f1e-232b-464a-aa48-a116ebe0e536"/>
+    <recordKeyType typeId="96be0f20-3b0b-463d-82f1-b5d0718e19f6" valueTypeId="3180e919-f5c3-4b54-867f-caabd7f2e120"/>
+    <recordType typeId="bc6639fa-ad7a-4451-be65-cab10f7b0d09" valueTypeId="816d5238-368b-442a-a8c9-d7d9cda55a3a"/>
+    <recordManagerType typeId="de4ab2ba-f770-4cd1-b3c6-853133ab5ab0" valueTypeId="20102b27-349a-4ca2-92f2-35a928e04e8c"/>
+  </producedTypes>
+  <name>ИтогиСогласованияЗадачРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоги согласования задач ресурсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Итоги согласования ресурса задачи</value>
+  </recordPresentation>
+  <resources uuid="6008bcda-5762-431b-a4a9-a46955bc690d">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9a4304f-63fb-46a6-b3a6-99a368e97761">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c5915ab1-0b00-45c6-8434-49dea67e8b31">
+    <name>ЗапланированоВДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано в дочерних</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ade897ad-b8a0-4a97-9670-8af4863bf295">
+    <name>СогласованоВДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано в дочерних</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95a9257b-a63e-48d9-adde-e15ed9eb281d">
+    <name>ВыполненоСогласованоВДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено согласовано в дочерних</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cb6d74b8-e984-4510-9dc7-d37594e74a8f">
+    <name>ВыполненоНаСогласованииВДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено на согласовании в дочерних</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="28211926-5c68-441b-897b-8183a0493326">
+    <name>ЗадачаПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиПроцесса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae89f91f-3208-42d5-9e43-213f644986aa">
+    <name>ВидРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСогласуемыхРесурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

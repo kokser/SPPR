@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9c7799f-b2cd-4349-974c-159960f376c7">
+  <producedTypes>
+    <objectType typeId="a0f0322a-bb3d-4eda-ae0d-75b393a622b2" valueTypeId="0c801c25-d8f6-41a0-9d3e-b88174464e66"/>
+    <managerType typeId="1d498737-552e-43d1-acec-76b12da8ae88" valueTypeId="468c5db7-8689-41b8-91c4-80016e2f4b04"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияИнтеграцияСВнешнимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с внешними системами</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияИнтеграцияСВнешнимиСистемами.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c6ce0059-50f2-4e60-8c99-b82d5f64ecfa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49813881-d9e7-4be2-a57d-f54475efbcb2">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция с внешними системами</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0ea74ea-dc72-4ccc-943b-7765f504df2a">
+    <name>ФормаФильтр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="57ca5766-c2cf-493d-92d4-25de0eac3b5a">
+    <name>НастройкаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция с внешними системами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

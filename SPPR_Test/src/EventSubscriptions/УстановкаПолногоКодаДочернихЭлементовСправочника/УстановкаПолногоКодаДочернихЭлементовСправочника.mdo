@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d46c284-3124-49ca-a721-53ddc1436df1">
+  <name>УстановкаПолногоКодаДочернихЭлементовСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка полного кода дочерних элементов справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.РазделыПроекта</types>
+    <types>CatalogObject.ФункцииСистемы</types>
+    <types>CatalogObject.ШагиПроцесса</types>
+    <types>CatalogObject.ПрофилиПользователей</types>
+    <types>CatalogObject.Подсистемы</types>
+    <types>CatalogObject.Процессы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЗаписьСправочников.УстановкаПолногоКодаДочернихЭлементовСправочникаПриЗаписи</handler>
+</mdclass:EventSubscription>

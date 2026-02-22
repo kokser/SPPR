@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8f6ef47-ca33-4b06-a1ca-e9e2a08380c1">
+  <producedTypes>
+    <managerType typeId="50b55d31-fc96-4ca6-a52c-7ec597b7bf9a" valueTypeId="52b2ff35-b1dc-41dc-8a1b-64476cf519a6"/>
+    <valueManagerType typeId="94f12091-c2ac-482e-9824-f306b3e86f93" valueTypeId="321bc062-cb9d-4219-93b9-aa54426e7079"/>
+    <valueKeyType typeId="4fcf2fca-235f-4447-bc0b-bd01891c10af" valueTypeId="e6de0a69-b65f-487c-aa45-83932d43d888"/>
+  </producedTypes>
+  <name>ВидДеятельностиДляРаботыСОшибкамиАудита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид деятельности для работы с ошибками аудита</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыДеятельности</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ПанельАдминистрированияБИД.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ПанельАдминистрированияИнтеграцияСАПК.Command.ИнтеграцияСАПК</commands>
+      <commands>DataProcessor.ПанельАдминистрированияБИД.Command.ОткрытьПанель</commands>
+      <commands>DataProcessor.ПанельАдминистрированияСинхронизацияДанных.Command.НастройкиСинхронизацииДанных</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.РазместитьФайлыНачальногоОбраза</commands>
+      <commands>DataProcessor.ПанельАдминистрированияБИД.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

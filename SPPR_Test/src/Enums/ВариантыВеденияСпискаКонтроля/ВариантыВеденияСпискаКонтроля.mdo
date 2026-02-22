@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5a80c41-c7b2-48d4-bffb-bf85bc1e54cb">
+  <producedTypes>
+    <refType typeId="bf4430c1-b2f2-4f99-a7e8-134330e9980a" valueTypeId="a4c869d9-ec60-4215-ae43-0a32f8e926c4"/>
+    <listType typeId="c3c18a1c-9067-4253-94a6-a1f084d159c1" valueTypeId="d3d2647c-476f-45e3-b619-c7c13ec18b6b"/>
+    <managerType typeId="da13a079-e9c7-45b0-82e1-cb05589864b5" valueTypeId="97e26954-6d27-42fb-92c2-35d5c9cccea5"/>
+  </producedTypes>
+  <name>ВариантыВеденияСпискаКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ведения списка контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e1ef2663-85aa-4b61-a69a-89d7e9317095">
+    <name>ДатаКонтроляНазначаетсяНаСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата контроля назначается на список</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9834d2cb-8d4f-4ca6-81f8-2326d3370e21">
+    <name>ДатаКонтроляНазначаетсяНаОбъектКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата контроля назначается на объект контроля</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

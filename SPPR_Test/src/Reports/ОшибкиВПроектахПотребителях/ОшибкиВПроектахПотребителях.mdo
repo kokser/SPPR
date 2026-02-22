@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eafa0ff-93bd-4055-83a6-5441c5a7432a">
+  <producedTypes>
+    <objectType typeId="12c9e29d-2431-4449-a520-2caec09de13b" valueTypeId="9c9a5958-3505-4ca8-a911-cd9c1b6a1fd1"/>
+    <managerType typeId="6c97db1b-6d64-4758-b629-e85cdbd587bc" valueTypeId="e6e6c292-c99d-4da5-a986-03b719358831"/>
+  </producedTypes>
+  <name>ОшибкиВПроектахПотребителях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки в проектах потребителях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОшибкиВПроектахПотребителях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Позволяет проанализировать для проекта-библиотеки, какие проекты-потребители включают ошибки данной библиотеки.</value>
+  </explanation>
+  <templates uuid="d9ebe95a-8d8a-49b2-bcae-4092a274ec00">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

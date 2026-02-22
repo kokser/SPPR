@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1542ec1-bbf1-4004-aa7b-048bbb72d13e">
+  <name>ИспользоватьПредопределенныеДанныеКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать предопределенные данные контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьПредопределенныеДанные</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ПредопределенныеДанные</content>
+</mdclass:FunctionalOption>

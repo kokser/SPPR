@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0da25b95-d0dc-4e1a-a8be-9324fb8c5126">
+  <name>СоздатьХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать хранилище</value>
+  </synonym>
+</mdclass:CommonPicture>

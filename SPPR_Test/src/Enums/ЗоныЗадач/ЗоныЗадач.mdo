@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d196368-e834-44d2-be8d-a0fe31e707af">
+  <producedTypes>
+    <refType typeId="4d1673a1-86f0-4838-be01-25ebe5430555" valueTypeId="7fcc7649-d175-4152-84c2-5a80ab9ef29f"/>
+    <listType typeId="2da8e682-5084-4d51-837a-d2c53d2ab115" valueTypeId="6607c73d-22a9-4386-b81a-575437f3c0b2"/>
+    <managerType typeId="4bd64cad-ed9d-4730-b46a-f009b5cbcfb9" valueTypeId="ab6f23a3-3c86-4a91-9302-cdbb4353141c"/>
+  </producedTypes>
+  <name>ЗоныЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa0d8961-13b1-476b-8cb2-71ba94706543">
+    <name>Зеленая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зеленая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf8c5df2-e202-4401-94cb-cb6462fea211">
+    <name>Желтая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37cbf307-ef4e-43fc-9cc0-7ad5b49250d4">
+    <name>Красная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

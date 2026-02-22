@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcf10a19-3890-4148-87b8-61e44aad5eab">
+  <producedTypes>
+    <refType typeId="a8117aba-2db0-4ca1-8dda-76840d6591f8" valueTypeId="c5bc46e6-85b4-4600-9edf-7b0476d38dad"/>
+    <listType typeId="10b4a55e-c72b-4610-90d3-c3a4f4099540" valueTypeId="d27a00c2-d00f-4c21-b3ff-6cd1a31b40ea"/>
+    <managerType typeId="4226353c-5bc6-4995-8ea8-36102f04d24b" valueTypeId="c85f0e23-ffa3-4492-abb1-d4b1975ac14e"/>
+  </producedTypes>
+  <name>ТипыФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы функций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a318ed03-e975-42e4-bc5d-72703fe576ec">
+    <name>Функция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0db7c7f2-3ab9-4c0a-a83a-e3be2c60db54">
+    <name>УчетныйМеханизм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетный механизм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05d39fa7-c2f5-44de-8ff3-0a8655eb9e58">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="499fd7e9-3e38-4cc1-8b1e-1d1cd216c8c7">
+  <producedTypes>
+    <objectType typeId="9ba0491f-6818-4e1d-9019-130194d3e2c6" valueTypeId="7528210b-6e23-4f93-ae38-cc55374b9477"/>
+    <managerType typeId="02ca30c8-6000-45a7-9da3-bf8dc264271a" valueTypeId="10bd132a-9df5-497e-9a60-54c89437cf70"/>
+  </producedTypes>
+  <name>НастройкаСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка списка</value>
+  </synonym>
+  <defaultSettingsForm>Report.НастройкаСписка.Form.НастройкаСписка</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e66f8f31-345c-4a72-b90e-25b11870df7d">
+    <name>НастройкаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

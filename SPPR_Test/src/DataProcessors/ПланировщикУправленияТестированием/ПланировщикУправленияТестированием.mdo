@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20fd203b-6812-4a60-94b5-2ea15b033eff">
+  <producedTypes>
+    <objectType typeId="1a74f447-dca1-42f8-991f-3b3b8936b60f" valueTypeId="03c14713-a6f2-4d42-bed3-2839bbc545d8"/>
+    <managerType typeId="e4fffbc7-7f84-4ba5-893a-3acd6efcafd7" valueTypeId="74976902-6e7e-4ac1-a8ac-6c7fcc295e8f"/>
+  </producedTypes>
+  <name>ПланировщикУправленияТестированием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик управления тестированием</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланировщикУправленияТестированием.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="941a6bbd-f951-44ca-9d6a-6c0fb9f27dee">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="f626740b-398e-418c-9c99-709a6679ff32">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b11b341a-e59a-4a89-912e-edd5b9a7f72a">
+    <name>ФормаСлотыТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма слоты тестирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

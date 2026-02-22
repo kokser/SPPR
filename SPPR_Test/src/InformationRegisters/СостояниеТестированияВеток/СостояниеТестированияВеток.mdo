@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d318d9f7-a1ab-413f-80fa-c0232be9be59">
+  <producedTypes>
+    <selectionType typeId="16be3be2-7a82-4f25-ad1b-a29157119b6e" valueTypeId="4e1ddae6-da53-4a25-bbe9-3395b4309e06"/>
+    <listType typeId="2bdd1975-e404-4513-b550-0c485d91f3ab" valueTypeId="7eece42b-77eb-4647-8055-04bc3f722ee1"/>
+    <managerType typeId="239b9e6e-5e53-4033-9ac3-51539f48395d" valueTypeId="e5605ce7-2479-4aa7-867f-0982f0718b69"/>
+    <recordSetType typeId="02f4eb1d-10cd-4698-85f9-20761d642768" valueTypeId="f7f73954-1e15-489d-9105-97d2f2a63a17"/>
+    <recordKeyType typeId="ee9fb633-aed0-49b9-8144-3ae6b0ca03b4" valueTypeId="3bb14d7b-0880-486b-afa4-e4061f1d4453"/>
+    <recordType typeId="63e72415-520e-40d9-8bf0-1aa8a2594040" valueTypeId="2116fb6b-e1c7-49db-b7da-91754d2f25a2"/>
+    <recordManagerType typeId="acad7fa3-9da1-42ca-b1d4-89e67b5aa6cf" valueTypeId="e8572651-8e0e-4306-b930-e589e2734172"/>
+  </producedTypes>
+  <name>СостояниеТестированияВеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние тестирования веток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="604c2083-c797-4f04-a282-3835a59c8b05">
+    <name>СостояниеТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние тестирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияТестированияВетки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="38f36d30-3153-47aa-b939-f865ea19dddb">
+    <name>Ветка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ветки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

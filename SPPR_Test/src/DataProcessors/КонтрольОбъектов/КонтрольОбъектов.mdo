@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbf3b0e8-7af8-4344-bc70-eb18f737d9ff">
+  <producedTypes>
+    <objectType typeId="ff346ee3-03a4-448d-b9a4-1c5a8c8f95bf" valueTypeId="23417f22-4ae8-4a72-9a4a-1a7a7cefa416"/>
+    <managerType typeId="ff6dad59-ec13-4a46-a3dd-93dc71675c37" valueTypeId="dc097874-a432-4e63-84d8-62d0493ba8b8"/>
+  </producedTypes>
+  <name>КонтрольОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтрольОбъектов.Form.НаКонтролеУМеня</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="60733765-d1d9-414d-b550-6af4e36f592c">
+    <name>НаКонтролеУМеня</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле у меня</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1fba5339-9a3d-4723-be71-9168afa2b11d">
+    <name>ИзменениеРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение результат контроля</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cc26a47-5715-4e87-b76c-a31f21ce6cb4">
+    <name>РешениеИРезультатыКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение и результаты контроля</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eac20574-2784-4341-b6f9-77f16d75d0ae">
+    <name>ИсторияКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>История контроля</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64da8782-2820-4bd6-b14c-f441fb8da617">
+    <name>НаКонтролеУДругих</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле у других</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc8cd598-d80c-4906-968f-0dced17f3d98">
+    <name>РешениеПриПостановкеНаКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решение при постановке на контроль</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="59deb0f6-81c0-4d04-8149-fe4d3daaf9d8">
+    <name>НаКонтролеУМеня</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле у меня</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="8e2daef4-c567-49d1-91c4-521c9a515962">
+    <name>НаКонтролеУДругих</name>
+    <synonym>
+      <key>ru</key>
+      <value>На контроле у других</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

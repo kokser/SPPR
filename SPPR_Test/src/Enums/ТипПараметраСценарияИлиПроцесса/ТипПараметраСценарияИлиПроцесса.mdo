@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0552d007-054b-4eae-9456-3596f6419c67">
+  <producedTypes>
+    <refType typeId="d7ff4211-671c-4182-b6a7-1ceb85c95d6b" valueTypeId="e4aaa748-01c6-492e-9fbd-7a56c759f45f"/>
+    <listType typeId="e6b8995b-5351-4f81-b66b-39c6bffab538" valueTypeId="f3a4ba02-be09-43f4-891d-dfc047e25dd0"/>
+    <managerType typeId="f859d2e7-0607-4028-b480-8ef8372d4756" valueTypeId="cb1eba7d-e444-42aa-97f1-2a16865c40a6"/>
+  </producedTypes>
+  <name>ТипПараметраСценарияИлиПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип параметра сценария или процесса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="48c2a15f-1359-4f1e-a683-f5028a71abcd">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9402847c-db7f-48fe-9166-c263d82fefae">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c76aaa0e-6006-4a18-98f9-2274cf96eb13">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fa931f7-eb34-40f1-8e8e-a9590efd016d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="409acfbe-52fc-43f2-affc-de55b866379d">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

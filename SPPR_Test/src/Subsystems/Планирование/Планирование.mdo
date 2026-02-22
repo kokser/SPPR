@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5fa9b41-18b4-40ac-a0b6-816ef99f4a60">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Catalog.ВидыПланов</content>
+  <content>Enum.СтатусыВидовПланов</content>
+  <content>Enum.ПериодичностьПланов</content>
+  <content>CommonModule.ПланированиеКлиентСервер</content>
+  <content>InformationRegister.Планы</content>
+  <content>CommonModule.ПланированиеПовтИсп</content>
+  <content>CommonModule.Планирование</content>
+  <content>DataProcessor.Планирование</content>
+  <content>Enum.РезультатыВыполненияПланируемыхРабот</content>
+  <content>InformationRegister.ЗаписиПлана</content>
+  <content>StyleItem.ЦветТекстаНеЗаполненнойРаботы</content>
+  <content>Role.ЧтениеВидовПланов</content>
+  <content>Role.ДобавлениеИзменениеЗаписейПланов</content>
+  <content>Role.ИспользованиеРабочегоМестаПланирования</content>
+  <content>Constant.ИспользоватьПланирование</content>
+  <content>FunctionalOption.ИспользоватьПланирование</content>
+  <content>Role.ДобавлениеИзменениеВидовПланов</content>
+  <content>Role.ЧтениеПлановЗаписейПлана</content>
+  <content>ScheduledJob.СозданиеПланов</content>
+  <content>StyleItem.ЦветФонаВнеплановойРаботы</content>
+  <content>Enum.ТипыГруппировокСтрокПлана</content>
+  <content>Enum.ТипыСтрокПлана</content>
+  <content>CommonPicture.ЗафиксироватьПлан</content>
+  <content>CommonPicture.АктуализироватьВидыДеятельностиПоСтатистике</content>
+  <content>StyleItem.ЦветФонаВходитВПериодПланирования</content>
+  <content>CommonModule.ПланированиеКлиент</content>
+  <content>Report.КонтрольПланирования</content>
+  <content>StyleItem.ЦветФонаВходитВПериодПланированияСильноеВыделение</content>
+  <content>StyleItem.ЦветФонаВходитВПериодПланированияСреднееВыделение</content>
+  <content>Enum.ВариантыРаспределенияРаботПланЗанятости</content>
+  <content>CommonPicture.ВыбратьДатыПланирование</content>
+</mdclass:Subsystem>

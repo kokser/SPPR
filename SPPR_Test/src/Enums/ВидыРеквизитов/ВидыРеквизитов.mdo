@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57df88bd-fc4a-462f-aa8e-a67e86668d61">
+  <producedTypes>
+    <refType typeId="8010dbcd-b8c8-404e-bab0-5efc457e2c19" valueTypeId="a70c89a4-9f69-41c9-9f83-375b816f56f8"/>
+    <listType typeId="012812f5-2db1-45ce-87d8-cb0ab125f0ed" valueTypeId="b6e92c01-4c61-457e-8347-6e6a6075d9c1"/>
+    <managerType typeId="73263444-d1de-40d3-94db-b21e432eb75e" valueTypeId="5bae1316-9cdb-4b89-8c87-890d28b1b50d"/>
+  </producedTypes>
+  <name>ВидыРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды реквизитов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1482fe6-de32-4e41-8c50-dd06e33fd8bf">
+    <name>СтандартныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартные реквизиты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="555762bb-9105-4765-811a-ee0573adbc31">
+    <name>СтандартныйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="429838e8-8d12-4ac4-90ae-d9d8759e8d41">
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63ff8dd1-911c-43ec-bc43-96d345a95f5b">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d10adbea-214d-4171-b154-d13dad4791be">
+    <name>Измерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08aed2de-9e83-4822-b85a-d8a2c1844fb9">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="467fbd8b-ef89-4406-ac0d-71de120b3216">
+    <name>Ресурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="627ca019-c081-4b61-9e66-2c1e6282e715">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47dcbdf2-5b4a-47fb-8851-ca8edd974115">
+    <name>РеквизитыАдресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты адресации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9464281-c313-4b11-816e-3128c3401e55">
+    <name>РеквизитАдресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит адресации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f392ba86-b8a3-42b2-8d3b-67578099bb09">
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e47d0dff-6722-49a0-baca-b5113a64054d">
+    <name>ПризнакиУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признаки учета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfed3544-25d4-46a6-be85-201729cd7e9b">
+    <name>ПризнакУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак учета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a30c0a8d-2d57-49ba-abd4-06e60788f4ae">
+    <name>Графы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf9a6900-4e98-4aee-ab18-fe8fb7d2ff5c">
+    <name>Графа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

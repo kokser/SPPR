@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7515d3e-7716-4766-88be-8f4bde437243">
+  <name>ФорматироватьСхему</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматировать схему</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af76d111-dc71-4882-9e9a-2811f5da6924">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделАдминистрирование</picture>
+  </picture>
+  <content>Catalog.Проекты</content>
+  <content>DataProcessor.ВыгрузкаДанныхПроекта</content>
+  <content>DataProcessor.ЗагрузкаДанныхПроекта</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>Catalog.УчетныеЗаписиСинхронизацииФайлов</content>
+  <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>Report.ОбъемНенужныхФайлов</content>
+  <content>Report.СведенияОПользователях</content>
+  <subsystems>НастройкаПараметровСистемы</subsystems>
+  <subsystems>НастройкиИнтеграции</subsystems>
+  <subsystems>Пользователи</subsystems>
+</mdclass:Subsystem>

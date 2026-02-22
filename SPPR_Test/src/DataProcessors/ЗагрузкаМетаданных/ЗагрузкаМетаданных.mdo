@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5266b354-0dfe-4217-a063-4f869f6db871">
+  <producedTypes>
+    <objectType typeId="3fa59a00-98b4-4ef6-b35f-f8a0bfc605be" valueTypeId="c595cc79-b043-4c24-a25f-8b16ad150b8c"/>
+    <managerType typeId="84a8d74f-30f5-4823-9405-8e83d8a11df9" valueTypeId="e7293873-3c15-4b4a-b82f-8519c7b28e24"/>
+  </producedTypes>
+  <name>ЗагрузкаМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаМетаданных.Form.ЗагрузкаМетаданных</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a192d94e-20f1-4887-aeae-f8d64a94224f">
+    <name>ЗагрузкаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка метаданных из информационной базы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="af2616a3-e8a4-4be3-9dbb-8c60ba20f968">
+    <name>ВыгрузкаОбработчиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка обработчиков</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

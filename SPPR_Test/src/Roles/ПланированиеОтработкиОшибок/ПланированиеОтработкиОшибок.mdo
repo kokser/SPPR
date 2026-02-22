@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de2299bb-11f8-43f0-a720-e18bfb39b5bf">
+  <name>ПланированиеОтработкиОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование отработки ошибок</value>
+  </synonym>
+</mdclass:Role>

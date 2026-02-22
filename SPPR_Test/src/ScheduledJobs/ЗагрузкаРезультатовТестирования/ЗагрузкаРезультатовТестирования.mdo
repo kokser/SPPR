@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca4fdcf-37a6-4b49-9c5c-37799d381392">
+  <name>ЗагрузкаРезультатовТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка результатов тестирования</value>
+  </synonym>
+  <methodName>CommonModule.ТестированиеЗагрузкаРезультатовТестирования.ЗагрузитьРезультатыТестирования</methodName>
+  <description>Загрузка результатов тестирования из системы непрерывного тестирования</description>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

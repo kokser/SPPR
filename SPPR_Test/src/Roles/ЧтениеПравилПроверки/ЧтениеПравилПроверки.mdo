@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d7ad2b8-b40c-45dc-958c-59444266c7bb">
+  <name>ЧтениеПравилПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение правил проверки</value>
+  </synonym>
+</mdclass:Role>

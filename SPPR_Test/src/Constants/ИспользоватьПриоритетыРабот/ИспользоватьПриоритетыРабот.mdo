@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa8e1592-7770-43bc-8578-e4d4c9095649">
+  <producedTypes>
+    <managerType typeId="e4806d0a-06d7-4d33-a5d0-a3b31e3766a2" valueTypeId="1f7e8b83-4607-4c79-80d1-70d3dfbc4efc"/>
+    <valueManagerType typeId="68935b0f-4531-44f2-af59-a33b8014e725" valueTypeId="418dd556-74ae-45f6-bfc5-a2f63ed89eb1"/>
+    <valueKeyType typeId="8a80d36c-0605-45a2-9148-607ebabec21d" valueTypeId="4582c004-64ee-43c5-9d4c-c76c2490de7b"/>
+  </producedTypes>
+  <name>ИспользоватьПриоритетыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать приоритеты работ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a92e60e0-f8a4-43e9-92e6-738a7aa9d3a7">
+  <producedTypes>
+    <refType typeId="fffe81d0-b17d-4105-b50a-2912c0c8d3c8" valueTypeId="2bc28c63-2575-47c9-adb3-ad2503951f0a"/>
+    <listType typeId="8fba2678-e62a-46a3-9b7a-0423acfdcdb0" valueTypeId="6f80eadf-67a8-443e-a566-ead9a9f9d341"/>
+    <managerType typeId="fa64139e-f975-46c6-bdd3-4ef61d234822" valueTypeId="4b6c1e3f-d853-4318-bd18-498912dd2788"/>
+  </producedTypes>
+  <name>СпособыСозданияЛокальнойКопииБазыОшибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы создания локальной копии базы ошибки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b8aaa84-f513-4e53-9937-88a8ffc6a93f">
+    <name>СоздаватьКаталогПоКодуОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать каталог по коду ошибки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6cc1219-b37e-4234-84b7-386dc4928718">
+    <name>ИспользоватьОдинКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать один каталог</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1afe9442-ba3b-4be2-b090-1c2b0181534c">
+  <name>НедоступнаяДляВыбораЗадача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недоступная для выбора задача</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.MediumGray</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

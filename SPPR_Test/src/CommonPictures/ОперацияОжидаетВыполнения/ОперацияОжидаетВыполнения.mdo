@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16624e3d-82c8-4302-8d23-095afcc6c8f6">
+  <name>ОперацияОжидаетВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция ожидает выполнения</value>
+  </synonym>
+</mdclass:CommonPicture>

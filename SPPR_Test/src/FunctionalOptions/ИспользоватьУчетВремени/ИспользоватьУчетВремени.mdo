@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2efcdf3b-f870-4444-a56f-fc88bdfea6a2">
+  <name>ИспользоватьУчетВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет времени</value>
+  </synonym>
+  <location>Constant.ИспользоватьУчетВремени</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.УчетВремени</content>
+  <content>Catalog.ВидыДеятельности</content>
+  <content>InformationRegister.ХронометражРабочегоВремени</content>
+  <content>AccumulationRegister.УчетВремени</content>
+  <content>Constant.ВидДеятельностиДляРаботыСОшибками</content>
+  <content>CommonForm.ТекущийХронометраж</content>
+  <content>Constant.ДопустимыйИнтервалОкругленияВУчетеВремени</content>
+  <content>Constant.ОсновнойВидДеятельности</content>
+  <content>Constant.ВидДеятельностиДляРаботыСОшибкамиАвтотестирования</content>
+  <content>Constant.ВидДеятельностиДляРаботыСОшибкамиАудита</content>
+  <content>Report.ЗатратыВремени.Command.ЗатратыВремени</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>Constant.ВидДеятельностиДляСогласованияИзмененийМетаданныхВВетках</content>
+</mdclass:FunctionalOption>

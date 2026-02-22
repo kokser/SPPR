@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a75d7f50-2ac8-4af7-b4a4-6a9966cc0a6d">
+  <producedTypes>
+    <selectionType typeId="5aad6ae2-7b20-4bbb-8c94-6486ae0ab98d" valueTypeId="2a63ad89-7b28-4e6e-8702-96ce0124b81c"/>
+    <listType typeId="dead6b30-20a1-4d01-bb01-01900df7ed70" valueTypeId="cb35995a-2a92-4485-9495-e6590244e96d"/>
+    <managerType typeId="5a97f5ba-3b7e-4718-a368-ace1748be52a" valueTypeId="98c94b85-1203-4ed7-8d94-22d940380806"/>
+    <recordSetType typeId="74f435b1-79a6-40d9-9ca9-06ae959b49ea" valueTypeId="be505ce5-9070-4acc-9bfc-1b489fd233b1"/>
+    <recordKeyType typeId="b93a589b-9a27-4e13-99cf-962204e81ed8" valueTypeId="ba22463f-4f9a-4960-b16c-dc324a644dba"/>
+    <recordType typeId="d598c911-759d-4bc0-ab7d-67339df34a85" valueTypeId="8f6a93d9-fdfe-4f5d-8b85-2a8f2e034e4a"/>
+    <recordManagerType typeId="f34273de-5d9e-4992-a01d-a78cd42fa427" valueTypeId="65c11625-500e-49fe-a1e0-358c98c4d01a"/>
+  </producedTypes>
+  <name>ВыполнениеОбщихЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение общих задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВыполнениеОбщихЗадач.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ВыполнениеОбщихЗадач.Form.ПланированиеВыполнениеЗадачи</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Выполнение общей задачи</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выполнение общих задач</value>
+  </listPresentation>
+  <resources uuid="f7e2f734-c7b8-4b1d-8973-943dd7099a89">
+    <name>ВариантПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант планирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыПланированияОбщихЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыПланированияОбщихЗадач.EnumValue.Версия</value>
+    </fillValue>
+  </resources>
+  <resources uuid="7e5d3593-bfdc-4bdd-b02c-369e3365fb0e">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииПроекта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ВыполнениеОбщихЗадач.Dimension.Проект</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4ac7b440-cc95-4bf2-86f6-7da27db88cff">
+    <name>СборкаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка версии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СборкиВерсии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ВыполнениеОбщихЗадач.Resource.Версия</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e22c8230-a089-490e-9274-9af4a04aab1a">
+    <name>ТехническийПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехническиеПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ВыполнениеОбщихЗадач.Dimension.Проект</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f89a0745-faf8-4e15-a503-2025bc1c8c8d">
+    <name>Библиотека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Библиотека</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="43544fc4-abcf-44f5-834c-005458442591">
+    <name>СтатусВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус выполнения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыОбщихЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыОбщихЗадач.EnumValue.ТребуетсяЗапланировать</value>
+    </fillValue>
+  </resources>
+  <resources uuid="25abf65c-2fbf-49cf-8ca8-ee4ebaaa5620">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85e51d82-c393-40ec-af60-24b065ce4df1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b18e7efe-de23-4300-bffb-23408fa182a3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="26c9b30a-9397-4140-a0ec-f79f482894bb">
+    <name>СрокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4558547f-0382-469c-bdfd-10db059e7447">
+    <name>ПубликуемыйСрокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикуемый срок выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="80de54e2-1116-419d-b48a-ebc747b3be3b">
+    <name>ОбщаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбщиеЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f4d1245-cd77-44bd-87fb-c04b5ad1ba52">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="10ca895f-3478-475d-b379-7a8c0b4220f3">
+    <name>ПланированиеВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование, выполнение задачи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38c4df46-f1fd-4aa6-b962-7b46d76dc7fc">
+    <name>ИсторияПланированияВыполненияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>История планирования, выполнения задачи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ecca0e55-2a3d-4ea8-bf47-13e9560474c5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="421d44e8-d755-493c-ab9f-7eba554b37bb">
+    <name>ОбщиеЗадачиПоОтветственному</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие задачи (по отвтственному)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52d431a0-18d9-42b5-a2f3-25c999395a6a">
+    <name>ВыборДействияПоОбщейЗадаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия по планирования, выполнению общих задач</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8b0f6baf-b202-4eb8-b9b3-6652f76432cd">
+    <name>ПланированиеВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование, выполнение задачи</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ОбщиеЗадачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="ddeeb162-dff5-44f7-b69a-b2920522a793">
+    <name>ИсторияПланированиеВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>История планирования, выполнения задачи</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ОбщиеЗадачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

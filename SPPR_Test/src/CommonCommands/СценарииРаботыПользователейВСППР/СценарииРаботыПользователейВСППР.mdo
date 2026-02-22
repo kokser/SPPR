@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e354108-160c-4176-893c-aebdf83d4f36">
+  <name>СценарииРаботыПользователейВСППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии работы пользователей в СППР</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

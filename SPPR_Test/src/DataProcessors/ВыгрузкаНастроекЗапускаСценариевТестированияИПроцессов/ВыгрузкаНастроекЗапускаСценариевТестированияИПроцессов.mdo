@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f23cdb79-7c1e-438b-9ec4-fba724e16059">
+  <producedTypes>
+    <objectType typeId="85c15053-1db4-4d5a-a4b2-8ef23ca126e6" valueTypeId="97ea55c9-696d-4fa9-b886-feaafd4cca4a"/>
+    <managerType typeId="0f09e6c3-959f-43a0-b1bd-57d952e34477" valueTypeId="684bbad6-469d-4aca-9409-1bbcc2d91cfc"/>
+  </producedTypes>
+  <name>ВыгрузкаНастроекЗапускаСценариевТестированияИПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка настроек запуска сценариев тестирования и процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаНастроекЗапускаСценариевТестированияИПроцессов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="1bcc86de-32db-4ae3-867d-1b1711ee5373">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

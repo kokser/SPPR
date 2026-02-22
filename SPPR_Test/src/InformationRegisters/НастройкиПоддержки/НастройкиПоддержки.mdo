@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e216c5a3-ceef-4bad-ab7a-2c11068b1713">
+  <producedTypes>
+    <selectionType typeId="9e229c22-5dff-44bf-bc7c-48ae282264fb" valueTypeId="9a8311de-d0f2-4b8f-8a06-d522c09e0f1d"/>
+    <listType typeId="5934d832-034b-4b99-9179-8d8efc5d94a0" valueTypeId="0a471ce6-13e8-43b4-9040-affe40c2079c"/>
+    <managerType typeId="ab8d8938-3651-405f-a454-74fa3591b332" valueTypeId="f00267a7-ad9d-492a-bcfd-63cd1ea02ab4"/>
+    <recordSetType typeId="600b007f-f799-447b-8e8c-09f5f5a04127" valueTypeId="8ad20213-627d-43a0-bf46-7372fde71193"/>
+    <recordKeyType typeId="4cf34c7c-f04e-469f-aae6-b7863adcaea0" valueTypeId="ce54314d-bf0f-4840-b128-d469ad010a7e"/>
+    <recordType typeId="f5bfb85b-8767-4741-b601-e70059a26a8f" valueTypeId="e24c3e53-dbd8-4d30-8d57-969e3d4e5229"/>
+    <recordManagerType typeId="a1046542-34f3-4741-9bd4-19d170c2b579" valueTypeId="3a295b87-acde-478e-acd3-9ad2e8245b20"/>
+  </producedTypes>
+  <name>НастройкиПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки поддержки</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.НастройкиПоддержки.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка поддержки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки поддержки</value>
+  </listPresentation>
+  <resources uuid="cdc0729c-223c-4e5f-ade6-f662fa7dc231">
+    <name>ПравилоПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило поддержки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПравилаПоддержки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило поддержки:
+ 0 - Не редактируется 
+ 1 - Редактируется с сохранением поддержки
+ 2 - Снят с поддержки
+</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="391582eb-42d6-44c6-a68c-131cb358c58b">
+    <name>ПравилоПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило поставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПравилаПоставки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило поставки
+ 0 - Изменения разрашены
+ 1 - Изменения не рекомендуются
+ 2 - Изменения запрещены
+ -1 - Включение в конфигурацию не рекомендуется</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b71cf5a4-8c7f-4b17-b999-dfb7da49d70a">
+    <name>ОбъектПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>UUID Объекта поставщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="cdba0c04-6124-4b79-b831-397d09225399">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="d21ddf29-e3b7-40c0-a4bf-84b6417337ed">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bc72e12-b264-407c-80bd-f38481d1ea07">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РеквизитыОбъектовМетаданных</types>
+      <types>CatalogRef.Подсистемы</types>
+      <types>CatalogRef.МакетыОбъектовМетаданных</types>
+      <types>CatalogRef.ФормыОбъектовМетаданных</types>
+      <types>CatalogRef.Проекты</types>
+      <types>CatalogRef.ПредопределенныеДанные</types>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+      <types>CatalogRef.КомандыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fb01180a-414f-4c93-88d6-3e429ee45b25">
+    <name>КонфигурацияПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация поставщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="847a8328-82a2-4686-9414-9145b91ac1b6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2ff603f0-d263-4ff8-a61b-0e6c19e17916">
+    <name>НастройкиПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки поддержки</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.РеквизитыОбъектовМетаданных</types>
+      <types>CatalogRef.Подсистемы</types>
+      <types>CatalogRef.МакетыОбъектовМетаданных</types>
+      <types>CatalogRef.ФормыОбъектовМетаданных</types>
+      <types>CatalogRef.Проекты</types>
+      <types>CatalogRef.ПредопределенныеДанные</types>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+      <types>CatalogRef.КомандыОбъектовМетаданных</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

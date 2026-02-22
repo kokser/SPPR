@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8171cd35-39a5-4432-a43b-292ac4b8b0e4">
+  <producedTypes>
+    <managerType typeId="690e5761-c112-4033-b65f-3a4121747b38" valueTypeId="1bb80bb9-5d7d-466c-b488-297922a03036"/>
+    <valueManagerType typeId="ffa09b6c-20a4-4e5a-8f99-83fbd6cb9760" valueTypeId="bfc6c30c-fbf9-4be9-b6ac-f26e0dc42165"/>
+    <valueKeyType typeId="481ffc2b-37c8-407d-ab34-4bc065c88b89" valueTypeId="fa0a5d78-013c-4b9c-8f6b-11aa86276fda"/>
+  </producedTypes>
+  <name>НачалоИнтервалаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало интервала рабочего времени</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <format>
+    <key>ru</key>
+    <value>ДФ=ЧЧ:мм</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ДФ=ЧЧ:мм</value>
+  </editFormat>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

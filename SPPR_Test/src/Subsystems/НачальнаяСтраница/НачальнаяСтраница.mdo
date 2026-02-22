@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53a751d7-7d48-4585-8e0f-c269fe82ba23">
+  <name>НачальнаяСтраница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальная страница</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема, содержащая объекты, размещаемые на начальной странице.</value>
+  </explanation>
+  <content>CommonCommand.ПанельОтчетовНачальнаяСтраница</content>
+  <content>CommonCommand.ДополнительныеОбработкиНачальнаяСтраница</content>
+</mdclass:Subsystem>

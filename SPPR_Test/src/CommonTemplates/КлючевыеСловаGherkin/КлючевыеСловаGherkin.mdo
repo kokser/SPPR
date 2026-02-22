@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0901a74a-51c9-46e4-9443-4aaa212b9c4b">
+  <name>КлючевыеСловаGherkin</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые слова gherkin</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

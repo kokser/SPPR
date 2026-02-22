@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba3dc015-cc17-43fb-a2f0-15de69600c0f">
+  <producedTypes>
+    <containerType typeId="30a4c456-ea54-40aa-8ee6-6e3a00cb619a" valueTypeId="45cc994d-5488-434a-88e3-d1e99020996c"/>
+  </producedTypes>
+  <name>ИмяВеткиРепозитория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя ветки репозитория</value>
+  </synonym>
+  <comment>Имя ветки репозитория Git</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

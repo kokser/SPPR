@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87bdd27c-47b5-4d1f-b5fc-90c655ad8b2e">
+  <name>НаправитьНаПроверкуЗадачу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направить на проверку задачу</value>
+  </synonym>
+</mdclass:CommonPicture>

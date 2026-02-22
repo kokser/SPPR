@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60657bf0-d62a-4089-94ef-db1f493fa300">
+  <producedTypes>
+    <refType typeId="cebe7d6d-9de7-4a14-b786-9c930a5a2692" valueTypeId="11edcba3-1ecb-42c2-9505-c38f3e424653"/>
+    <listType typeId="84b9871b-891f-4ae2-8a41-d9193fe966c4" valueTypeId="c329c422-9799-4cb7-a245-f88a5b1e137b"/>
+    <managerType typeId="58abd455-b0b2-4924-8588-4786170c7296" valueTypeId="c16be0a0-9e8b-4930-812e-5553e3156f90"/>
+  </producedTypes>
+  <name>ВариантыИсправленияОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты исправления ошибок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c25b4f2e-5f1e-46c7-ac99-7ba4b628f3aa">
+    <name>ТолькоВВеткеОбнаружения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в ветке обнаружения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc446719-2250-45b0-a1ff-afccdcb39038">
+    <name>ТолькоВОсновнойВеткеПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в основной ветке проекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="184e6869-1bcb-4ede-b3af-f848cd250ab7">
+    <name>ВРазныхВетках</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разных ветках</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="520eacb0-4f27-40ff-8cab-f35bc112286a">
+    <name>БезИзмененийВВетках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без изменений в ветках</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="242dbf04-50d4-4a23-b0f2-923e43c83810">
+  <producedTypes>
+    <refType typeId="2f1e1b60-dae7-4508-b7e7-5d2690765ead" valueTypeId="49b1a2d1-7bfe-4fbc-9c58-70207d532842"/>
+    <listType typeId="5ff5f49c-8e55-49b6-b6aa-50071ff8c0e5" valueTypeId="9011722c-9493-40f7-bbe7-930f1eba4978"/>
+    <managerType typeId="91bcb72e-5162-4371-9796-6ea6aafca52b" valueTypeId="fef880d0-158b-43d5-a7eb-269c517a91de"/>
+  </producedTypes>
+  <name>ПериодичностьПланов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность планов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9407223e-bafc-49c1-923b-8f3f43d2a497">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb9377d7-46db-48c7-bfab-58a8a6beeedf">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ecfaeb8-39fb-4c7e-acad-c1116d60a977">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99c102a4-de9c-4446-a3aa-f41c46c7b182">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1673b5a6-3ba8-4916-a20d-01f1b59f75c4">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

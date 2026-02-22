@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cda6d011-d7c5-4620-8429-b1e8dc5382f0">
+  <producedTypes>
+    <objectType typeId="f32d3b11-60ca-4a5f-942a-84e1e3effb14" valueTypeId="40d89804-f32b-45ff-8ff7-a968e3e7e483"/>
+    <managerType typeId="69a9c405-3138-4223-9a72-6ad658cd4602" valueTypeId="8e89c925-b756-4a3f-81ee-b1d42e3bc368"/>
+  </producedTypes>
+  <name>СправкаОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка объектов метаданных</value>
+  </synonym>
+  <defaultForm>DataProcessor.СправкаОбъектовМетаданных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d8facaa7-9ed7-407e-8c00-3f17324f37d3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4ccc6fb-da95-46c6-9714-9b38dded15f3">
+    <name>ИсторияИзмененийСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменений справки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ddb2307a-bfbe-417f-a4d4-886460aecb4a">
+    <name>СправкаОбъектовМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка объектов метаданных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

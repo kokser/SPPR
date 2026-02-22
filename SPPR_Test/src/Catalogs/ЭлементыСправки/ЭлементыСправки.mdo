@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e886dd-e657-4151-b78e-3695da2d2a17">
+  <producedTypes>
+    <objectType typeId="296e625a-b003-46df-8b6c-0d4613c28d6d" valueTypeId="f21a3b7d-ac37-4baf-b7cb-aaaac3b2621c"/>
+    <refType typeId="70a6370b-13ca-43ba-a611-bed9691c4611" valueTypeId="5e283b33-9f7c-4fa2-bb76-51748cb8894b"/>
+    <selectionType typeId="98533b77-bcb7-4f20-8131-1edd92bbe7a9" valueTypeId="05fee164-94cc-4aa2-a8ce-29e3206f0555"/>
+    <listType typeId="3cd0e6fc-bb52-41d4-a6f2-4ac1cc75d9d2" valueTypeId="cc0abb75-855c-4bae-9991-908a82927edc"/>
+    <managerType typeId="d03362d2-7471-401b-8585-dd00b37a3225" valueTypeId="5c7430f0-81ed-4bc7-b81a-6696e12a93ba"/>
+  </producedTypes>
+  <name>ЭлементыСправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы справки</value>
+  </synonym>
+  <inputByString>Catalog.ЭлементыСправки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭлементыСправки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект справки (владелец)</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ЭлементыСправки.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Элемент справки</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ОбъектыМетаданных</owners>
+  <owners>Catalog.Подсистемы</owners>
+  <owners>Catalog.ФормыОбъектовМетаданных</owners>
+  <codeLength>2</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЭлементыСправки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ЭлементыСправки.Form.ФормаЭлемента</defaultFolderForm>
+  <defaultListForm>Catalog.ЭлементыСправки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЭлементыСправки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="604d4336-985d-44bb-b9e2-cbbae01a53c3">
+    <name>ТекстСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст справки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40ebf287-e42c-4399-b4e3-2a984e551ef9">
+    <name>СтильФорматированияСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стиль форматирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтилиФорматирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80b897c1-ef3a-4e21-9c7d-d8e94ab6b8e8">
+    <name>ПолныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb14177c-0bf4-4042-9d31-7b72dd84efe0">
+    <name>ПодменяющийЭлементСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подменяющий элемент справки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭлементыСправки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e44aff8-f551-478b-8a20-37c0a6538f86">
+    <name>ВключатьВСправку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать в справку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f74cb559-7a25-4c5c-9fb4-3d753ba4bfb4">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2603986-5edc-4713-9b64-c277357fcb2d">
+    <name>ПроектыВключающиеСправкуСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведение справки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3df168b8-50e6-4299-a9ba-b209f3315924">
+    <producedTypes>
+      <objectType typeId="fbf723f4-4426-4bc7-9ac2-67f770a85aa4" valueTypeId="e45615d9-8ab4-42dc-8a4b-7204c99e467a"/>
+      <rowType typeId="6314c6a2-aecc-4547-857c-1b7cfd554da4" valueTypeId="6923a796-ce0a-4493-a463-4eb594a7a7f8"/>
+    </producedTypes>
+    <name>ГиперссылкиДляСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гиперссылки для справки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="58d14e7e-61d1-4b4a-97d7-5f7660577452">
+      <name>ТекстГиперссылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст гиперссылки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17e47537-a640-429a-b0ba-585eb7aa801d">
+      <name>Гиперссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гиперссылка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подсистемы</types>
+        <types>CatalogRef.ФормыОбъектовМетаданных</types>
+        <types>String</types>
+        <types>CatalogRef.ОбъектыМетаданных</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Владелец</name>
+        <field>Catalog.ЭлементыСправки.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a84b0987-a366-41a0-a35c-0801b25ae46f">
+    <producedTypes>
+      <objectType typeId="5b4c9c7a-f1d1-4cd5-91b4-319838ff4a08" valueTypeId="17aecd28-d2d3-44e5-aef3-be024b0629d2"/>
+      <rowType typeId="c4226305-c6a5-4523-bed0-a410496dedfb" valueTypeId="6b01744b-b1d8-4f3e-9375-e0f56e9e03fe"/>
+    </producedTypes>
+    <name>КартинкиДляСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки для справки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="21695953-a175-4135-b088-cd5b36a71d79">
+      <name>НазваниеКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название картинки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f166b313-7167-49df-b7b7-e7360aecb5da">
+      <name>Картинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КартинкиСправки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="683952a7-2f45-488d-9b82-ece19da6cd44">
+    <producedTypes>
+      <objectType typeId="bc4af59f-26ae-4688-8eec-af2e99773870" valueTypeId="76865b3e-2607-4fb0-b6f6-d646cb1eb35b"/>
+      <rowType typeId="b15d2194-f468-4b11-9e53-9a43f9f74f23" valueTypeId="1f4a6d5f-e933-4df5-90c7-a76fe3536146"/>
+    </producedTypes>
+    <name>ПроектыВключающиеСправку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты включающие справку</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4991763d-0ab1-4d20-9559-39914c7262ff">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2771dc55-3937-4ce8-beba-23390a28393b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2700bfb9-b599-4a57-b3d9-caacdfecc186">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bad2082d-da55-4be3-93d1-eeacf83d1315">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90246596-ff3e-45ec-912f-3b9ddbc8e27a">
+    <name>ГрупповоеРедактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка ведется для:</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

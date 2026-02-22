@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a0e4ad0-1b56-495a-a53a-f9d437efd83b">
+  <name>ОбщаяЗадачаЗапланирована</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общая задача запланирована</value>
+  </synonym>
+</mdclass:CommonPicture>

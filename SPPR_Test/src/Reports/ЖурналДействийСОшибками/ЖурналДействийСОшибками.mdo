@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e8920a4-2268-4fa1-ab57-1aff39b160e9">
+  <producedTypes>
+    <objectType typeId="b4ad3c09-62c4-4ed9-8c8b-9cdc1fef4339" valueTypeId="5925e158-ab76-4df4-9dc9-de44fd99726e"/>
+    <managerType typeId="914b065c-af4f-459e-8d32-c9385e8c0c94" valueTypeId="6b965ad3-4f5c-4775-831f-876b58eb5767"/>
+  </producedTypes>
+  <name>ЖурналДействийСОшибками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал действий с ошибками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЖурналДействийСОшибками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="bdcd3a1b-cba8-4d50-884d-82ba51d096b6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ef6929f-b36f-4ef5-b904-3bf5f52bb2a1">
+  <producedTypes>
+    <refType typeId="d80869c0-266c-4dd2-9bda-1f692355d0b6" valueTypeId="f8db817b-3f8d-4dcf-8721-95aa8ec7d297"/>
+    <listType typeId="e5ffb30f-1078-4361-8f62-3bbf12839373" valueTypeId="2e56eb59-c1cd-486e-b435-1d18e0f3157c"/>
+    <managerType typeId="7cf91bb1-4c06-473b-8b4d-df4a55d00cbd" valueTypeId="573e2656-c855-4345-83d5-4fa8748295d9"/>
+  </producedTypes>
+  <name>СтатусыВыполненияТеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы выполнения теста</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a1b7e82-e73e-4d5d-84fe-52d628725609">
+    <name>ВыполненУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94675c93-8c71-405b-9838-0ba1ba2153bb">
+    <name>ВыполненСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e6f6604-975c-42f8-98c7-3eb5e1ca2862">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2f5119c-4267-4d27-b45f-4547822efe77">
+    <name>НеЗапускался</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не запускался</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

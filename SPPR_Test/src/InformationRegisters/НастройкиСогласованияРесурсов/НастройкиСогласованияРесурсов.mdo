@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9093670-5773-48f1-a59b-0d47771380fd">
+  <producedTypes>
+    <selectionType typeId="e0b59376-5b3f-4a26-8eff-24d561fb2db8" valueTypeId="2e4ed21c-4c44-45b9-b37d-7f748aa404bb"/>
+    <listType typeId="bc623c49-a43f-412f-995b-3b6a316e8923" valueTypeId="9ce009dd-7357-45f7-8aec-054421057b4d"/>
+    <managerType typeId="f95d3e47-88b8-4a31-b511-e48e604dc73e" valueTypeId="6f0898b6-304b-4052-a256-20109d86fcbb"/>
+    <recordSetType typeId="bb902a59-cfdf-43ae-ba4a-69440a2f7ddc" valueTypeId="0122622a-4985-4d8d-b173-5f49f3ea4de8"/>
+    <recordKeyType typeId="deb6cc84-3976-4245-9b73-ee858a63de06" valueTypeId="b9a6f527-c3e7-4351-bd09-0a2d22a3f109"/>
+    <recordType typeId="32b45da0-5c22-40a3-a3b3-8f4a7d46e134" valueTypeId="7b51a748-dd3b-4175-8132-e7da662634dd"/>
+    <recordManagerType typeId="38028154-ef51-48f8-a1f7-f61d9f1e2fdf" valueTypeId="392f0881-949c-4159-99db-e782583be4ae"/>
+  </producedTypes>
+  <name>НастройкиСогласованияРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки согласования ресурсов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="574a2526-2499-4617-9cc0-ecc5f6031a68">
+    <name>ВидСогласуемогоРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид согласуемого ресурса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСогласуемыхРесурсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae4e6caa-e953-47c5-83fc-43bb894c9462">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="35c8fd46-5388-42b8-8e4c-625249ffca59">
+    <name>Согласующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласующий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

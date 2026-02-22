@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b0e533-e3c1-4a1b-a6d7-12170f4fa0ee">
+  <name>Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделТестирование</picture>
+  </picture>
+  <content>Catalog.СценарииРаботыПользователей</content>
+  <content>Report.СтатусПрохожденияТестовВВетке</content>
+  <content>Catalog.НастройкиЗапускаСценариев</content>
+  <content>Catalog.ЭталонныеБазыТестирования</content>
+  <content>Catalog.ШагиСценариевПользователя</content>
+  <content>Catalog.Ветки</content>
+  <content>Catalog.Тесты</content>
+  <content>Catalog.Процессы</content>
+  <content>Catalog.НастройкиЗапускаПроцессов</content>
+  <content>Document.ЗапускТестирования</content>
+  <content>Report.ОшибкиСОдинаковымиПроблемнымиОбъектами</content>
+  <content>DataProcessor.ПланировщикУправленияТестированием</content>
+  <content>Report.ТестыЗаблокированныеОшибками</content>
+  <content>CommonCommand.ПрисоединенныеФайлыРепозитория</content>
+  <content>CommonCommand.ПанельОтчетовТестирование</content>
+  <content>Catalog.НастройкиЗапускаТестирования</content>
+  <content>CommonCommand.НастройкиСценарияВРепозитории</content>
+  <content>FunctionalOption.РазрешенаРаботаСоСценариямиРаботыПользователейВСППР</content>
+  <content>CommonCommand.СценарииРаботыПользователейВСППР</content>
+  <content>CommonCommand.СценарииРаботыПользователейВGit</content>
+  <content>CommonCommand.НастройкиЗапускаСценариевСППР</content>
+  <content>Enum.ВариантыЗапускаТестов</content>
+  <content>CommonCommand.ДополнительныеОбработкиТестирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыТестирование</content>
+</mdclass:Subsystem>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="648cd31d-aecd-451a-add2-084cfad37b76">
+  <producedTypes>
+    <refType typeId="17dbe7a3-32e5-4564-8b40-4c479b6ead2c" valueTypeId="41c74fbe-a383-4001-91f6-a315f906885e"/>
+    <listType typeId="20ff0466-a74c-45a8-8f34-fb235e269cad" valueTypeId="e1b22465-5363-4526-b1c7-765df96b5038"/>
+    <managerType typeId="77378c35-9d04-41ec-890d-31c72743f716" valueTypeId="04210521-d1ab-40f4-a455-00df724f59ce"/>
+  </producedTypes>
+  <name>ПравилаПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила поставки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aadb24b0-db8a-4080-9fdb-6e06a002e86d">
+    <name>ИзмененияРазрешены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения разрешены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d41de97-ffd2-45ae-9db0-5d4b44f4f895">
+    <name>ИзмененияНеРекомендуются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения не рекомендуются</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b9c2709-e32d-4117-b3cd-c5baebf7f32a">
+    <name>ИзмененияЗапрещены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения запрещены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79bae745-556c-4975-96bc-40945e778bb9">
+    <name>ВключениеВКонфигурациюНеРекомендуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включение в конфигурацию не рекомендуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

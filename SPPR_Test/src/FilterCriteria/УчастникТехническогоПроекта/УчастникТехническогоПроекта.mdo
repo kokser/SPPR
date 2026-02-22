@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b761bfa4-cb1f-42a0-b87b-53e47d6460fe">
+  <producedTypes>
+    <listType typeId="8d7dcaa8-7338-4697-8ba6-6b9115ff2448" valueTypeId="d6b49f79-4e43-4972-b2b6-633d8ef7187f"/>
+    <managerType typeId="1a0168e1-3ae4-4dae-849d-22fcef99eb36" valueTypeId="131d2d52-549f-42bd-8b55-78fcf3230254"/>
+  </producedTypes>
+  <name>УчастникТехническогоПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участник технического проекта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <content>Catalog.ТехническиеПроекты.TabularSection.Участники.Attribute.Участник</content>
+</mdclass:FilterCriterion>

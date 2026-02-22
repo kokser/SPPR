@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f04b5f8d-e143-4e17-a7cf-d6e95f0b9cad">
+  <producedTypes>
+    <refType typeId="83bb84a7-d697-403f-b3e7-8c4bb9d2b130" valueTypeId="179b8e63-119e-4086-9823-d161ba356b0c"/>
+    <listType typeId="cf4b63fc-d3de-4de3-8825-95cc81c7f753" valueTypeId="291c4487-a454-4025-8ded-ae6c61894286"/>
+    <managerType typeId="324b5d03-566a-4557-af20-c014e3a6de66" valueTypeId="6794bfc5-91d2-4e51-9fbe-742927814596"/>
+  </producedTypes>
+  <name>ВидДвиженияРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид движения регистра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5cbd653a-36a3-4500-b1aa-453012034fc4">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc752c79-2578-4153-9ba8-764c44dabb9c">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0253f9c-b820-4027-bc37-80373eef888b">
+    <name>Оборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9e872d0-7075-497f-bab5-d5827841c2e7">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cbd94bf-c17d-4456-99f7-8d9b34b57b01">
+  <producedTypes>
+    <refType typeId="771ecf24-fa17-4973-9ce8-663a771313cd" valueTypeId="42862096-3626-4089-a367-50e8195f97c8"/>
+    <listType typeId="b562f164-76b7-4e4c-8576-0580ad268a48" valueTypeId="eef03cd9-134c-4bf4-8485-5276a09c4672"/>
+    <managerType typeId="41caed98-4b69-4336-9750-fbd4e3ff0b8a" valueTypeId="69bbef14-b365-4474-b952-8c236d15ed8e"/>
+  </producedTypes>
+  <name>РежимыВыполненияОтложенныхОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы выполнения отложенных обработчиков обновления</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4b9866d-9027-4b73-9009-9d4f677a61a0">
+    <name>Параллельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параллельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="814bc5ca-c2e2-4218-954a-049cd3fd4d0e">
+    <name>Последовательно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

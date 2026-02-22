@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0ecead6-bd3d-4e88-97ae-4481c30b0947">
+  <name>АктуализироватьВидыДеятельностиПоСтатистике</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализировать виды деятельности по статистике</value>
+  </synonym>
+</mdclass:CommonPicture>

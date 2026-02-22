@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6711d32-492f-4c9e-84a6-4d83fc707552">
+  <name>ЗакрытьОшибкуИНаправитьНаОзнакомление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть ошибку и направить на ознакомление</value>
+  </synonym>
+</mdclass:CommonPicture>

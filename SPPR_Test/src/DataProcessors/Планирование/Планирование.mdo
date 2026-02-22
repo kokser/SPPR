@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e170923c-4602-48f2-a1fe-ed1c12c84450">
+  <producedTypes>
+    <objectType typeId="1f0bea3f-cab1-4ad1-b9f7-ed9108aefb35" valueTypeId="485c3783-79ba-4b58-af7a-b28f15b1f769"/>
+    <managerType typeId="9674288f-85c2-4ad8-8b85-8f8f4ff74a5b" valueTypeId="6b4c1950-81ab-4fb4-8b60-94e897c711f1"/>
+  </producedTypes>
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <defaultForm>DataProcessor.Планирование.Form.РабочееМесто</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="31c0f358-e6a6-4b65-81fc-44aa4e73151e">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f74c5ea9-0307-40e1-b18c-e312cda25503">
+    <name>УчастникиПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участники планирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48a26da2-a364-493f-8d67-289cf07c5ed9">
+    <name>ПрочиеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие работы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5546d887-9603-4382-a4d2-9e7d7a6545dc">
+    <name>ВопросПриЗаполненииПоСтатистике</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос при заполнении по статистике</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1de0e02c-5396-4430-9342-dda1cedd2abf">
+    <name>РедактированиеЗаписиСоставлениеПланов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование записи составление планов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36d1877a-e4c1-4455-af44-64b452f72244">
+    <name>РедактированиеЗаписиПодведениеИтогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование записи подведение итогов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe540439-9cb5-4276-9870-84f1cb30bf3c">
+    <name>НастройкаГрупировкиОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка групировки ошибок</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a69b3309-84ab-4a12-a7bb-0a90452badef">
+    <name>ПланЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>План занятости</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b59633e1-167c-4162-8072-4ca775ad97ab">
+    <name>ОтборПоГруппаРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по группа разработки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49b233da-ba0b-460b-ba19-5f41235b99ba">
+    <name>ПодборТехническихПроектовПланЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор технических проектов план занятости</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="009283c6-1e66-481c-aa9a-36c65ec3005f">
+    <name>РаспределениеНераспределенного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение нераспределенного</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79371eff-bce6-4c11-b3b5-77b1b303a821">
+    <name>РаспределениеЭтапТехническогоПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение этап технического проекта</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2f268ba-2075-4304-8d57-cd69bb1f7b90">
+    <name>ИзменениеДат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение дат</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfab24b1-71c4-4510-8c11-3990b62d8f3c">
+    <name>ОтборПоСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по СКД</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1cb99caf-a548-4896-abb2-d4b7a5fafb9d">
+    <name>ПрочиеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие работы</value>
+    </synonym>
+  </templates>
+  <templates uuid="fef4ce58-07eb-43ad-9117-b736b0baccee">
+    <name>ОтборПоТехническимПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по техническим проектам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="90657867-079e-4841-b919-7a7ce886d068">
+    <name>ОтборПоСотрудникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по сотрудникам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="9617aee0-8147-4b99-bb3b-cc2a060f775b">
+    <name>РабочиеПланы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочие планы</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="fe005d35-8d1a-4fa0-a2d6-ecc7443cd8c6">
+    <name>ПланыЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы занятости</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

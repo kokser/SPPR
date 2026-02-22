@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e30bb8b-4439-4561-8063-7025a5c6bbcf">
+  <producedTypes>
+    <objectType typeId="59c5bc7a-f253-46d5-86a6-c184032b01ea" valueTypeId="01a47676-d6e4-4347-bd44-5ebb8b2226dc"/>
+    <managerType typeId="aa8d664b-cbd2-40cd-995a-9d6e51981cae" valueTypeId="d09011bd-aba9-47a5-adfd-451ad9c31237"/>
+  </producedTypes>
+  <name>ГрафикВыполненияТехническихПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>График выполнения технических проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ГрафикВыполненияТехническихПроектов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ГрафикВыполненияТехническихПроектов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b21ad661-20a2-4f62-93a2-f1f2821566c1">
+    <name>ДеревоПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево проектов</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aea48c34-7dc8-4f4e-b328-24fb5e894451">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="26b304a4-3142-44c2-a5c8-46273e5d917b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

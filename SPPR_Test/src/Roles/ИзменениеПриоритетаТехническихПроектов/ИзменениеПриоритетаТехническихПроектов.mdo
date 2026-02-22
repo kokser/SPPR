@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee28ee4f-2ba7-4105-8bb1-b18a3ad89823">
+  <name>ИзменениеПриоритетаТехническихПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение приоритета технических проектов</value>
+  </synonym>
+</mdclass:Role>

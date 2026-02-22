@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a16f25-b261-40e3-b10b-618cd0ddf5f4">
+  <name>ИспользоватьСсылкиИзОбъектовМетаданныхКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ссылки из объектов метаданных контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьСсылкиИзОбъектовМетаданных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.СсылкиНаОбъектМетаданных</content>
+</mdclass:FunctionalOption>

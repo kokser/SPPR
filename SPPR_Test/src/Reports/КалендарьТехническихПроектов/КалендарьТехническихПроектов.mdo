@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11c912f-69a7-484e-bbd9-49747a79e4ed">
+  <producedTypes>
+    <objectType typeId="ffdac87e-26c8-40e1-aed0-2c0b252db91b" valueTypeId="9e3eba74-c50e-463c-b727-686c9eb0033b"/>
+    <managerType typeId="598185ef-5557-4d3d-a2d8-9be4813def3f" valueTypeId="5c45e110-7a25-4058-b01e-8605e7d729cc"/>
+  </producedTypes>
+  <name>КалендарьТехническихПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь технических проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КалендарьТехническихПроектов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="06a0f1de-10de-4909-b1b8-0499c9b0695c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dac60d4-d0f7-4360-909d-1b312aee0198">
+  <name>СинхронизацияСРазрабатываемойКонфигурацией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация с разрабатываемой конфигурацией</value>
+  </synonym>
+  <methodName>CommonModule.ЗагрузкаМетаданных.ЗагрузитьМетаданныеИОбработчики</methodName>
+  <description>Загрузка метаданных проекта</description>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

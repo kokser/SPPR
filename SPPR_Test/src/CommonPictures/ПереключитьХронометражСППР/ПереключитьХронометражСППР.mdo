@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0975b73f-7379-4840-bdec-8750f97fec4f">
+  <name>ПереключитьХронометражСППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переключить хронометраж СППР</value>
+  </synonym>
+</mdclass:CommonPicture>

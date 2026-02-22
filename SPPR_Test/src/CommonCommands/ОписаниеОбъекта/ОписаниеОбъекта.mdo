@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a45a0cf-14a3-443a-84ee-ac4d93a67f1c">
+  <name>ОписаниеОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DefinedType.ВерсионируемыйОбъект</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сформировать описание объекта</value>
+  </toolTip>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

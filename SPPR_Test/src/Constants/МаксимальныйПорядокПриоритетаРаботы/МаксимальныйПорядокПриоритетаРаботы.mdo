@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e3b7130-d48c-4331-9461-ce0662aa6a66">
+  <producedTypes>
+    <managerType typeId="81329a74-cb89-4730-90f9-078ef84ba5c3" valueTypeId="6502fbba-762d-4a39-b9ab-e0e143a3fd27"/>
+    <valueManagerType typeId="031b0cae-945d-422e-996b-4bddd66eaf96" valueTypeId="8899bc34-1bf3-4f9b-bdf5-2560cfde4942"/>
+    <valueKeyType typeId="0c658a84-b6f9-4bd0-8bff-9679d9500037" valueTypeId="11474fc3-8c1a-488b-b4e0-b7e9252aa202"/>
+  </producedTypes>
+  <name>МаксимальныйПорядокПриоритетаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный порядок приоритета работы</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

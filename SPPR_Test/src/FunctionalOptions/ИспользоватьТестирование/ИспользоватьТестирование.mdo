@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c1ae8f7-fdda-4fa3-81c1-86aefcd0ff5a">
+  <name>ИспользоватьТестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тестирование</value>
+  </synonym>
+  <location>Constant.ИспользоватьТестирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЭталонныеБазыТестирования</content>
+  <content>Catalog.НастройкиЗапускаСценариев</content>
+  <content>Catalog.СценарииРаботыПользователей</content>
+  <content>DataProcessor.НастройкиЛокальногоЗапускаСценариев</content>
+  <content>Catalog.ШагиСценариевПользователя</content>
+  <content>DataProcessor.ВыгрузкаНастроекЗапускаСценариевТестированияИПроцессов</content>
+  <content>DataProcessor.СборкаТекстовСценариев</content>
+  <content>Subsystem.Тестирование</content>
+  <content>Catalog.НастройкиЗапускаПроцессов</content>
+  <content>Catalog.Тесты</content>
+  <content>Catalog.Ошибки.Attribute.Тест</content>
+  <content>Catalog.Проекты.Attribute.ЗагружатьРезультатыВыполненияТестов</content>
+  <content>Catalog.Проекты.Attribute.РезультатыВыполненияТестовАдресСервера</content>
+  <content>Catalog.Проекты.Attribute.РезультатыВыполненияТестовТокен</content>
+  <content>Catalog.Проекты.Attribute.РезультатыВыполненияТестовИмяПроектаНаСервере</content>
+  <content>Document.ЗапускТестирования</content>
+  <content>Catalog.Проекты.Attribute.НаборСвойствДляПроцессовВыгружаемый</content>
+  <content>Catalog.Проекты.Attribute.НаборСвойствДляСценариевРаботыПользователейВыгружаемый</content>
+  <content>Catalog.Проекты.Attribute.НаборСвойствДляНастроекЗапускаПроцессовВыгружаемый</content>
+  <content>Catalog.Проекты.Attribute.НаборСвойствДляНастроекЗапускаСценариевВыгружаемый</content>
+  <content>DataProcessor.ПланировщикУправленияТестированием</content>
+  <content>Catalog.НастройкиЗапускаТестирования</content>
+  <content>Enum.ПриоритетыТестированияВеток</content>
+  <content>Catalog.Ветки.Attribute.НастройкаЗапускаТестирования</content>
+  <content>Catalog.Ветки.Attribute.ПриоритетТестирования</content>
+  <content>Catalog.Проекты.Attribute.ЗапускатьАвтоматическоеТестирование</content>
+  <content>Catalog.Ветки.Attribute.ДатаНачалаТестирования</content>
+  <content>Enum.ВариантыЗапускаТестов</content>
+</mdclass:FunctionalOption>

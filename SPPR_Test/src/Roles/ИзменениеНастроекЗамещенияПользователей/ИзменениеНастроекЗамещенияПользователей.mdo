@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdef17be-6f0e-4686-aa76-f1cab2e9482f">
+  <name>ИзменениеНастроекЗамещенияПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение настроек замещения пользователей</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e5ba6b2-16d4-4eaf-a695-ec78a7a85565">
+  <producedTypes>
+    <refType typeId="6e55308d-3787-4082-bdeb-23f99b050305" valueTypeId="22308eb4-c90b-4b5d-a08f-f051d3d244d4"/>
+    <listType typeId="9e4d846e-039f-42fe-a01f-27b645afb7dc" valueTypeId="f7703bd2-5a91-46f3-96aa-c63847c398c3"/>
+    <managerType typeId="0cab2995-190c-499d-88cd-c1f85752fca7" valueTypeId="934a27d2-91c3-4c9f-b7d5-028ba536c19f"/>
+  </producedTypes>
+  <name>ТипыГруппировокСтрокПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы группировок строк плана</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b7db89a-58dc-41be-a59b-b2218a448e29">
+    <name>РаботаСОшибками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с ошибками</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="081c4f09-9da6-4029-8f9e-ec283206a980">
+    <name>НеПроектныеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непроектные задачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f131d3ea-a0e8-48be-9e37-836cb6ac860e">
+    <name>ВидыДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1c9ab0a-6e6b-4ea2-a552-256304577b35">
+    <name>ПрочиеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие работы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

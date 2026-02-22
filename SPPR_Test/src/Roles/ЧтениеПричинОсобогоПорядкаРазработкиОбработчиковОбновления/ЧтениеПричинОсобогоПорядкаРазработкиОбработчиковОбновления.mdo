@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84e5a914-c461-4f34-9a42-2dc9f584763a">
+  <name>ЧтениеПричинОсобогоПорядкаРазработкиОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение причин особого порядка разработки обработчиков обновления</value>
+  </synonym>
+</mdclass:Role>

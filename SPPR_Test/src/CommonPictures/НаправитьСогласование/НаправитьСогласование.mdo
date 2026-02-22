@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1ee4f06-0108-4cc9-b895-f58b55086f3a">
+  <name>НаправитьСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направить согласование</value>
+  </synonym>
+</mdclass:CommonPicture>

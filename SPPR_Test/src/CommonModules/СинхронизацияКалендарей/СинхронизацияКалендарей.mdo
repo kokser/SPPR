@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47cefc3d-208b-48e9-a397-2c5d9ce98728">
+  <name>СинхронизацияКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация календарей</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

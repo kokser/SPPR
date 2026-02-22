@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2cc9479-6807-497e-9651-da1a614d399a">
+  <producedTypes>
+    <refType typeId="c7664627-8898-4c57-b44e-67996702e8b0" valueTypeId="1b7e6886-e585-4907-9364-e4010e9d4900"/>
+    <listType typeId="6085541f-73f2-4c43-b022-5d02c7d1c7cd" valueTypeId="d31788d6-583c-4190-afdb-d55c307f1e7a"/>
+    <managerType typeId="71c79b50-8383-4b28-a7e1-7fd330a8be6d" valueTypeId="50a420d7-52c9-43e9-bb02-6b971d6313aa"/>
+  </producedTypes>
+  <name>ВариантыНаправленияОшибокНаЗакрытие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты направления ошибок на закрытие</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b73fb2fb-48a9-4544-b1c2-d11db5281f0e">
+    <name>ОтветственномуЗаПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственному за проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bcfde09-2263-4dd4-889c-d9dc143a88a0">
+    <name>ОтветственномуЗаРаздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственному за раздел</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc168078-ab74-4f27-96a2-e3bf003a1908">
+    <name>УказанномуПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указанному пользователю</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

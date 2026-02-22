@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ade3ef-c39b-4e82-ab51-662ab7b06294">
+  <producedTypes>
+    <refType typeId="91804b5a-6334-4006-af98-187e1b2141e3" valueTypeId="89689fd3-7953-436a-9aae-4f3b67af6452"/>
+    <listType typeId="6f134466-0989-4af4-9337-1cbf3c65f696" valueTypeId="dc8eb99a-c800-40ad-aa47-45c8a13c6cd3"/>
+    <managerType typeId="ee05a6e8-2251-482c-b173-6c82ef5d09fb" valueTypeId="f77574b7-b58e-47d2-83ee-50df4cc90ddb"/>
+  </producedTypes>
+  <name>ТипыМодулейОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы модулей объектов метаданных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b013f78-03d4-41b8-83ce-37bdfee615a0">
+    <name>МодульОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="437c76ce-9f99-48b5-9775-fd2aa0491ab9">
+    <name>МодульМенеджераЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль менеджера значений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d07739f5-e7c6-4663-a0db-6df312adad87">
+    <name>МодульНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль набора записей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e92792-fa37-4446-86de-c6be76899297">
+    <name>МодульМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль менеджера</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

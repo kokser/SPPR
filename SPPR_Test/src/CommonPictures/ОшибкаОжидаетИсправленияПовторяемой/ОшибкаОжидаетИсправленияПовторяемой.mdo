@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ea64d64-cf2b-4c52-b248-62bc16cb89e1">
+  <name>ОшибкаОжидаетИсправленияПовторяемой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибка ожидает исправления повторяемой</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef7e32ae-9c3b-4db9-9697-2c6e9868d319">
+  <name>ОбъектЯвляетсяГруппой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект является группой</value>
+  </synonym>
+</mdclass:CommonPicture>

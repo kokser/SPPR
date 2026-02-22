@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53d2c85a-de27-4031-8f76-1f2f14e78211">
+  <producedTypes>
+    <objectType typeId="f199448c-995c-4ab7-bf76-e6cb783068a3" valueTypeId="5ec81be1-a3bd-4d63-9b2d-e98496898c08"/>
+    <managerType typeId="59f2fb54-6eba-462d-952b-b86bf81f0925" valueTypeId="1bfae2d2-f376-4746-8d8f-ef8abca3c728"/>
+  </producedTypes>
+  <name>ТестыЗаблокированныеОшибками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тесты, заблокированные ошибками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТестыЗаблокированныеОшибками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="8882d650-98f7-45a4-b5c5-42285f69d2db">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

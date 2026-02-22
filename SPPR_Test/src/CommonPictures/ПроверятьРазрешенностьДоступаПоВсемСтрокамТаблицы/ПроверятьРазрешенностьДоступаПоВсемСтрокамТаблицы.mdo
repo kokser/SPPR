@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc893cfa-3c57-4a66-b89a-057d68b56a0c">
+  <name>ПроверятьРазрешенностьДоступаПоВсемСтрокамТаблицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять разрешенность доступа по всем строкам таблицы</value>
+  </synonym>
+</mdclass:CommonPicture>

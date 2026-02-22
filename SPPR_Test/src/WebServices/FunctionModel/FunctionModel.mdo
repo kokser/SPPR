@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d182022-257f-4d60-b36d-3fd52add84a0">
+  <name>FunctionModel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Function model</value>
+  </synonym>
+  <comment>Сервис для работы с функциональной моделью</comment>
+  <namespace>http://www.1c.ru/SPPR/FunctionModel</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.FunctionModel</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>FunctionModel.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="a812e85c-8227-4add-9386-c9afd563a9dd">
+    <name>GetListOfProjects</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list of projects</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ListOfProjects</name>
+      <nsUri>http://www.1c.ru/SPPR/FunctionModel</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetListOfProjects</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="edd949f9-5bcd-4bc6-ab61-14ebbd13730f">
+    <name>GetListOfFunctions</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list of functions</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ListOfFunctions</name>
+      <nsUri>http://www.1c.ru/SPPR/FunctionModel</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetListOfFunctions</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ed682ddd-03ed-4771-9c7b-53bfac1bad3b">
+      <name>Project</name>
+      <synonym>
+        <key>ru</key>
+        <value>Project</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="b7212e3f-3550-418e-893b-5793ff1be2de">
+    <name>GetListOfPerformers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get list of performers</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ListOfPerformers</name>
+      <nsUri>http://www.1c.ru/SPPR/FunctionModel</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetListOfPerformers</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0e167d52-3a11-45a4-8faf-4cb2a16bd9c5">
+      <name>Project</name>
+      <synonym>
+        <key>ru</key>
+        <value>Project</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="23b5b935-b3ef-4507-8bfb-4d51055d2e57">
+    <name>GetInterfaceDescription</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get interface description</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetInterfaceDescription</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="782c979d-99a6-49ed-9f2a-dd09d69053e7">
+      <name>Project</name>
+      <synonym>
+        <key>ru</key>
+        <value>Project</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="812cd9dd-2282-4073-9bf1-0d6c19bdef7e">
+      <name>Interface</name>
+      <synonym>
+        <key>ru</key>
+        <value>Interface</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="b04fd193-3b7c-4109-aae1-355034f36d06">
+    <name>GetFormDescription</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get form description</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>FormDescription</name>
+      <nsUri>http://www.1c.ru/SPPR/FunctionModel</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetFormDescription</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="db8648f3-096c-40fe-82ba-468b245394d6">
+      <name>Project</name>
+      <synonym>
+        <key>ru</key>
+        <value>Project</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ff21385e-67f6-4a4b-9f5f-267b37328fa5">
+      <name>Metadata</name>
+      <synonym>
+        <key>ru</key>
+        <value>Metadata</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="fe366043-821d-4159-bdad-7a7f5de4aab4">
+      <name>FormName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Form name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f0da9e13-3b77-43c2-ad5e-f6a07fd44a2b">
+      <name>Title</name>
+      <synonym>
+        <key>ru</key>
+        <value>Title</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="9dca3674-d52b-4c06-94ba-1046b7b15329">
+    <name>GetFunction</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get function</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>Function</name>
+      <nsUri>http://www.1c.ru/SPPR/FunctionModel</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetFunction</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="028269ef-d094-4362-8d28-472d91bb4e5d">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="d85fb698-f4a1-487e-8c5c-63b0d9fbaed1">
+    <name>GetPerformerDescription</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get performer description</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetPerformerDescription</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="86dfb2a4-90ca-472d-b4db-cb997b5394dd">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>UUID</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

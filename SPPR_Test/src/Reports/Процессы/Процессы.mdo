@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e60937b3-26f8-4321-97b1-11ae594dccca">
+  <producedTypes>
+    <objectType typeId="4b8a4986-c6ff-406c-a751-75792f1f6464" valueTypeId="9a1ed6a6-9e16-44ca-95ed-784d134191fd"/>
+    <managerType typeId="6bad81eb-e51e-47fe-b836-a9df748e859d" valueTypeId="2b75a08c-e626-43e8-b85c-d70d1f22367f"/>
+  </producedTypes>
+  <name>Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Процессы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0c66a46a-42fd-41b7-9832-0ae000b174ee">
+    <name>Процесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Процессы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="734bd2aa-152e-454f-96ae-1934ccc16c6e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="f95a0de3-40d3-4f6c-9bd3-9a9d574a58bf">
+    <name>ОтчетПоПроцессу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по процессу</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Процессы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

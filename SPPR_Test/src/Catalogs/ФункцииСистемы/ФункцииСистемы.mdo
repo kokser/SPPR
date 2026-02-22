@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76c6bf46-203c-40b1-851a-410a36794804">
+  <producedTypes>
+    <objectType typeId="089d350c-31be-45ea-9942-ef3132d2983c" valueTypeId="76b600c9-2663-4720-8ee5-b498300fb6a5"/>
+    <refType typeId="be38ffe3-4e27-4163-bbf5-49b6c966bef3" valueTypeId="48754523-9fea-4a19-ae2c-10c08121feb3"/>
+    <selectionType typeId="6a14e44d-1450-4a80-a3ef-ac367c6c5f7a" valueTypeId="4926a027-4d85-4707-875d-d37b56e99183"/>
+    <listType typeId="f1236847-f1f8-4de0-a7ee-369e1bf7140b" valueTypeId="5c7d3813-4a81-4e1b-bd66-46e9ea2af0e3"/>
+    <managerType typeId="0ad1f761-a5b5-4c84-b9b7-04bbd9142f50" valueTypeId="1357853c-731a-44b5-93dc-9f062561a2d8"/>
+  </producedTypes>
+  <name>ФункцииСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции системы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФункцииСистемы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФункцииСистемы.Attribute.НаименованиеВИнтерфейсе</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Проекты.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ФункцииСистемы.EmptyRef</value>
+    </fillValue>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_ФункцииСистемы</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.ФункцииСистемы.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.ФункцииСистемы.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.ФункцииСистемы.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.ФункцииСистемы.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_ФункцииСистемы</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Функция системы</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Функция системы</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Функции системы</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <owners>Catalog.Проекты</owners>
+  <codeLength>2</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФункцииСистемы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ФункцииСистемы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ФункцииСистемы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ФункцииСистемы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f09d9f6a-e4fc-46b8-ae23-e9ac0264e940">
+    <name>ПолныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e610a14-5eda-4275-9afa-0c02f4414301">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание функции</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="304fe753-6140-4da1-8775-b9d8d1ad5a0d">
+    <name>ХранилищеОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище описания</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8450c0b8-44d2-47fc-9fd1-f92db911ae03">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения функции</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5fad491-d162-47d4-a0c8-4d715aab0938">
+    <name>ОтображаетсяВИнтерфейсе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображается в интерфейсе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак отображения функции в интерфейсе программы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47e620d6-a30e-489d-9fae-0a97272f5d96">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за разработку функции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65a0bc42-2a12-4172-9441-a3ae1d97c52a">
+    <name>ТипФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип функции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыФункций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыФункций.EnumValue.Функция</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5853f605-ebc9-4c08-9903-3cf05db8d650">
+    <name>НаименованиеВИнтерфейсе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование в интерфейсе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b3b80a2-8e63-4462-a035-0f396ba2037b">
+    <name>Подсистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсистема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подсистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9f2690c8-fad2-46bf-8075-cbe5640f91d3">
+    <producedTypes>
+      <objectType typeId="a3e4cf26-d44d-44cd-bb62-961acadeeae2" valueTypeId="4d983199-7713-4f8b-a1b2-5c49915000d1"/>
+      <rowType typeId="525d1d86-ec34-4bde-8751-54f1a10f4a96" valueTypeId="2d849afa-398c-48fe-9b59-f7d45fd2e835"/>
+    </producedTypes>
+    <name>ВходящиеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие данные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f31079a2-c8e8-4db0-9f95-febf025dcfe5">
+      <name>Функция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Функция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФункцииСистемы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Функция, являющаяся поставщиком данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>ФункцияПриемник</name>
+        <changeMode>DontChange</changeMode>
+        <field>Catalog.ФункцииСистемы.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>ПодборПоРезультату</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>ВыборСвязейФункции</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>КлючНазначенияИСпользования</name>
+        <value xsi:type="core:StringValue">
+          <value>ВыборСвязейФункции</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96276de2-6725-456e-9898-1712689927e2">
+      <name>ВидСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид связи</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыВходящихСвязейФункций</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d24cec4-3043-408e-9d37-2e7438dfb3f4">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fb3d9254-3fb3-4c2d-8ebb-79a3a94eb8d3">
+    <producedTypes>
+      <objectType typeId="33486086-956d-428d-b415-31e5b2efa914" valueTypeId="605661ad-e1e0-4480-ac1c-2c59df982397"/>
+      <rowType typeId="6101a9d6-b3e6-42c0-b104-0006949544a8" valueTypeId="d5b3ac63-2b23-43e1-a0f2-02514738f7f5"/>
+    </producedTypes>
+    <name>Исполнители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнители</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Исполнители функции</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bc89a63d-8bec-409c-9c4d-ec6e4ed5a751">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПрофилиПользователей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0cd2861f-de41-4cbe-ae1f-12590b467554">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8887c284-cb70-4608-9dda-28c9fb4e42d0">
+    <producedTypes>
+      <objectType typeId="353f243d-4fcf-4ce5-b12e-88172d89d196" valueTypeId="008e3a3b-c8cb-40c1-bccd-614d7cff84d4"/>
+      <rowType typeId="faacf6ab-f520-49e1-9c46-cc03ac5f5f77" valueTypeId="f44c0bcb-2c74-4d77-80ce-6b88313da5ac"/>
+    </producedTypes>
+    <name>ИсходящиеОбъектыМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие объекты метаданных</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Объекты метаданных, порождаемые в результате выполнения функции в системе</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c972efa6-f37b-46c8-b825-c6c5f38ab3c6">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбъектыМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cf4ce591-0f13-47c2-b1db-f9bc24b8e358">
+    <producedTypes>
+      <objectType typeId="3d1ed3b7-b38a-46b9-bd4d-b3581f9a9a23" valueTypeId="d1584668-7c78-441a-838a-494270d33ae2"/>
+      <rowType typeId="a9f11972-f7b6-4387-88e8-8ab64f9c56eb" valueTypeId="1c7885b7-09de-4216-9011-1c26bae4ca01"/>
+    </producedTypes>
+    <name>ОтчетыСервисныеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты сервисные объекты</value>
+    </synonym>
+    <attributes uuid="8c45904a-67d4-4a5a-b54e-59c790435f02">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбъектыМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ФункцииСистемы.StandardAttribute.Owner</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c0ddb170-8898-4f3e-9b2e-32c1d72b496c">
+    <producedTypes>
+      <objectType typeId="7dc03655-ced1-4d1f-ab48-dad2b2da1b5c" valueTypeId="a51f5e22-89da-4314-bede-36239946a266"/>
+      <rowType typeId="ad3c455d-73ff-4b66-a01d-e08113959fa6" valueTypeId="885242a7-c6ba-4897-ba62-9ca0d9866957"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <attributes uuid="26f964b5-b488-4be7-bcdc-56f6856143be">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3dd1ec94-82cb-4d0a-82c8-ebcfd8900785">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ФункцииСистемы.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5c8cadf-eff5-4536-89ec-94f0db8bbbb8">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+  <forms uuid="7baa8560-7946-47e2-bc2b-254a3252bb6b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции системы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3dbe69df-0c72-4033-be63-17564a76adc0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции системы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8aa69521-c1d5-4997-a136-bb283b5bf5f2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a08057f6-ede1-4603-8f33-016dc38d0fca">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0410227-fe29-4e55-aab1-02cce525eb4a">
+    <name>СвязиФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связи функции</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ece6cbc-b3fb-48f4-b9f8-08efc5d3f082">
+    <name>ФормаВыбораПотребителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции системы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b107fa83-fbb1-402a-a08f-fa0a8a56addf">
+    <name>СвязиАгрегатнойФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64ec4d60-ac5a-4c11-876c-5e84ae16c007">
+    <name>ФункцииИспользующиеОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции, использующие объект метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4c4aa6c6-ae50-4c9e-97e5-8dec41f65490">
+    <name>ФункцияБезСвязей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция без связей</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="d8d6524f-4d7a-4fc9-a391-ebc35221282c">
+    <name>Вход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="b32415f2-7382-41de-9509-1b4c9b7d987b">
+    <name>Управление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="db1cc2aa-f1ee-4857-b7f7-e60e8f9a7667">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="ae7e6c47-08b0-4f64-8e86-962efcd71283">
+    <name>ИсполнительБезСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="31c33c6e-7176-4aba-8543-88cbaa4b41d8">
+    <name>Потребитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребитель</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="89526652-6c49-4459-bbf0-7e7161a03359">
+    <name>ФункцияБезБлока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция без блока</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="f6282fa2-a96e-4791-9c49-ee076559d4bb">
+    <name>БлокФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок функции</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="53c06db8-1f93-48fb-95fa-12b4f3c47415">
+    <name>ЛинияУправление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия управление</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="1638c1ed-3803-41e2-8b2a-6de5c195c254">
+    <name>ЛинияВход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия вход</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="3e66887c-aa06-4054-afa6-85d69ae176ed">
+    <name>Выход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выход</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <templates uuid="59a1fbb5-30ef-48fa-8bae-028cb356b6bf">
+    <name>ПотребительКонечнойФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребитель конечной функции</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <commands uuid="9aec33d4-8aeb-4a0f-aefb-fe910188062e">
+    <name>ОткрытьСценарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарии работы пользователей</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ФункцииСистемы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="5351e76f-d53d-47f5-b2c0-21c3fa769f35">
+    <name>ФункцииИспользующиеОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции, использующие объект метаданных</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="49c06a86-585e-46a8-970a-3f951683bd25">
+    <name>ПечатьОписаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ФункцииСистемы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

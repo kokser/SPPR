@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c222468-8d26-4e15-a032-b6aed52251fd">
+  <name>ЗапускТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск тестирования</value>
+  </synonym>
+  <methodName>CommonModule.ТестированиеЗапускТестирования.СформироватьРасписаниеИЗапуститьТестирование</methodName>
+  <description>Запуск тестирования</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

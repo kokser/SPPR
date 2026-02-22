@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b0aa5c-dc23-4aca-9658-5fa26ba9c021">
+  <producedTypes>
+    <managerType typeId="f522f386-be52-4f2b-829b-53fa55f47cfb" valueTypeId="83970dbb-51c9-4fea-a4e9-4ea0a2b1215a"/>
+    <valueManagerType typeId="c7916ab2-6071-49f0-b74e-30d486b9d39a" valueTypeId="ed038e16-d22c-4656-842e-f50d8e6605f6"/>
+    <valueKeyType typeId="de662aba-89d7-56a0-9063-47ea24257a9f" valueTypeId="c377f83d-4a62-55dc-af30-dcb91b4e946a"/>
+  </producedTypes>
+  <name>ПризнакиПолученияИнформацииОбОшибкахИзВнешнихИсточников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки получения информации об ошибках из внешних источников</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

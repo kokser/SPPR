@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14cbfcd4-f03f-4db0-abaf-83ee71d13157">
+  <producedTypes>
+    <refType typeId="48ded92a-f939-4967-8442-56692500e759" valueTypeId="c332ecac-5f63-4c8c-9ccb-deeffbb0d3f3"/>
+    <listType typeId="77cb8721-746e-4f3b-90b4-787351dbb013" valueTypeId="839bed5f-67d6-454c-994e-c62dd620c8ee"/>
+    <managerType typeId="feb7f97b-1c5f-4e80-8a40-c1f91e7abf98" valueTypeId="86adc1ef-a6f2-49a0-b15f-5c323a29bcd4"/>
+  </producedTypes>
+  <name>ТипыФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы форм</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80a0d716-7fe0-4a02-b220-31c61e44c5b9">
+    <name>ОсновнаяФормаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2401bba-236f-46fc-92ec-3344138b5b30">
+    <name>ОсновнаяФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма группы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="caccd93b-09ed-4221-8870-55e0840aba6a">
+    <name>ОсновнаяФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc663dbe-a83f-4b87-9177-ce1ddd15f605">
+    <name>ОсновнаяФормаДляВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма для выбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae5df0e9-8154-4cfa-bcf4-9bcfb8efa4cc">
+    <name>ОсновнаяФормаДляВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма для выбора группы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8b91214-4748-413f-9ffe-c6e233ace84e">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3daea73-6179-4065-a2eb-7cce9c1612d0">
+    <name>ОсновнаяФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма настроек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4843d1fa-173c-4764-a18f-97f4ebf50eb7">
+    <name>ОсновнаяФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма варианта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58d321fe-2ac9-41bd-adb3-c19d6c37449a">
+    <name>ОсновнаяФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма записи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b795420-85bf-4ec7-ad6a-cee69ea1507a">
+    <name>ПроизвольнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная форма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09b36c56-ce5d-42e6-9ccd-b5c20a921403">
+    <name>ОбщаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая форма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41f3bc23-7774-45c3-aea6-7252cd9e6bd3">
+    <name>ДополнительнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная форма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00e4ce07-8331-417d-80bd-130c44ac8a58">
+    <name>ОсновнаяФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма загрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73f8790e-5bb0-4b91-8cc2-0fccd5da61fc">
+    <name>ОсновнаяФормаСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма сохранения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

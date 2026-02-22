@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d2f499a-6dcf-44b6-b7c6-16ef2d125e9f">
+  <producedTypes>
+    <refType typeId="19b10d94-b0f0-4121-8e96-68cba00646e6" valueTypeId="8653aa63-3bee-46c3-83d3-c2807275c7c0"/>
+    <listType typeId="9961a62f-08ac-4fa0-bd95-261c49f4243f" valueTypeId="ce5819f3-0491-45a8-8134-37c5aa7b2c72"/>
+    <managerType typeId="531e12e9-4076-4bc5-a5a8-ea7719ef7bd8" valueTypeId="992389b0-9179-46a8-ab6d-100cead0f3cd"/>
+  </producedTypes>
+  <name>ТипШагаСценария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип шага сценария</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fef42e61-2b32-4f53-b3b4-5651e826026b">
+    <name>ПроизвольныйШаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный шаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81014c94-4a8e-4660-96c1-f314aef1c238">
+    <name>СозданиеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание данных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

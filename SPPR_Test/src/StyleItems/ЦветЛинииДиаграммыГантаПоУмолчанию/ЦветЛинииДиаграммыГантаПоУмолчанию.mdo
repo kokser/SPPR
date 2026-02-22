@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a6a4f1a-7f7c-4bdb-b688-82a022bf3ff2">
+  <name>ЦветЛинииДиаграммыГантаПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет линии диаграммы ганта по умолчанию</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.Silver</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2c26fd-5ac7-42e7-8a90-f8f2c473f14a">
+  <name>ТехническийПроектОтменен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технический проект отменен</value>
+  </synonym>
+</mdclass:CommonPicture>

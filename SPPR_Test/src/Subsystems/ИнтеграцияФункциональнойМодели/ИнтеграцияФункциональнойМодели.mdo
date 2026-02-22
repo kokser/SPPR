@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="454b0711-0ea4-48bc-a7e1-af109932ace4">
+  <name>ИнтеграцияФункциональнойМодели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция функциональной модели</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ИнтеграцияФункциональнойМодели</content>
+  <content>XDTOPackage.FunctionModel</content>
+  <content>WebService.FunctionModel</content>
+  <content>Role.ИнтеграцияФункциональнойМодели</content>
+</mdclass:Subsystem>

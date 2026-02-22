@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c062536f-d7bb-4a4e-a3c1-8aea103b325e">
+  <producedTypes>
+    <objectType typeId="0ba32b71-a22e-4306-9dbd-a181bb6473f0" valueTypeId="067fa129-c1e4-455c-b2e8-be26e4320cde"/>
+    <managerType typeId="e1da6fe9-8f77-48bd-a8ad-137837290631" valueTypeId="dde6ff91-d0f9-418b-aa89-f593e88cb7fa"/>
+  </producedTypes>
+  <name>ПроверкаВыгрузкиСправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка выгрузки справки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПроверкаВыгрузкиСправки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e4b0f2e9-10e6-4ddf-943d-e297d2704239">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="dfe08045-2efe-4f0b-8256-24d3f1bf0a83">
+    <name>ПроверкаВыгрузкиСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка выгрузки справки</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Проекты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

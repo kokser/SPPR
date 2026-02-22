@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efcec634-b28f-480f-b502-89cba2dd5048">
+  <name>СравнитьОбъектСПровереннойВерсией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнить с проверенной версией</value>
+  </synonym>
+  <group>CommandGroup.Контроль</group>
+  <commandParameterType>
+    <types>DefinedType.ОбъектСКонтролемИзменений</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сравнить объект с проверенной версией</value>
+  </toolTip>
+  <shortcut>F8</shortcut>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

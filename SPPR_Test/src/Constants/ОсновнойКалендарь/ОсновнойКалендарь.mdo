@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9621ebf3-c753-483e-9bab-7a495db5ac47">
+  <producedTypes>
+    <managerType typeId="707758ee-b51b-46d0-88cd-57dd2d457334" valueTypeId="bb902280-4d84-4395-9b5a-a057588ca773"/>
+    <valueManagerType typeId="8d0e4193-fc5c-498a-85b6-286b4ed47027" valueTypeId="8c0779c5-72d3-4200-96b2-69d3a00eb6f0"/>
+    <valueKeyType typeId="a601c22e-a924-5bf9-ba97-7007213f0d7e" valueTypeId="7c891d60-e28f-5ed0-bb26-d7bd3b8ef548"/>
+  </producedTypes>
+  <name>ОсновнойКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной календарь</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Календари</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

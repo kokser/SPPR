@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4359f388-2f3a-461a-b560-4e67a2f88fa8">
+  <producedTypes>
+    <objectType typeId="87dafa66-8391-4c07-9e4f-71760138581d" valueTypeId="b83503be-5496-4b32-8000-8f0427d51b47"/>
+    <managerType typeId="af7417b3-f429-4e66-894d-533539ddbfb0" valueTypeId="8881acde-6a0f-4473-96f6-02a416cf22cc"/>
+  </producedTypes>
+  <name>НарушенияСтандартовРазработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нарушения стандартов разработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НарушенияСтандартовРазработки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="28b00785-ddaa-4091-a1dc-3f8e8e46f535">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

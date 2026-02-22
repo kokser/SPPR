@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6c7fdd8-86d3-40c1-8eb7-69490f1e2160">
+  <name>ИспользоватьКомандыОбъектаМетаданныхКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать команды объекта метаданных</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьКомандыОбъектаМетаданных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.КомандыОбъектаМетаданных</content>
+</mdclass:FunctionalOption>

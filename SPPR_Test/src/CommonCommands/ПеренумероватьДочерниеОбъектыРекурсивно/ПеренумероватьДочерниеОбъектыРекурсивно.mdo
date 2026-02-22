@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3888ff1c-0766-4840-9482-665eed8b5c01">
+  <name>ПеренумероватьДочерниеОбъектыРекурсивно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенумеровать дочерние объекты (рекурсивно)</value>
+  </synonym>
+  <group>CommandGroup.Перенумеровать</group>
+  <commandParameterType>
+    <types>CatalogRef.ШагиПроцесса</types>
+    <types>CatalogRef.Процессы</types>
+    <types>CatalogRef.ПрофилиПользователей</types>
+    <types>CatalogRef.ФункцииСистемы</types>
+    <types>CatalogRef.РазделыПроекта</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7bc70a2-3c8b-496c-98fb-b544ba0b33ff">
+  <producedTypes>
+    <refType typeId="b5ce7367-6d20-4e16-af3f-cc939b8c3b06" valueTypeId="3fd5cfd9-6938-471c-b608-60af8161f988"/>
+    <listType typeId="c082a3a8-6baf-4cc7-85d8-de961907a420" valueTypeId="cfa433c8-6ca7-4d0c-8b4c-501fec382404"/>
+    <managerType typeId="c63a6595-07f6-465e-ac04-d04b39e58b5a" valueTypeId="0e8c1299-5d90-426c-a3c6-9e13b7c830a4"/>
+  </producedTypes>
+  <name>СтатусыВстраиванияФункцийМеханизмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы встраивания функций механизмов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91db6eae-bb2c-4988-8030-ab1d4a837c30">
+    <name>Встроена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec9cdbcb-ddfe-466f-846f-d99595ee51fc">
+    <name>НеВстраивается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не встраивается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7973c05-b996-4321-9c88-3569ebdf1834">
+    <name>НеобходимоВстроить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходимо встроить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d91fefc-4580-45d0-9549-a19d35902c92">
+    <name>ТребуетсяАнализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется анализ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90a51429-d4a7-454d-95ae-ee4bf14f948b">
+    <name>Встраивается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встраивается</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

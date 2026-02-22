@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a77b1b5f-62e7-48b3-a98c-7fe1be17af2a">
+  <name>ОбъектНеИспользуется</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект не используется</value>
+  </synonym>
+</mdclass:CommonPicture>

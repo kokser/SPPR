@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99e136ad-7a96-4e22-8587-0110d5231684">
+  <producedTypes>
+    <refType typeId="eba47a82-2536-4241-b40f-cb6512c7967f" valueTypeId="cd952ce7-be0e-4ddc-8165-716fe639faca"/>
+    <listType typeId="fe1a9f87-b532-4caa-a86b-9dfd88746d6c" valueTypeId="272bc6ce-ca74-4f1a-b52b-051e224dddf7"/>
+    <managerType typeId="83818066-44a0-4020-ba90-03841ffb573e" valueTypeId="1afd5689-6d25-40b4-958e-2a01d25ecaed"/>
+  </producedTypes>
+  <name>ДетализацияВПланированииИУчетеВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализация в планировании и учете времени</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d84b217-68b5-43b6-b78d-d75ff57fce3a">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа (задача, ошибка, технический проект)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf6a4737-b3fe-4aab-836a-da9da7899af6">
+    <name>РаботаИлиОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа (задача, ошибка технический проект) или описание работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="332ddef3-2551-4998-a607-2c354571ae04">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

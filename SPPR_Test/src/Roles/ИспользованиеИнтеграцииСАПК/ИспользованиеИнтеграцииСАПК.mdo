@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f636138e-7d0f-4b7f-9088-794e6192ce7e">
+  <name>ИспользованиеИнтеграцииСАПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование интеграции с АПК</value>
+  </synonym>
+</mdclass:Role>

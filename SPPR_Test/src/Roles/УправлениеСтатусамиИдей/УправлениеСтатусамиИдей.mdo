@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def50ad1-24a3-4992-b7c6-eae9013c1f39">
+  <name>УправлениеСтатусамиИдей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление статусами идей</value>
+  </synonym>
+</mdclass:Role>

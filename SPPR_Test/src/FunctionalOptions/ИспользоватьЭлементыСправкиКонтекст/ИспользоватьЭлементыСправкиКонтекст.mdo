@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf553052-10b8-4cac-827f-93a885fb4086">
+  <name>ИспользоватьЭлементыСправкиКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать элементы справки контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьЭлементыСправки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ЭлементыСправки</content>
+</mdclass:FunctionalOption>

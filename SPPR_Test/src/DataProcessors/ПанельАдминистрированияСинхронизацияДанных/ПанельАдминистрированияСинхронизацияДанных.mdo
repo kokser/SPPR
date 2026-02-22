@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb9c10e6-d5cb-4d76-843a-dfd197adfc71">
+  <producedTypes>
+    <objectType typeId="b49611d9-2371-4bb2-a0c3-21aedfbfb1f7" valueTypeId="ef3a6f72-889e-4ded-9f27-d19db34e8ef4"/>
+    <managerType typeId="0c07a9ad-cc72-4dc5-b249-f41fdbbf8a98" valueTypeId="f61f8519-acb4-4e9b-91ee-d455b5d30f28"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияСинхронизацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования синхронизация данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2f79fff3-3439-416d-a90f-a3d765888eac">
+    <name>НастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки синхронизации данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0aaec190-4312-46f6-bebc-b6a6cce005b8">
+    <name>НастройкиСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки синхронизации данных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка синхронизации данных с другими программами
+и организация совместной работы в распределенной информационной базе.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

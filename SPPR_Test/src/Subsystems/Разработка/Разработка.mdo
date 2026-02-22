@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2208e9c-694a-4670-89b7-923545fe1d21">
+  <name>Разработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделРазработка</picture>
+  </picture>
+  <content>CommonCommand.СписокСвязанныхТехническихПроектов</content>
+  <content>Catalog.ТехническиеПроекты</content>
+  <content>Report.Процессы</content>
+  <content>DataProcessor.ЗагрузкаМетаданных</content>
+  <content>DataProcessor.РаботаСоСправкой</content>
+  <content>Catalog.Идеи</content>
+  <content>Report.КонтрольОбъектов</content>
+  <content>Report.РезультатыПроверкиОбъектов</content>
+  <content>Report.Идеи</content>
+  <content>CommonCommand.ПанельОтчетовРазработка</content>
+  <content>CommonCommand.ДополнительныеОбработкиРазработка</content>
+  <content>CommonCommand.ДополнительныеОтчетыРазработка</content>
+  <content>Report.ИсходящиеИдеи</content>
+  <content>Report.ОписанийИзмененийРеализованныхВВерсии</content>
+  <content>CommonPicture.СписокБазКоллекция</content>
+  <content>CommonForm.ВыборЗарегистрированнойИБ</content>
+  <content>CommonForm.ПоискОбъектов</content>
+  <content>CommonCommand.ПоискОбъектов</content>
+  <content>Report.СводнаяИнформацияПоВыпускуВерсий</content>
+  <content>Report.ВерсииБиблиотекиВСоставеКонфигураций</content>
+  <content>Report.ТрудоемкостьЗадач</content>
+  <content>DataProcessor.ПодключениеБазыКХранилищу</content>
+  <subsystems>РазработкаКонфигурации</subsystems>
+  <subsystems>ТехническиеПроекты</subsystems>
+</mdclass:Subsystem>

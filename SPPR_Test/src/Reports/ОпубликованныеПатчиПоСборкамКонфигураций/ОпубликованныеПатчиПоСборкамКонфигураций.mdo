@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e857080e-36b1-4f9e-902b-66bcbdca7e25">
+  <producedTypes>
+    <objectType typeId="3ba35350-344f-4ffc-9e56-02ba94fb62cf" valueTypeId="3b263f36-9912-47fb-ac95-598f84e45f3a"/>
+    <managerType typeId="b29b2cfa-0360-470f-9d0e-4f96b349e483" valueTypeId="48f91d6c-a356-4f81-b93b-6e182c061a22"/>
+  </producedTypes>
+  <name>ОпубликованныеПатчиПоСборкамКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опубликованные патчи по сборкам конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОпубликованныеПатчиПоСборкамКонфигураций.Template.Макет</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="dcac2d48-87f4-4f93-976c-afa02d0c7d82">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

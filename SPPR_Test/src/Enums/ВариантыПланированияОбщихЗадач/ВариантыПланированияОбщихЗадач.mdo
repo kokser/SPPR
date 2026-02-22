@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62461b9-5b82-485d-8969-51db1bee2bcc">
+  <producedTypes>
+    <refType typeId="ad0dc231-beb3-4535-a96e-d861c912a494" valueTypeId="106e47a7-8d16-4fd7-b0e2-6261c96a1f07"/>
+    <listType typeId="edbdadee-0d0e-4426-b523-c850babc2c48" valueTypeId="a0055171-4407-4324-b261-69f78fe34995"/>
+    <managerType typeId="3469e952-1a15-419d-b8c7-8604639de2f9" valueTypeId="9afd6825-57f6-4ae9-a1cc-b70b33955f56"/>
+  </producedTypes>
+  <name>ВариантыПланированияОбщихЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты планирования общих задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e6596520-0a18-49f8-990d-3af482f71cbe">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2134b8ab-2961-43b6-98c2-44da7f2b08a1">
+    <name>ТехническийПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a484aba5-c722-4975-b994-52e9faba2c3d">
+    <name>ИспользованиеБиблиотеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование библиотеки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

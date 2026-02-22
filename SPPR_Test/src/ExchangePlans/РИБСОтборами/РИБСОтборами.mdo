@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23661d61-608e-40f9-959c-a90096fc7a1c" thisNode="3106432a-4a4c-478a-a8c9-11a95685234e">
+  <producedTypes>
+    <objectType typeId="6801adcb-f129-47f5-86d3-1670cf9745e8" valueTypeId="684bece9-c5fb-4efb-af36-e5cf44605d92"/>
+    <refType typeId="b4c803e5-fa0d-4f6d-9418-a201cd9fc62e" valueTypeId="1a5d67b3-5133-4c7f-8b59-0903dd83b0f1"/>
+    <selectionType typeId="08a63c8f-3338-471d-8951-3df2dbcd3b78" valueTypeId="13805b56-51bf-4e21-90b5-4f9960fdf40e"/>
+    <listType typeId="1ca48fc2-15ae-4373-adbf-29586b87173d" valueTypeId="bb36da66-117a-4e8c-a4c2-acc371948e1e"/>
+    <managerType typeId="52383162-7943-441c-95ff-154531344b52" valueTypeId="9c88197c-09c7-4c21-82d7-26ac5d0452c6"/>
+  </producedTypes>
+  <name>РИБСОтборами</name>
+  <synonym>
+    <key>ru</key>
+    <value>РИБ с фильтрами</value>
+  </synonym>
+  <comment>Узел распределенной информационной базы с фильтрами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.РИБСОтборами.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.РИБСОтборами.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Узел распределенной информационной базы с фильтрами</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Узел распределенной информационной базы с фильтрами</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Узлы распределенной информационной базы с фильтрами</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Узлы распределенной информационной базы с фильтрами</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Предназначен для определения настроек узла распределенной информационной базы с фильтрами</value>
+  </explanation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ПравилаИнтеграцииС1СДокументооборотом</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТехническиеПроекты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПраваДоступаКОбъектамМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаличиеФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПериодыНерабочихДнейКалендаря</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УчетнаяЗаписьДляВосстановленияПароля</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КритерииОтбораСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьЭлектронныеПодписи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиПодчиненногоУзлаРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.WebСервисыСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПризнакиИдентификаторовОбращенийПоОшибкам</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗаявленияНаВыпускСертификата</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлючиДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаборыЗначенийДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗадачиПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КалендарныеГрафики</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Календари</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Подсистемы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбщиеКомандыСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаКДанным</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПодпискиНаСобытияСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОсновнойВидДеятельности</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДобавлятьМеткиВремениАвтоматически</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИтогиСогласованияЗадачРесурсов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Проекты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЦелевыеЗадачи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МакетыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КалендариПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьШифрование</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеПроизводственногоКалендаря</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КомандыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаследованиеНастроекПравОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПараметрыКонтекстныхФункциональныхОпций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииПроекта</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбщиеМакетыСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПраваРолей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УсовершенствоватьПодписиАвтоматически</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocument</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Подразделения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлементыСправки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФормыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбъектыИнтегрированныеС1СДокументооборотом</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПользовательСтандартногоИнтерфейсаOData</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ВидДеятельностиДляРаботыСОшибкамиАвтотестирования</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЭтапыПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОсновнойЯзык</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПользовательскиеНастройкиОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.WSСсылкиСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОповещенияПользователейСертификатов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РезультатыПроверкиОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РазрешенныеНеаккредитованныеУЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныеРеквизитыИСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбъектыМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Ветки</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗаписиПлана</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайла</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Планы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаНаборовГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПравилаПроверкиОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШагиПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФункцииСистемы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПроизводственныеКалендари</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НазначениеДополнительныхОбработок</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраныМира</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НаименованиеКорневойПапкиФайлов1СДокументооборот</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РеквизитыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОФайлах</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Идеи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоставыГруппПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗадачиШаблонаПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МестаИсправленияОшибок</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбновлениеКлючейДоступаПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.АдресаСерверовМетокВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтилиФорматирования</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбщиеРеквизитыСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВнешниеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПапкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьСогласованиеРесурсов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПоследовательностиСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОсновнойКалендарь</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПолнотекстовыйПоиск</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГруппыЗначенийДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиКомандПечати</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПервоеОбновлениеДоступаЗавершилось</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФункциональныеОпцииСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПредопределенныеВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПротоколСогласованияРесурсов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РучныеИзмененияГрафиковРаботы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиОчисткиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектовИерархия</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайлаОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрограммыЭлектроннойПодписиИШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиКолонтитулов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПредопределенныеДанные</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьНесколькоПроизводственныхКалендарей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ШрифтФорматированногоТекста</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЭлектронныеПодписи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиВариантовОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СертификатыШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИзмененияВВетках</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РегламентныеЗаданияСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ТипПодписиКриптографииПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Ошибки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НазначенияСертификатовЭП</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДатыИзмененияОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПланирование</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ИсточникиИдей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СборкиВерсии</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОбщиеМодулиСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ВидДеятельностиДляРаботыСОшибкамиАудита</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НастройкиЗапускаТестирования</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьУчетВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Регламенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РазделыПроекта</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПакетыXDTOСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СостоянияЗадачПроцессов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаКРегистрам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаКОбъектам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИерархияЗадачПроцесса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КартинкиСправки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МакетыПечатныхФорм</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыСогласуемыхРесурсов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыПланов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КлючиДоступаГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Процессы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПризнакиПолученияИнформацииОбОшибкахИзВнешнихИсточников</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КодировкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.УчетВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.УчетВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайлаДляПередачиВ1СДокументооборот</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КонтрольИзменений</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыДеятельности</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ВидДеятельностиДляРаботыСОшибками</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыКомандСвойства</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УсовершенствоватьПодписиСДаты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьУдалениеПомеченныхОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НастройкиАвторизацииИнтернетСервисов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.РИБСОтборами.Form.ФормаУзла</defaultObjectForm>
+  <distributedInfoBase>true</distributedInfoBase>
+  <includeConfigurationExtensions>true</includeConfigurationExtensions>
+  <attributes uuid="1e8ea4fe-8074-4594-8ead-69350d88c5af">
+    <name>ДатаИгнорированияВерсийОбъектовПриСозданииНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата игнорирования версий объектов при создании начального образа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfe42644-8ead-4e9d-8f17-d6d2c023b5bd">
+    <name>ДатаИгнорированияВерсийФайловПриСозданииНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата игнорирования версий файлов при создании начального образа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="963ebed1-377a-40c1-b730-c41701436845">
+    <name>ИгнорироватьВерсииОбъектовПриСозданииНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать версии объектов при создании начального образа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d124ce5-5779-4c87-a237-6cb9d42e1770">
+    <name>ИгнорироватьВерсииФайловПриСозданииНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать версии файлов при создании начального образа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e02de70d-a1e2-4673-b0bc-f0578ca79082">
+    <name>ИспользоватьОтборПоГруппамДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по группам доступа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="942b38d8-afb2-4aaa-aa3a-f30df36b8807">
+    <name>ИспользоватьОтборПоПапкамФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по папкам файлов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7363b5c1-d401-44ff-b80a-fdb7ffdd0068">
+    <name>ИспользоватьОтборПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по проектам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59456c37-80b4-481f-82b1-7278d99f99df">
+    <name>ИспользоватьОтборПоРазделамПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по разделам проектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f8e6447-d2e4-48fd-915b-e3c8e05d2553">
+    <name>ИспользоватьСкрытиеИменПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скрытие имен пользователей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b460b439-8747-471a-85eb-48aaa4de3808">
+    <name>СинхронизироватьДополнительныеОтчетыИОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать дополнительные отчеты и обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a79f243b-9299-43e2-8221-109fa0173809">
+    <name>СинхронизироватьРезультатыПроверкиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать результаты проверки объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a2b6544-2cdb-4d03-844c-cd79bc42608d">
+    <name>СинхронизироватьСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f0770c2-529f-4625-be35-bf9f14a4ac0d">
+    <name>СозданПланОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан план обмена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42cd5b8a-7feb-414c-9c78-f5ffd4279f9d">
+    <name>СинхронизироватьДанныеУчетаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизировать данные учета времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="831bd8e3-efbd-46ca-8dea-4ee595ecf52b">
+    <producedTypes>
+      <objectType typeId="e43c228a-46b3-42aa-9ab6-ce14d05d46d0" valueTypeId="862685c3-b6ca-48f8-a634-bde090293dbb"/>
+      <rowType typeId="ede1c7b2-72af-4804-af79-c1f589d57a18" valueTypeId="e26ee105-3b69-48f4-a24e-d2aa6e9fdc44"/>
+    </producedTypes>
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c57e2a5f-4034-4691-88fa-9756e8823e5b">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7be679a8-fa5a-4142-8d40-cd0e37278f21">
+      <name>СинхронизироватьЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать задачи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0a8ad32-a841-48d6-a75b-be1bbaa8955f">
+      <name>СинхронизироватьОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать ошибки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="92b798cd-d2e2-4f7b-b42f-106d51f6d201">
+      <name>СинхронизироватьТехническиеПроекты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать технические проекты</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b9d579cc-4504-4eef-8585-8b0a7ed14a9e">
+      <name>СинхронизироватьЦелевыеЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать целевые задачи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c102f46-fa0f-4f4f-846b-71facf399306">
+      <name>СинхронизироватьИдеи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать идеи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f20bf50e-db4e-4017-ab9c-2cfe2c55dd7f">
+      <name>СинхронизироватьФункциональнуюМодель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать функциональную модель</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c90ac64-61d9-4761-8290-1f4bbab554c3">
+      <name>СинхронизироватьРегламенты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать регламенты</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2be4b7d-32b1-4785-be5b-c4d2a310f79a">
+      <name>ТолькоПубликуемыеЦелевыеЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые целевые задачи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3bc74c92-20a0-438c-acf2-84bf1cfee2cb">
+      <name>ТолькоПубликуемыеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые ошибки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b1a4404-ecf0-4aa1-b317-ecf6035a42ab">
+      <name>ТолькоПубликуемыеТехническиеПроекты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые технические проекты</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f065dfe-df90-405e-9cc4-b886a5ec6dfa">
+      <name>ТолькоПубликуемыеИдеи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые идеи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="282a7f4b-8696-43f3-b125-eee8ab15b0c2">
+      <name>ТолькоПубликуемыеЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые задачи</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b9d9183-6fea-4633-8f8a-4d02a378342a">
+      <name>ТолькоПубликуемыеРегламенты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Только публикуемые регламенты</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a80b1c28-afdb-471f-b6da-97a27d5a3bcb">
+      <name>СинхронизироватьКалендари</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать календари</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="62f19b1b-7527-4def-9675-e74da05aa970">
+    <producedTypes>
+      <objectType typeId="d99051a1-2359-427b-bee1-01340e3bf626" valueTypeId="a631676b-8e08-4567-8ef3-0c018711d153"/>
+      <rowType typeId="7919462b-e614-4f6d-9369-f08e149e5c7a" valueTypeId="9870cf06-8b71-43dc-8e92-523ade36638d"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e5d8e1f4-63b0-4b05-b479-d7a6f1253bd8">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d990c6f0-e756-4d42-8bfa-be842b61add3">
+    <producedTypes>
+      <objectType typeId="4afc5937-d44d-476b-b265-5efab41df0b7" valueTypeId="d7a4c0cd-3a96-41cb-8174-4815e6a53e0a"/>
+      <rowType typeId="78949930-6a35-4c0c-bb4c-f932b0cc3f1b" valueTypeId="0c2debc0-93d5-4a08-835c-e2570b35912e"/>
+    </producedTypes>
+    <name>ПапкиФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папки файлов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2b7e618d-f3eb-44b1-b473-3e3121a88735">
+      <name>ПапкаФайлов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Папка файлов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПапкиФайлов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b3d8da1f-7d58-4afa-92c6-8b181746a4de">
+    <producedTypes>
+      <objectType typeId="95dc6700-03e0-497e-8ccc-07e1bbfded93" valueTypeId="e93ef8e2-22ed-4fa2-9ce1-5d45166ac65b"/>
+      <rowType typeId="2b5b4db3-569c-4eb1-b0c1-2bf10d82c7fe" valueTypeId="b3a53087-60f5-4e6c-9d4e-1f7b899f2d2d"/>
+    </producedTypes>
+    <name>ГруппыДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы доступа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="baf68996-7a19-43eb-9c7e-5a13dcd30047">
+      <name>ГруппаДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа доступа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыДоступа</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5d0d3512-3bb5-4d09-8685-459886ca48eb">
+    <producedTypes>
+      <objectType typeId="b3cbe316-08b7-4902-a8d6-3a1b5bf33827" valueTypeId="7f6f7c8e-d192-47ef-86f1-add3210dd8d8"/>
+      <rowType typeId="96e72707-38df-41dc-a9ba-c8c39f69e9ae" valueTypeId="6e11fa51-5a47-4064-879f-88cf864f77aa"/>
+    </producedTypes>
+    <name>РазделыПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы проектов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ce136b57-d865-4cb4-bb1c-f6b77a04eed1">
+      <name>РазделПроекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел проекта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазделыПроекта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="356d0b5d-86fd-467e-8248-a5b009234de9">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f3e3320-5c93-4bb8-aec5-ad93524e3f6d">
+    <name>ФормаСозданияНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания начального образа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84f5b539-d2e6-46ac-b06e-c8b2aa0f3639">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83d0525b-7f22-48da-949e-0fe4d567fa5c">
+    <name>ФормаВыбораЗначений</name>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <templates uuid="2851681d-fbef-4dcd-9d4b-867e006f5de7">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="09a94107-e9a2-4966-a7a9-0b2714980020">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

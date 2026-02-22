@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf82a21-1f7a-4194-b224-2c05a98d532c">
+  <producedTypes>
+    <selectionType typeId="e040ca8b-67dc-4a3a-a04e-37a680c91fee" valueTypeId="87f009a2-a924-4d79-8896-a25260a52020"/>
+    <listType typeId="0b54878b-b284-4638-893e-605bc26b9ce9" valueTypeId="c38029e8-5eae-47f6-9d20-730c463f4d5c"/>
+    <managerType typeId="a9effa0a-2076-496d-9767-cdf1833c4626" valueTypeId="7d528efc-74ce-4f4b-bb8e-4afba8875080"/>
+    <recordSetType typeId="1197d20e-5a82-4421-9ac5-f4d091eea04d" valueTypeId="a45f9b24-3ee9-4e52-8dc2-207f5e4068af"/>
+    <recordKeyType typeId="71dbcc3f-4a52-4834-9099-45f87de1c3ef" valueTypeId="cf376f45-ee90-4054-86da-108b02b6d261"/>
+    <recordType typeId="2f01beaa-89f9-4a46-8d22-e1f13cef6bbf" valueTypeId="46bb63b2-dbf5-4a71-8ddb-c8e067dbae3e"/>
+    <recordManagerType typeId="f76c51ff-a0d9-4f20-b518-77bf34030b80" valueTypeId="5e18209b-162e-4ca6-b740-2005d7b77342"/>
+  </producedTypes>
+  <name>ЭтапыПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы процесса</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Этап процесса</value>
+  </recordPresentation>
+  <resources uuid="6dddacb5-1c94-4330-9670-64369d46bb8f">
+    <name>ТекущийЭтапПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий этап процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиШаблонаПроцесса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Этап, на котором в данный момент находится процесс или задача процесса.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="379e79b8-f9e0-492d-9c15-1aa5f530548a">
+    <name>КрайняяДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайняя дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Крайняя дата окончания текущего этапа процесса.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5b8fb25b-0fc4-4ecb-85b2-70bcca99ef21">
+    <name>МаксимальнаяДатаОкончанияЭтапов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная дата окончания этапов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bd04ccdc-66e6-4200-b271-502668d56121">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПредметПроцесса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предмет, по которому выполняется процесс.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d8e33b1f-fa83-4808-a656-80adeaa5be56">
+    <name>ШаблонПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПроцесса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон процесса, по которому были созданы задачи процесса.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="850bf199-ee8c-4914-94e7-35e00cafc50a">
+    <name>ЗадачаПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача процесса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиШаблонаПроцесса</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задача процесса, для которой рассчитывается этап, на котором она находится. Если не заполнено, то расчет выполнен для этапов верхнего уровня.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

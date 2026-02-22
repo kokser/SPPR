@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="354ba235-d7ca-442e-9917-6d25b784081f">
+  <name>ЧтениеПриоритетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение приоритетов</value>
+  </synonym>
+</mdclass:Role>

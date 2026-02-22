@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf72ec45-d70f-4e23-b200-8baa34a2ab05">
+  <name>ОбъектыНаКонтроле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты на контроле</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Catalog.СпискиКонтроля</content>
+  <content>DataProcessor.КонтрольОбъектов</content>
+  <content>InformationRegister.ОбъектыНаКонтроле</content>
+  <content>CommonModule.ОбъектыНаКонтроле</content>
+  <content>CommonModule.ОбъектыНаКонтролеКлиент</content>
+  <content>CommonModule.ОбъектыНаКонтролеКлиентСервер</content>
+  <content>CommonModule.ОбъектыНаКонтролеВызовСервера</content>
+  <content>CommonPicture.ПоставитьНаКонтроль</content>
+  <content>CommonPicture.ОбъектНаКонтроле</content>
+  <content>CommonPicture.ОбъектСнятСКонтроля</content>
+  <content>CommonPicture.ОбъектНаКонтролеПодменю</content>
+  <content>CommonPicture.ИсторияКонтроля</content>
+  <content>CommonPicture.УказатьРезультат</content>
+  <content>Role.ДобавлениеИзменениеСписковКонтроля</content>
+  <content>Role.ДобавлениеИзменениеЗаписейКонтроля</content>
+  <content>Role.ИспользованиеРабочихМестКонтроля</content>
+  <content>Role.ЧтениеСписковКонтроля</content>
+  <content>Role.ЧтениеЗаписейКонтроля</content>
+  <content>Constant.ИспользоватьКонтрольОбъектов</content>
+  <content>FunctionalOption.ИспользоватьКонтрольОбъектов</content>
+  <content>Enum.ВариантыВеденияСпискаКонтроля</content>
+  <content>ScheduledJob.ФормированиеНапоминанийПоСпискамКонтроля</content>
+</mdclass:Subsystem>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="980981f2-bf0a-482c-b4a4-c9e11d471191">
+  <producedTypes>
+    <refType typeId="ed75b398-b9ef-4dfb-9fce-aa395ce793dc" valueTypeId="6cfe3ff2-8561-4450-9fab-d2e19d052863"/>
+    <listType typeId="dedee744-b115-4947-bad9-efa9b64ad618" valueTypeId="7fa6ef2b-73c3-4f9b-98cf-57c1e8d82aae"/>
+    <managerType typeId="6af40c21-838f-4a3e-9fac-c5bcede65350" valueTypeId="915718d3-3912-424e-b377-fea50cd885ef"/>
+  </producedTypes>
+  <name>СтатусыПатчей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы патчей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <defaultChoiceForm>Enum.СтатусыПатчей.Form.ФормаВыбораСтатусов</defaultChoiceForm>
+  <enumValues uuid="29832761-0117-4a08-ae8a-c958a5db1807">
+    <name>ОжиданиеИсправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск исправления в хранилище</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6dbe43c4-b155-4ad4-af92-b198d06a40b1">
+    <name>СозданНеПроверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан, требует проверки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be57c73e-fcea-47b2-8b74-1facc9ec85dc">
+    <name>СозданПроверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан, проверен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efdc4681-ce5e-4c59-9164-a940eb89ff69">
+    <name>ОжидаетПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает публикации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf1bb8b2-f2f1-4ad4-999e-1ca83d21b0b4">
+    <name>Публикуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56f2b541-05fc-4460-b985-2ff1d749e220">
+    <name>ОшибкаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка публикации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f9db71a-b0b7-4002-a97f-f8ac8e037eb2">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8107fd4c-e16c-4005-815a-3852a832ba56">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не удалось создать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6153b98-c7fa-458a-9eeb-6d744236fcd6">
+    <name>Отозван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отозван</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb1a1175-2f29-4185-bfe8-ba497fe05d02">
+    <name>ОшибкаОтзыва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка отзыва патча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2e70d44-4943-4afd-924a-db4e86ccf5a1">
+    <name>ОпубликованОбновлениеПрименимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован, обновление применимости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64af6fab-7abe-4d41-b69d-591e111afd2f">
+    <name>СозданиеПатча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53300b2e-a77b-44c5-b97c-d2928beb0433">
+    <name>ПатчНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Патч не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92317714-6f00-47cc-bb52-0e63f116351d">
+    <name>СозданиеВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание вручную</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="67985c3d-0717-493b-a71d-5676038f6c8c">
+    <name>ФормаВыбораСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора статусов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

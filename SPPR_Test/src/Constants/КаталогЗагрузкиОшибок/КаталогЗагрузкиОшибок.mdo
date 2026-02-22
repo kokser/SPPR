@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03633d78-c8c4-4e6c-8dcd-47a88c30e5f6">
+  <producedTypes>
+    <managerType typeId="d2e48a24-be8a-4067-a3e1-f8ffc3bf034a" valueTypeId="bead01f5-d8e9-4312-b987-0a6b530895ba"/>
+    <valueManagerType typeId="4bf4eacd-2d28-41d1-8af2-33495deb6930" valueTypeId="ee409628-b888-44a9-b7f6-c1599c888634"/>
+    <valueKeyType typeId="7cc9568e-9423-5e7e-9bf2-ce6b829777a4" valueTypeId="f7300c67-6bbb-59ef-9122-96007dbab685"/>
+  </producedTypes>
+  <name>КаталогЗагрузкиОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог загрузки ошибок</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

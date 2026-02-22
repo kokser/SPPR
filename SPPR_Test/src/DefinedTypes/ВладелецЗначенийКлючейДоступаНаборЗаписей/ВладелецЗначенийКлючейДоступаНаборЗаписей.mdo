@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5005655f-22b2-49e6-be4f-b15d768d10b2">
+  <producedTypes>
+    <containerType typeId="2322413a-9b4a-4f73-8dc0-986f25b1be14" valueTypeId="7645c092-4756-4752-ac2e-10b57cdad186"/>
+  </producedTypes>
+  <name>ВладелецЗначенийКлючейДоступаНаборЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец значений ключей доступа набор записей</value>
+  </synonym>
+  <type>
+    <types>InformationRegisterRecordSet.СостояниеТестированияВеток</types>
+    <types>InformationRegisterRecordSet.ЭтапыПроцесса</types>
+    <types>InformationRegisterRecordSet.СостояниеЗагрузкиМетаданныхВВетках</types>
+    <types>InformationRegisterRecordSet.КонтрольИзменений</types>
+    <types>InformationRegisterRecordSet.ИзмененияВВетках</types>
+    <types>InformationRegisterRecordSet.ДатыИзмененияОбъектов</types>
+    <types>InformationRegisterRecordSet.КоличествоЗапусковТестирования</types>
+    <types>InformationRegisterRecordSet.НастройкиАвторизацииВ1СДокументообороте</types>
+    <types>InformationRegisterRecordSet.ВерсииОбъектов</types>
+    <types>InformationRegisterRecordSet.РезультатыПроверкиОбъектов</types>
+    <types>InformationRegisterRecordSet.НастройкиПоддержки</types>
+    <types>InformationRegisterRecordSet.ПраваДоступаКОбъектамМетаданных</types>
+    <types>InformationRegisterRecordSet.РезультатыРегистрацииОшибок</types>
+    <types>InformationRegisterRecordSet.ВыполнениеОбщихЗадач</types>
+    <types>InformationRegisterRecordSet.ВерсииПатчей</types>
+    <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.КалендариПользователей</types>
+    <types>InformationRegisterRecordSet.ДополнительныеСведения</types>
+    <types>InformationRegisterRecordSet.ПерсональныеНастройкиУведомленийПользователей</types>
+    <types>InformationRegisterRecordSet.ПроблемыОбработчиковОбновленияИнформационнойБазы</types>
+    <types>AccumulationRegisterRecordSet.УчетВремени</types>
+    <types>InformationRegisterRecordSet.ЗамещениеПользователейПоРаботеСОшибками</types>
+    <types>InformationRegisterRecordSet.ИспользованиеОбъектов</types>
+    <types>InformationRegisterRecordSet.ПриоритетыВыполненияОбработчиковОбновления</types>
+    <types>InformationRegisterRecordSet.СтатусыВстраиванияМеханизмов</types>
+    <types>InformationRegisterRecordSet.РезультатыВыполненияТестов</types>
+    <types>InformationRegisterRecordSet.НастройкиУведомленийПользователей</types>
+    <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
+  </type>
+</mdclass:DefinedType>

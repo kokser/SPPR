@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d6fadc5-dbc1-4b67-b704-682403f3c84b">
+  <name>РазрешенаРаботаСоСценариямиРаботыПользователейВGit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешена работа со сценариями работы пользователей в git</value>
+  </synonym>
+  <location>Catalog.Проекты.Attribute.ХранитьСценарииРаботыПользователейВРепозитории</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.СценарииРаботыПользователейВGit</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dee91d6b-c791-4a5f-b85b-23d1ab113b41">
+  <producedTypes>
+    <objectType typeId="48c75f59-8119-4a29-8c1e-372ef786e040" valueTypeId="4da70dfe-113d-49f9-b137-0e5227886bce"/>
+    <managerType typeId="6fe7ce9a-652c-4afd-90bf-ff4a959d4c82" valueTypeId="a69ede76-76d4-494b-834f-59c5aa24217f"/>
+  </producedTypes>
+  <name>РаботаСХранилищем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с хранилищем</value>
+  </synonym>
+  <defaultForm>DataProcessor.РаботаСХранилищем.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="0527e1e1-5f6b-49cb-ac7b-64abcb7bc4a7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa991ddd-8293-4a19-ab75-78d58ef66528">
+    <name>ПросмотрРезультатовДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр результатов действия</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ba1ce74b-46d6-46a8-b6cd-684df93ce2ba">
+    <name>ФайлConfiguration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл configuration</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="295ae3cf-bf2d-47bf-9c43-f5bf15e678d3">
+    <name>ФайлMergeSettings</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл merge settings</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="422d6c35-56c4-49a0-a4fc-79f4c40ce2e2">
+    <name>ЗахватОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Захват объектов</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

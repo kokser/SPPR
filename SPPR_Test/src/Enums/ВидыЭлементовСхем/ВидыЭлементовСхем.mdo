@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7399602-e62c-4e95-bf9c-d2f349b54e12">
+  <producedTypes>
+    <refType typeId="c029f03b-879c-4535-8ef8-e647903f5da3" valueTypeId="a07078ba-e964-4a78-8b01-851286f14fa3"/>
+    <listType typeId="e98df81e-77fb-4a28-8279-988121ce9457" valueTypeId="5a32a659-a07c-49d8-973c-c142c5ff8250"/>
+    <managerType typeId="16c1bd3b-e723-4d61-95c9-0ad7c79ea861" valueTypeId="d43d11d4-9354-4edd-aa2a-244429e59661"/>
+  </producedTypes>
+  <name>ВидыЭлементовСхем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды элементов схем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="c7b1da1e-51b8-4004-a9a7-9187ce10dcda">
+    <name>Функция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ece4eb0-b4dd-43ca-9348-6f59900aeb41">
+    <name>Вход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c885fd18-031c-4bfb-a8c3-7342d4fe6d4a">
+    <name>Выход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14491ad0-b069-4915-899a-0a03257df05c">
+    <name>Управление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f6d94ec-0ee9-4947-b448-d6cf1ec622fa">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7220c8a-3f2e-4710-a68a-004ebe6a17e2">
+    <name>ВнутренняяСвязь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренняя связь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

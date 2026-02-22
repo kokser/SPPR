@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5cdef17-696a-4306-88ce-b54578fef584">
+  <producedTypes>
+    <selectionType typeId="b4d86b44-bd2a-4b2c-a599-ec354f3c5eaf" valueTypeId="4d172e2a-3e1b-4897-9a04-b668c191e335"/>
+    <listType typeId="0de00196-b855-485d-b4ad-7c259439098c" valueTypeId="57481f64-27f4-4f36-860c-4ee9125b7b2a"/>
+    <managerType typeId="469cf5d5-8bc8-4bbc-b729-c2fc16fe2ebd" valueTypeId="5986d6d3-c554-423c-9d94-4f83db5f995c"/>
+    <recordSetType typeId="3fe7ae7d-3787-495f-81e0-d7e40efbb2c4" valueTypeId="ca0a6cd8-d452-47d4-b197-3655e1bd7893"/>
+    <recordKeyType typeId="d5c8f908-4e87-45a1-b8d7-078baab3ce20" valueTypeId="720a63b5-e036-4722-9c8d-369bc8b50868"/>
+    <recordType typeId="01ab224a-08b4-40e8-80a1-6f3c300e8447" valueTypeId="b7e1f587-9ce8-469a-98a1-142dd501d531"/>
+    <recordManagerType typeId="88877ef8-7659-486e-88d3-0c559457313d" valueTypeId="07ecfdbc-e8e1-4acd-8470-ac44805ef8cd"/>
+  </producedTypes>
+  <name>КоличествоЗапусковТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество запусков тестирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="77c49146-be61-4182-b647-4d4b74304b09">
+    <name>КоличествоЗапусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество запусков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="095d367a-2e97-4578-bd68-4e5b96967cb2">
+    <name>Ветка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ветки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

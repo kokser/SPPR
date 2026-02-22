@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e7d97a4-9c68-4fe3-84a2-ccb725be81d7">
+  <name>AssemblyUpload</name>
+  <synonym>
+    <key>ru</key>
+    <value>Assembly upload</value>
+  </synonym>
+  <rootURL>AssemblyUpload</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1b8039b8-0441-4ee0-8bbc-84175f709ca6">
+    <name>CreateAssembly</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create assembly</value>
+    </synonym>
+    <template>/CreateAssembly</template>
+    <methods uuid="3fa8c94b-9cef-4a3b-8e97-dcfc79178190">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>CreateAssemblyPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

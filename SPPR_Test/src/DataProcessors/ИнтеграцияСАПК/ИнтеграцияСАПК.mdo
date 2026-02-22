@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d818f7a-4193-41eb-9e22-9bd38a99fd0b">
+  <producedTypes>
+    <objectType typeId="5d4985f1-c436-4766-8a38-51e41a93f780" valueTypeId="adc0d826-f1b1-41e4-ad6e-d178ea8b181c"/>
+    <managerType typeId="a6d67d99-4acf-4c3c-b92c-8549b6219e64" valueTypeId="453a7c69-70ee-4aa3-abc6-18d7983feab0"/>
+  </producedTypes>
+  <name>ИнтеграцияСАПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АПК</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнтеграцияСАПК.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f610afa3-3f21-4123-a86b-8ce00a36c8a9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1eae4b8b-ffe9-412c-b1b9-821e9827229a">
+    <name>СписокОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ошибок</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45eb8546-ea4f-4c83-9bca-063f1f768926">
+    <name>ИзменениеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение ошибки АПК</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d097504b-dbc2-48bf-bc9d-f8600a28e9f2">
+    <name>ИзменениеОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение состояния ошибок АПК</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b99f877-3e72-43a3-bbfc-a8747d598b41">
+    <name>ПеренаправлениеОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенаправление ошибок АПК</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0b34fe6d-8814-4684-a087-9d37ddedf7a4">
+    <name>СписокОшибокАПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки (Автоматизированная проверка конфигураций)</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Ошибки</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Список ошибок АПК, на основании которых зарегистрирована данная ошибка</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

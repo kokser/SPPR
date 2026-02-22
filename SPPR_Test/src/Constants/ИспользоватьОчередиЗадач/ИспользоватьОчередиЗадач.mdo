@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15d07bc9-b98c-4a53-90ad-98d0e436967f">
+  <producedTypes>
+    <managerType typeId="d9845d18-35a2-43dd-8300-356ec08a5e57" valueTypeId="21dede91-b0f0-4ab1-a793-5af0a438fa1a"/>
+    <valueManagerType typeId="0184417e-edde-46a3-8509-a8c505ad3561" valueTypeId="c0244c22-07aa-4093-84ae-a92c3a8af3ff"/>
+    <valueKeyType typeId="07db7a7b-5643-4bd6-9a87-0715caf5eeec" valueTypeId="0e97ffa5-0649-4787-8683-29ba845d900e"/>
+  </producedTypes>
+  <name>ИспользоватьОчередиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать очереди задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

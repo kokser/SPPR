@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa7204aa-134d-439c-93ac-f81ce405ef1a">
+  <name>ИспользоватьРазделыПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать разделы проекта</value>
+  </synonym>
+</mdclass:CommonPicture>

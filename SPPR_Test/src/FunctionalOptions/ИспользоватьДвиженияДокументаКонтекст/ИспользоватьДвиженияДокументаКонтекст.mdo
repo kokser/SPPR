@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4d23aee-0c06-468d-b97f-cf61cca14986">
+  <name>ИспользоватьДвиженияДокументаКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать движения документа контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьДвиженияДокумента</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ДвиженияДокумента</content>
+</mdclass:FunctionalOption>

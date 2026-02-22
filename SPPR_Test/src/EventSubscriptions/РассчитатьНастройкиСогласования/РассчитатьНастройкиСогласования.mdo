@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56280880-d465-4da9-9133-8f6fdf5b8d26">
+  <name>РассчитатьНастройкиСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитать настройки согласования</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ГруппыПользователей</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЗадачиПроцессов.ГруппаПользователейПриЗаписи</handler>
+</mdclass:EventSubscription>

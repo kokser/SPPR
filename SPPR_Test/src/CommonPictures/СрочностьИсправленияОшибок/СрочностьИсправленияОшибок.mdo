@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a80d44-2f47-4001-9b08-ac893e13b713">
+  <name>СрочностьИсправленияОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срочность исправления ошибок</value>
+  </synonym>
+</mdclass:CommonPicture>

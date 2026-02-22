@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9ed70ad-c884-4c79-b267-a72a2a4985f0">
+  <name>ИспользоватьФормыКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать формы контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьФормы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.Формы</content>
+</mdclass:FunctionalOption>

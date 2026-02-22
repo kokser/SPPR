@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c04b45-7064-47a9-98a5-3480c8bb9040">
+  <producedTypes>
+    <refType typeId="efe612cd-3e3b-4dc4-a4d8-5de61c43c9d5" valueTypeId="738fac5f-fe58-4b80-b3a9-cffa1264f41c"/>
+    <listType typeId="98ac9f35-93c5-4ade-ae32-18305739417d" valueTypeId="3400b92e-0d69-4c0d-9a12-37b2484b56cd"/>
+    <managerType typeId="98a5f014-48dd-472c-951e-7082e0816d7c" valueTypeId="9a07f682-5000-4e85-bf15-41ea4a975225"/>
+  </producedTypes>
+  <name>СостоянияЗадачПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния задач процессов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49a6b74c-129f-49b7-b476-6409de27899d">
+    <name>ЗапланированаОжидаетПредшествующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирована (ожидает предшествующие\родителя)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77e9d749-5a94-48a0-a0da-2b2d7120971e">
+    <name>Запланирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2580441-7ded-49a1-adc0-47bf525a8448">
+    <name>ВыполняетсяОжидаетДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется (ожидает дочерних)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c71437a-d918-4af2-80b7-9cd1a78b813c">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21991fc8-dffa-4ac4-b4f1-b35b7b4faf3f">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="309f84ff-5bf2-42fb-ab58-2bbc66cffdff">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="331c0ed9-ee2c-42a7-b967-46577fa22cf6">
+  <name>ИспользоватьПраваДоступаОбъектаМетаданныхКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать права доступа объекта метаданных контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьПраваДоступаОбъектаМетаданных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ПраваДоступаОбъектаМетаданных</content>
+</mdclass:FunctionalOption>

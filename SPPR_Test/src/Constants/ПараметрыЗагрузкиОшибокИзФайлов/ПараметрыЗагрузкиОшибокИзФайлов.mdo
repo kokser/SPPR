@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbf2da44-6d41-437f-8e07-a204cc60451f">
+  <producedTypes>
+    <managerType typeId="0cf61779-fc1c-4e96-9e1e-13729012a79c" valueTypeId="a750d776-da6d-4092-a984-ecb6e2e3864a"/>
+    <valueManagerType typeId="8168a697-a042-4d51-bf48-b99b7e4c2c6a" valueTypeId="983d2525-55c2-489a-942d-e14fadabec8b"/>
+    <valueKeyType typeId="8ca2e20d-5257-589b-a28d-7c464b3c5ff9" valueTypeId="d411f2c4-9f9b-5249-8c65-cd59f540cc48"/>
+  </producedTypes>
+  <name>ПараметрыЗагрузкиОшибокИзФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры загрузки ошибок из файлов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00527de-0287-4807-8d7f-3019de483ef0">
+  <name>SignInGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sign in Google</value>
+  </synonym>
+</mdclass:CommonPicture>

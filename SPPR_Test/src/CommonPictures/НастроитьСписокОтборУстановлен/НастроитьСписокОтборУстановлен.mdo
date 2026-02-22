@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33ccb14b-a896-4f70-8d6d-d89879a374ad">
+  <name>НастроитьСписокОтборУстановлен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить список (отбор установлен)</value>
+  </synonym>
+</mdclass:CommonPicture>

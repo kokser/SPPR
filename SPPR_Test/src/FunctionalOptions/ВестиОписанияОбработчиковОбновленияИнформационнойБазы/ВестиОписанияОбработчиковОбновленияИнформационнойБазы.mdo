@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="854f0c6c-537f-4a24-9d3c-4a5412dd5fb2">
+  <name>ВестиОписанияОбработчиковОбновленияИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести описания обработчиков обновления информационной базы</value>
+  </synonym>
+  <location>Catalog.Проекты.Attribute.ВестиОписанияОбработчиковОбновленияИнформационнойБазы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбработчикиОбновленияИнформационнойБазы</content>
+  <content>Catalog.ПричиныОсобогоПорядкаРазработкиОбработчиковОбновления</content>
+  <content>DataProcessor.ПостроениеОчередиОтложенныхОбработчиков</content>
+  <content>InformationRegister.ПроблемыОбработчиковОбновленияИнформационнойБазы</content>
+  <content>InformationRegister.ПриоритетыВыполненияОбработчиковОбновления</content>
+  <content>Enum.ТипыПричинОсобогоПорядкаРазработкиОбработчиковОбновления</content>
+  <content>Enum.ПорядокПомещенияОбработчиковВОчередь</content>
+  <content>Enum.РежимыВыполненияОбработчиковОбновления</content>
+  <content>Catalog.ТехническиеПроекты.TabularSection.ОбработчикиОбновления</content>
+  <content>Catalog.ТехническиеПроекты.TabularSection.ОбработчикиОбновления.Attribute.Гиперссылка</content>
+  <content>Catalog.ТехническиеПроекты.TabularSection.ОбработчикиОбновления.Attribute.ОписаниеИзменений</content>
+  <content>Catalog.ОбработчикиОбновленияИнформационнойБазы.Command.ОбработчикиОбновленияПоВерсии</content>
+</mdclass:FunctionalOption>

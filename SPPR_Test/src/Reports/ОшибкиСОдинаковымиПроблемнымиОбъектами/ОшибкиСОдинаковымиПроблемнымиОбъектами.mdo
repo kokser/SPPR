@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30bfcedb-97b0-45c5-8f05-da3ceb4be88b">
+  <producedTypes>
+    <objectType typeId="77969e14-0e95-40b3-ba4c-c8cd0af6d346" valueTypeId="c9ab811c-bdf3-4212-964a-fb11f90de5ad"/>
+    <managerType typeId="5bd20a04-0bac-4a0b-aeb2-1fd16fdbb2c0" valueTypeId="830eaec9-a186-44a3-a39e-3dd5eb759d2b"/>
+  </producedTypes>
+  <name>ОшибкиСОдинаковымиПроблемнымиОбъектами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки с одинаковыми проблемными объектами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОшибкиСОдинаковымиПроблемнымиОбъектами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="608d2f8e-eb79-499f-a268-9af5df5a9e32">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="584dbda2-a91f-452d-9af8-e33b740059e5">
+    <name>ОшибкиСОдинаковымХешем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки с одинаковыми проблемными объектами</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

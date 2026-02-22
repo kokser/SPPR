@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a42ed4ee-5a4d-4490-a57b-cee1bc980e39">
+  <name>РазработкаКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработка конфигурации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Подсистемы</content>
+  <content>Catalog.ОбъектыМетаданных</content>
+  <content>Catalog.ВидыДоступа</content>
+  <content>ScheduledJob.СинхронизацияСРазрабатываемойКонфигурацией</content>
+  <content>CommonModule.ЗагрузкаМетаданных</content>
+  <content>Constant.ПутьКВерсиямПлатформыНаСервере</content>
+  <content>Enum.АвтоИспользованиеОбщегоРеквизита</content>
+  <content>Catalog.ОбщиеРеквизитыСвойства</content>
+  <content>InformationRegister.НастройкиПоддержки</content>
+  <content>Catalog.МакетыОбъектовМетаданных</content>
+  <content>Catalog.ОбщиеМакетыСвойства</content>
+  <content>DataProcessor.СправкаОбъектовМетаданных</content>
+  <content>Catalog.КартинкиСправки</content>
+  <content>CommonPicture.РедактироватьСправку</content>
+  <content>Catalog.ОбработчикиОбновленияИнформационнойБазы</content>
+  <content>Enum.РежимыВыполненияОбработчиковОбновления</content>
+  <content>InformationRegister.ПроблемыОбработчиковОбновленияИнформационнойБазы</content>
+  <content>Catalog.ПричиныОсобогоПорядкаРазработкиОбработчиковОбновления</content>
+  <content>InformationRegister.ПриоритетыВыполненияОбработчиковОбновления</content>
+  <content>Enum.ТипыПричинОсобогоПорядкаРазработкиОбработчиковОбновления</content>
+  <content>CommonPicture.КоллекцияПравилаПоддержки</content>
+  <content>DataProcessor.ПостроениеОчередиОтложенныхОбработчиков</content>
+  <content>FunctionalOption.ВестиОписанияОбработчиковОбновленияИнформационнойБазы</content>
+  <content>DataProcessor.РаботаСХранилищем</content>
+  <content>Catalog.КлючевыеОперации</content>
+  <content>Enum.ВидыКлючевыхОпераций</content>
+  <content>CommonPicture.ПиктограммыКлючевыхОпераций</content>
+  <content>CommonModule.КлючевыеОперации</content>
+  <content>CommonModule.КлючевыеОперацииКлиентСервер</content>
+  <content>CommonModule.ЗагрузкаМетаданныхEDT</content>
+  <content>InformationRegister.СтатусыВстраиванияМеханизмов</content>
+  <content>Catalog.ФункцииМеханизмов</content>
+  <content>InformationRegister.ИзмененияВВетках</content>
+  <parentSubsystem>Subsystem.Разработка</parentSubsystem>
+</mdclass:Subsystem>

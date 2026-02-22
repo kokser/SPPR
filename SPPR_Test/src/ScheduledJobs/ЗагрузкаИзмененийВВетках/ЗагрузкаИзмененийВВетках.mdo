@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="515a440c-6cb4-4a4b-a8ee-adb15e9992a8">
+  <name>ЗагрузкаИзмененийВВетках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка изменений в ветках</value>
+  </synonym>
+  <methodName>CommonModule.ЗагрузкаМетаданных.ЗагрузитьИзмененияВВетках</methodName>
+  <description>Загрузка изменений в ветках</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

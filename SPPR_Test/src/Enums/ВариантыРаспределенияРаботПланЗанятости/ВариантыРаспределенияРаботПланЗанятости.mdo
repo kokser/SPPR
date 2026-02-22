@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34250627-6ab7-407f-a095-d622489220e2">
+  <producedTypes>
+    <refType typeId="bf292de9-e32a-46d8-b3e9-9f8b83be3d16" valueTypeId="51176c2c-a0fb-440a-8168-d17ca31a5d32"/>
+    <listType typeId="c5b3d9e0-359d-44ec-89b4-7f4d67a92955" valueTypeId="014b587e-7792-41e5-a86d-47bc22e086a5"/>
+    <managerType typeId="2871bc41-d398-4b12-9db9-d6f9ba0d3acd" valueTypeId="ee57db7f-d942-4381-93cf-db7a0c571236"/>
+  </producedTypes>
+  <name>ВариантыРаспределенияРаботПланЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты распределения работ план занятости</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86f86d2f-7f00-449e-8a79-e3d60b2b0669">
+    <name>ЗапланироватьСПревышениемНорматива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить с превышением норматива</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e11f2d0f-74d2-4fe9-9fdf-585930b88e15">
+    <name>ЗапланироватьСУчетомНорматива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить с учетом норматива</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec60b33c-296b-4bf9-b94e-6ce4dbb1e0e8">
+    <name>Изменять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="494ff9bf-8cb3-4b27-a5c8-64e5c5791893">
+    <name>НеИзменять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не изменять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38506e8f-0dbb-4414-af3f-478a812b9e47">
+    <name>Очищать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="651c19a5-afd0-488d-bb48-136f812363b9">
+    <name>ПропорциональноИзменитьВсего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально изменить всего</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65a6be86-9f70-4008-b3e6-289eca5715f1">
+    <name>УстановитьНовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ea7af3d-18b5-4695-947c-d5c89a77394e">
+    <name>ОчиститьИПерераспределить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистить и перераспределить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

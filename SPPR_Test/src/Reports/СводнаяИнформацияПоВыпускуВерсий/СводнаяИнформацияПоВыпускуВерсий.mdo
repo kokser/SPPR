@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a48a2ea3-0a1b-4123-a919-9c3bee30ffa9">
+  <producedTypes>
+    <objectType typeId="c5794703-bc92-4f2d-83fd-31caae9969fa" valueTypeId="8a44e44e-e013-40c6-95b0-88bf77cd7551"/>
+    <managerType typeId="f575e83d-d89e-4d3f-9d34-64a51d46d5ed" valueTypeId="7eabc26f-2527-4f60-8442-330dde33074a"/>
+  </producedTypes>
+  <name>СводнаяИнформацияПоВыпускуВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная информация по выпуску версий</value>
+  </synonym>
+  <defaultForm>Report.СводнаяИнформацияПоВыпускуВерсий.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СводнаяИнформацияПоВыпускуВерсий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="99ad77c6-e284-434c-8c41-4fa7afe2fc30">
+    <name>ТаблицаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица данных</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c294e48b-65d3-4800-af1f-88a338b0afb6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9ea20075-60ab-48d1-9794-330c573a1628">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2c1bd051-2bda-4a8b-b2a6-5742b2af2f37">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

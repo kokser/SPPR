@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a83d65-0ce0-4484-98c5-a33267f4fb82">
+  <name>РасчетЗонЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зон задач</value>
+  </synonym>
+  <methodName>CommonModule.ЗадачиПроцессов.РасчетЗонАктивныхЗадач</methodName>
+  <description>Расчет зон задач</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

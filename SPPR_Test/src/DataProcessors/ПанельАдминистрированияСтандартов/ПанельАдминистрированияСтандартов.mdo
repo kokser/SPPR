@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3af47308-ed84-4797-b485-8cf453b1ca17">
+  <producedTypes>
+    <objectType typeId="afe3135d-ed82-45e9-a657-6519622d80e9" valueTypeId="1f2fc225-57e1-4f09-9c82-922b61b5668e"/>
+    <managerType typeId="0d536c50-31b2-455d-90aa-6539b5d7d67f" valueTypeId="f0b1177e-d795-4405-90e1-c032a996ed7c"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияСтандартов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования стандартов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияСтандартов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8043c496-c748-4890-b7fa-d8265c636b2b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка стандартов разработки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b05e6e39-9c8f-4bd5-9f66-5f73e511db1e">
+    <name>РедакторСтарыхЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор старых значений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ab94a5cc-e74c-4b33-bd33-446c8d446c68">
+    <name>НастройкаСтандартовРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты разработки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

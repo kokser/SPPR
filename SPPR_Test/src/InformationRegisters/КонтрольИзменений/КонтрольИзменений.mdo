@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1e1ce2a-4f8a-4b16-9739-d1a0ccfdadfb">
+  <producedTypes>
+    <selectionType typeId="073b4dab-fab0-4bc6-8e3f-626416088ada" valueTypeId="20e42c7d-acf8-4db3-a98f-d15c13e233a0"/>
+    <listType typeId="32f20159-506b-4153-851d-2d50262ffc1f" valueTypeId="1882cfec-0608-43f4-bd1d-f73b002751e3"/>
+    <managerType typeId="cd8cefbb-1867-48a0-b6b8-d3811fe01b93" valueTypeId="47885015-088a-4251-b488-ae46402a2e9e"/>
+    <recordSetType typeId="3a0fcba0-0e2a-478c-b100-4c46731a3df4" valueTypeId="07ca826c-8880-4373-80ab-d607eb9bfeff"/>
+    <recordKeyType typeId="1811c189-c7e2-4982-82e5-43b5dcb7b4d6" valueTypeId="d78dd2d3-d008-489e-bd7d-59996eb48e28"/>
+    <recordType typeId="079bcdce-08ba-4889-9b61-e41ed8c116d4" valueTypeId="428e332d-95b1-4428-8f41-7c3fe256d6bd"/>
+    <recordManagerType typeId="dfc7745a-18b7-48f8-b316-d18dbe85db58" valueTypeId="1fb579dd-25ef-4c88-9999-1e7c5ff87d0c"/>
+  </producedTypes>
+  <name>КонтрольИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль изменений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.КонтрольИзменений.Form.КонтрольИзменений</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Контроль изменения</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контроль изменений</value>
+  </listPresentation>
+  <resources uuid="fd9ee303-236a-4217-9564-a19a647400a5">
+    <name>СтатусКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус контроля</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияКонтроляОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f0daba5b-ef0c-4603-b853-56a3226c3b8e">
+    <name>ДатаКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата контроля</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9622c1e-acdc-4f11-99b0-0cd00650f502">
+    <name>КонтролируемыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролируемый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОбъектСКонтролемИзменений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="34673e21-b796-4c21-b290-4ceb54742c30">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17e2a7b7-d4a0-4679-9e55-b8e6e1094453">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="be7700db-6764-43f8-af0b-cb19a2c78204">
+    <name>КонтрольИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль изменений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

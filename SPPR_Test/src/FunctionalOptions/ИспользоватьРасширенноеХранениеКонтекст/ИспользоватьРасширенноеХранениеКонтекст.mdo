@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f29b88d8-4e41-4dd2-b369-cb5a09738dd6">
+  <name>ИспользоватьРасширенноеХранениеКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расширенное хранение контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьРасширенноеХранение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ДополнительныеСвойства</content>
+</mdclass:FunctionalOption>

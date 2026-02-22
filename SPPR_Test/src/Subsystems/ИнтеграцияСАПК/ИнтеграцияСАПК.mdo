@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f776292f-cb5c-46b0-9601-2f45f4c26c9a">
+  <name>ИнтеграцияСАПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АПК</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>WebService.ErrorsExchange</content>
+  <content>Constant.АдресВебСервисаАПК</content>
+  <content>Constant.ИспользоватьИнтеграциюСАПК</content>
+  <content>DataProcessor.ПанельАдминистрированияИнтеграцияСАПК</content>
+  <content>FunctionalOption.ИспользоватьИнтеграциюСАПККонтекст</content>
+  <content>FunctionalOption.ИспользоватьИнтеграциюСАПК</content>
+  <content>Constant.ПараметрыПодключенияАПК</content>
+  <content>DataProcessor.ИнтеграцияСАПК</content>
+  <content>Enum.СостояниеОшибкиАПК</content>
+  <content>CommonModule.ИнтеграцияСАПК</content>
+  <content>CommonModule.ИнтеграцияСАПКПовтИсп</content>
+  <content>Role.ИспользованиеИнтеграцииСАПК</content>
+</mdclass:Subsystem>

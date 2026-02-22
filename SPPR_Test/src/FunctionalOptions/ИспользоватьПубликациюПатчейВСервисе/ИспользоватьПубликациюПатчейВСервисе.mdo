@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45bea294-f58b-4931-ba9e-7a85f780e366">
+  <name>ИспользоватьПубликациюПатчейВСервисе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать публикацию патчей в сервисе</value>
+  </synonym>
+  <location>Constant.ИспользоватьПубликациюПатчейВСервисе</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

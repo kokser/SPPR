@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23e69f05-964e-4ce2-9e1b-20264741413a">
+  <producedTypes>
+    <objectType typeId="898f54df-63ea-478c-8517-75964c934820" valueTypeId="4ae3eade-bd10-49d4-ad93-3f82ba884875"/>
+    <managerType typeId="4758a4ac-5368-453f-b1f5-0d4b3ad6ab90" valueTypeId="c70e298a-e160-42eb-8418-51a89f06f323"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияИнтеграцияСАПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования интеграция с АПК</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияИнтеграцияСАПК.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="4840bfb3-ad49-494b-957e-89f7a1cd518a">
+    <name>АПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматизированная проверка конфигураций</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="930070e7-a8ad-4190-be49-7b6bcdd36a0b">
+    <name>ПараметрыПодключенияКАПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры подключения к АПК</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d130cd6-6e63-4125-b16c-7aa7f96a9724">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="920d4ec3-064f-4e1e-b9b5-4593912cf2f8">
+    <name>ИнтеграцияСАПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматизированная проверка конфигураций</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

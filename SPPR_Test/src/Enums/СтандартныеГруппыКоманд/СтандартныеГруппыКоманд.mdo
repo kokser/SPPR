@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="049a2bde-d438-493a-b390-4d3809aec7e0">
+  <producedTypes>
+    <refType typeId="4d024907-0732-4b56-8590-5ca9d3086eaa" valueTypeId="8cf4e22a-c20c-4c75-af77-a2722be6e7e6"/>
+    <listType typeId="ac7cc9c4-3478-4045-a0a8-53fb249e8783" valueTypeId="45dade25-7289-479f-9cbd-b751f3a39bc6"/>
+    <managerType typeId="7f06c7f8-ec22-4c6b-a6d0-39d7deebcc6a" valueTypeId="6c07e8fc-b804-43af-87d5-35db934ed10f"/>
+  </producedTypes>
+  <name>СтандартныеГруппыКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные группы команд</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91626631-a3fe-4794-956c-9947f4c32a7f">
+    <name>КоманднаяПанельФормыВажное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командная панель формы важное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9f15cd7-67e0-40ab-889c-6e5bddb8a194">
+    <name>КоманднаяПанельФормыСоздатьНаОсновании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командная панель формы создать на основании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e26244a-a480-441f-aa77-17af1df0f05b">
+    <name>ПанельДействийОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель действий отчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf691d1e-9de3-40f9-9b14-6e4a7220938e">
+    <name>ПанельДействийСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель действий сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2de084b5-2f34-4c3e-bd4a-1eeb96b52ffc">
+    <name>ПанельДействийСоздать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель действий создать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc68cb8f-ae7f-4af7-a0cf-bcfc9a1bf3c5">
+    <name>ПанельНавигацииВажное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации важное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bc40292-fe97-440c-bf79-50ca7ed35e71">
+    <name>ПанельНавигацииОбычное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации обычное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7ef7033-d2b2-43ec-ab1f-99b18db65b1d">
+    <name>ПанельНавигацииСмТакже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации см также</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="416a5c34-d559-4c08-9c59-7db534959584">
+    <name>ПанельНавигацииФормыВажное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации формы важное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ae9abb3-e130-49a5-82bf-98a5cab46906">
+    <name>ПанельНавигацииФормыПерейти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации формы перейти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa1ea183-4294-4055-94e8-ade139c3f509">
+    <name>ПанельНавигацииФормыСмТакже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель навигации формы см также</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

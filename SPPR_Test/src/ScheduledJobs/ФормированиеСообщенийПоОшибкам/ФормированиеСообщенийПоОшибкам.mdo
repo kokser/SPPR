@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a02bf8fc-705e-4d6b-ae14-db4cea4326a7">
+  <name>ФормированиеСообщенийПоОшибкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование сообщений по ошибкам</value>
+  </synonym>
+  <methodName>CommonModule.ОшибкиСервер.СформироватьСообщенияПоОшибкам</methodName>
+  <description>Формирование сообщений по ошибкам</description>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

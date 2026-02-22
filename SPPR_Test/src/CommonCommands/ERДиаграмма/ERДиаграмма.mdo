@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09cf4ce0-32f0-417c-9838-8e64353791cd">
+  <name>ERДиаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>ER-диаграмма</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.ОбъектыМетаданных</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

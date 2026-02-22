@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e2ca866-7ec9-4cb8-a96b-b161e86105e4">
+  <producedTypes>
+    <managerType typeId="b47f2353-dd61-47e2-9492-7347b4692ef0" valueTypeId="439011e9-665a-4898-a029-5946eccceac0"/>
+    <valueManagerType typeId="39ec7abb-4cf0-4082-8960-e4657fb0a78e" valueTypeId="22dfa3e3-a304-4aa1-92c6-882218170086"/>
+    <valueKeyType typeId="7dc48569-be42-5263-b5cf-23a48b0ec050" valueTypeId="b4a4ce04-b791-5782-8e65-a7fa5447640d"/>
+  </producedTypes>
+  <name>НастройкаАдресатовУведомленийОСборках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка адресатов уведомлений о сборках</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

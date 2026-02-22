@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f071f6ed-7d7b-4ee1-b7ba-6f24dbbc23f1">
+  <name>ТолькоСкрепка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Только скрепка</value>
+  </synonym>
+</mdclass:CommonPicture>

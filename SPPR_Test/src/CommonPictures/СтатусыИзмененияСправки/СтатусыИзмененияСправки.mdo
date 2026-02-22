@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ec79877-ac17-4e1c-b2bd-4b7dbdcb5810">
+  <name>СтатусыИзмененияСправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы изменения справки</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22f60d7e-711f-4eae-9280-4fe9841af504">
+  <name>GoogleLogo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Google logo</value>
+  </synonym>
+</mdclass:CommonPicture>

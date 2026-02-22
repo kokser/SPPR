@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7836dd4-3f8f-477c-958a-1b71e20a17bc">
+  <name>ErrorsExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Errors exchange</value>
+  </synonym>
+  <namespace>http://www.1c.ru/Modeling/ErrorsExchange</namespace>
+</mdclass:XDTOPackage>

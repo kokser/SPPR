@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="916f93c8-e64e-4115-8fa8-7f6ba7fae16a">
+  <producedTypes>
+    <refType typeId="4d338474-1ba5-4aab-9919-d42980200d75" valueTypeId="32042d20-8b3b-42d8-a9f1-feb58789e587"/>
+    <listType typeId="9519456c-4e2f-4060-b004-c60520db541a" valueTypeId="0554d23a-340d-41f1-b48d-270560f967cb"/>
+    <managerType typeId="d1ecda31-1d1b-4adf-98f8-1021a32b830e" valueTypeId="efaf07a1-9ca5-4b26-9853-20b154ac74ab"/>
+  </producedTypes>
+  <name>ВоспроизведениеОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воспроизведение ошибок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0120cde5-fc7e-4759-9628-cc5145f4c437">
+    <name>Воспроизводится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воспроизводится</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f56cc3c4-de16-4016-accd-1f5b4998e63b">
+    <name>НеВоспроизводится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не воспроизводится</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

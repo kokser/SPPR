@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="424aeb7d-1ef8-459d-a63a-1cdfd88dd5b8">
+  <name>ПриоритетыОчередиРаботыПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты очереди работы повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

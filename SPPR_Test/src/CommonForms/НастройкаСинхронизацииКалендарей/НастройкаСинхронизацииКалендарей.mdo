@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08c31ddb-f08d-4d6d-bae3-a011df4fec9e">
+  <name>НастройкаСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка синхронизации календарей</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

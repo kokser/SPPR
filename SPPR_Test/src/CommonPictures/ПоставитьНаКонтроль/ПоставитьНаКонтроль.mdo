@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="110424b7-7bb3-4cac-befd-bdb7cfe86207">
+  <name>ПоставитьНаКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставить на контроль</value>
+  </synonym>
+</mdclass:CommonPicture>

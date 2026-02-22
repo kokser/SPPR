@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b1c828-340a-4a99-b607-24ee194c20f0">
+  <name>ЧтениеНастроекЗапускаПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек запуска процессов</value>
+  </synonym>
+</mdclass:Role>

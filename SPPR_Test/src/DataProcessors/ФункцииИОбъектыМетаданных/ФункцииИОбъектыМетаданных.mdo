@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21aa9cd2-bcac-4cb8-8ce4-437c7f889711">
+  <producedTypes>
+    <objectType typeId="8f5abca7-30d1-430e-9337-57c1444d1133" valueTypeId="92d528ca-5e84-4a9c-add4-8b6b4749df09"/>
+    <managerType typeId="d9be3610-76de-4ce3-a2f3-deada1d826ee" valueTypeId="817ca244-d5d5-4bdb-aaef-9f15662e22b4"/>
+  </producedTypes>
+  <name>ФункцииИОбъектыМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции и объекты метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФункцииИОбъектыМетаданных.Form.ФункцииИОбъектыМетаданных</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="4b11dad8-1052-43db-9b12-9ecb7e844703">
+    <name>ФункцииИОбъектыМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функции и объекты метаданных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

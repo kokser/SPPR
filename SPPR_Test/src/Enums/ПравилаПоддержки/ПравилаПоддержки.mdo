@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="765a4ca0-91ec-42f6-afbc-233dbecc0a2d">
+  <producedTypes>
+    <refType typeId="9041e66b-6a6d-45cf-8615-2c5b97a1a743" valueTypeId="afa46d4d-9817-431a-a33b-7784191aaf7d"/>
+    <listType typeId="b594ef27-092d-4bd3-8ce7-ddead8960af4" valueTypeId="5d6538e1-3105-4545-96d8-16f58db62076"/>
+    <managerType typeId="185c46ed-607b-4746-95b8-86f3cabac51d" valueTypeId="0a296962-1fc6-493e-857d-a930ad192aea"/>
+  </producedTypes>
+  <name>ПравилаПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила поддержки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5312fd1f-4b9e-44f6-9390-6a86a30d900c">
+    <name>НеРедактируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не редактируется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd47878c-b98a-4e6a-9ab3-0855d8518929">
+    <name>РедактируетсяССохранениемПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактируется с сохранением поддержки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e5d74f7-3efa-4650-a3d7-aba92eb9d42d">
+    <name>СнятСПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с поддержки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

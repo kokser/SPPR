@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdda2f8a-0874-4618-b776-2d0f1aadf3a6">
+  <name>ПоискОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск объектов (Ctrl+T)</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut>Ctrl+T</shortcut>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:CommonCommand>

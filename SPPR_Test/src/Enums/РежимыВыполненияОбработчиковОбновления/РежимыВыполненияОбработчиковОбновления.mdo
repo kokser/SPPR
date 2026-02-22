@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6cf831f-7fb7-48e5-a8e1-12e0e4b2a117">
+  <producedTypes>
+    <refType typeId="087bc42a-ffd3-4ab7-8102-3a60a4447239" valueTypeId="3b8d7bc1-044e-4b0f-8cc6-1c4da5ec763f"/>
+    <listType typeId="b8561ac9-d858-4266-8331-c177012eb3da" valueTypeId="21ae955d-be00-41b2-ae39-699cf3557bb1"/>
+    <managerType typeId="eed692b0-558d-483a-9c25-97c0b05ac377" valueTypeId="509b193c-ff90-4807-9cb9-afb9045494a3"/>
+  </producedTypes>
+  <name>РежимыВыполненияОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы выполнения обработчиков обновления</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="367e8354-081f-4ea6-9dfe-d49461cbf007">
+    <name>Монопольно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монопольно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1feb3e5-f71e-4337-a4d7-8126cabc6f91">
+    <name>Отложенно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="451031af-8d91-4a72-bee7-84372468e473">
+    <name>Оперативно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оперативно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

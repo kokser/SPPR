@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="615022b5-5501-474c-9669-96ba28970c04">
+  <name>ИспользоватьИнтеграциюСАПККонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с АПК (контекст)</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьИнтеграциюСАПК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ИнтеграцияСАПК.Command.СписокОшибокАПК</content>
+</mdclass:FunctionalOption>

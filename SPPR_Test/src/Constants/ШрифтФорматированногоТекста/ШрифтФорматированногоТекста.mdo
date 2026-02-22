@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bce2cc-b6ac-400c-b9ee-13648177629b">
+  <producedTypes>
+    <managerType typeId="04589d0e-d035-45b4-9372-0a28a12b1e3d" valueTypeId="ebc78d32-8c0c-41a3-8afd-eee3927e046b"/>
+    <valueManagerType typeId="d2fb1f09-c1c0-4c46-835c-687c247e27ca" valueTypeId="18be486d-822a-42a4-8276-b6c98cc8c1ef"/>
+    <valueKeyType typeId="1b4d7188-9724-594c-a9c7-1e0e66f0156a" valueTypeId="0454918c-bdc7-5133-ace1-f5182ec7c037"/>
+  </producedTypes>
+  <name>ШрифтФорматированногоТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт форматированного текста</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

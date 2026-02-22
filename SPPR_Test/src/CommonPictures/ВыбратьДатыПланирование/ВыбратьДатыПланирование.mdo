@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b326c0e6-e663-4e0c-9232-bdbe5fd79ff9">
+  <name>ВыбратьДатыПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбрать даты планирование</value>
+  </synonym>
+</mdclass:CommonPicture>

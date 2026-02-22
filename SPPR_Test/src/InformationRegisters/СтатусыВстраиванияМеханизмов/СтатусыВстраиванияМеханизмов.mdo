@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9548f6a4-e1ba-4f1a-a6bc-a79bb38f46a4">
+  <producedTypes>
+    <selectionType typeId="acbb607e-8d41-45d7-bed8-e06e6d608128" valueTypeId="b9f35f31-3332-4658-8e86-fbf327f08e17"/>
+    <listType typeId="e1d906ac-d369-4d04-8131-3220538b04b9" valueTypeId="9da2a358-3f83-4b89-acfa-049e788a6bba"/>
+    <managerType typeId="9150b72a-a11b-4325-8d7a-97d2a97df257" valueTypeId="1850c830-c9b8-4670-9b92-806731e73f06"/>
+    <recordSetType typeId="d1718e46-fd29-42ae-818d-328f6e8032ec" valueTypeId="283639f3-1451-46e3-ac43-cd9e5a48e507"/>
+    <recordKeyType typeId="c9914521-2680-4f2a-ab17-a420b5452e18" valueTypeId="613fc8fd-68bb-4a05-9bd8-8aec2c4edc47"/>
+    <recordType typeId="b6762915-bd29-46e3-9c42-79eb5eed7d25" valueTypeId="d09ff0c2-c998-493d-9d8b-438fd72d9f91"/>
+    <recordManagerType typeId="190f1afd-1141-4251-945a-fe1cf871fc5a" valueTypeId="157964c4-46d1-4a31-8bc8-a03b470ad3ac"/>
+  </producedTypes>
+  <name>СтатусыВстраиванияМеханизмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы встраивания механизмов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fa4d6cee-2f9d-496f-8125-d4fccba5b27e">
+    <name>СтатусВстраивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус встраивания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВстраиванияФункцийМеханизмов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02acdb7d-6201-4095-873b-e5355af1a8ec">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="356cf1c3-f94a-44f9-9eca-77ab4968bc1f">
+    <name>Механизм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механизм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазделыПроекта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="226f28ed-52c0-4a53-8084-071db5be517d">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ecd7e994-24e2-4b43-8aeb-cb91521da0a4">
+    <name>ФункцияМеханизма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция механизма</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФункцииМеханизмов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e958626a-5bd1-4893-8db5-c58dd303b15f">
+    <name>ФормаСтатусыВстраиванияМеханизма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы встраивания механизма в объекты</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d616556c-5fed-458c-9371-e51565e37fab">
+    <name>СтатусыВстраиванияМеханизма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы встраивания механизма</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.РазделыПроекта</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

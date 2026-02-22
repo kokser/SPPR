@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fea50a6-24ee-450e-a431-24c73ba54f78">
+  <producedTypes>
+    <containerType typeId="e7b510e0-e859-4f2b-a7db-0449b5df0cca" valueTypeId="bc926e42-ea6a-457c-8ed1-b64d6f65e259"/>
+  </producedTypes>
+  <name>ОбъектСКонтролемИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект с контролем изменений</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШагиПроцесса</types>
+    <types>CatalogRef.Процессы</types>
+    <types>CatalogRef.КлючевыеОперации</types>
+    <types>CatalogRef.ПрофилиПользователей</types>
+    <types>CatalogRef.Подсистемы</types>
+    <types>CatalogRef.ОбработчикиОбновленияИнформационнойБазы</types>
+    <types>CatalogRef.ВидыДоступа</types>
+    <types>CatalogRef.ВерсииПроекта</types>
+    <types>CatalogRef.ФормыОбъектовМетаданных</types>
+    <types>CatalogRef.ФункцииСистемы</types>
+    <types>CatalogRef.ОбъектыМетаданных</types>
+  </type>
+</mdclass:DefinedType>

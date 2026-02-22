@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="336b97b5-c9d2-4bb3-ba16-5e70e13695dd">
+  <name>ОбщаяЗадачаТребуетсяЗапланировать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общая задача требуется запланировать</value>
+  </synonym>
+</mdclass:CommonPicture>

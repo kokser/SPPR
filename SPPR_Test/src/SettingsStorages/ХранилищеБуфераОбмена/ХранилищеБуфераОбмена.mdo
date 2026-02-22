@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7675c5d3-97bd-40fe-879b-9500b8bb87d1">
+  <producedTypes>
+    <managerType typeId="29e1b650-9d2f-4e4a-b62b-e8df341d7a9d" valueTypeId="67bfd7ad-e4db-44ea-9898-1d14ff25b505"/>
+  </producedTypes>
+  <name>ХранилищеБуфераОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище буфера обмена</value>
+  </synonym>
+</mdclass:SettingsStorage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8cc0bc6-282f-4356-ba65-a90aa1510dc3">
+  <name>ИспользоватьПодпискиНаСобытияКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подписки на события контекст</value>
+  </synonym>
+  <location>Catalog.ПараметрыКонтекстныхФункциональныхОпций.Attribute.ИспользоватьПодпискиНаСобытия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОбъектыМетаданных.Command.ПодпискиНаСобытия</content>
+</mdclass:FunctionalOption>

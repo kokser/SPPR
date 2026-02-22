@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a06e6888-6f85-4e52-abf9-48a396ac6999">
+  <producedTypes>
+    <refType typeId="84bfcc49-dbcb-48b5-bc54-def004918101" valueTypeId="45b88bf1-e0bf-4176-b908-567df830c48d"/>
+    <listType typeId="b33a2fc7-eeb5-4c25-b1ef-3a7c31d188fb" valueTypeId="f38280b0-8c2f-4162-87d0-61517e2d5ab2"/>
+    <managerType typeId="4d40e51b-2c00-4ce5-b04f-f4492807a7ad" valueTypeId="c2a05999-6a51-4743-ab62-9107b3cf7a95"/>
+  </producedTypes>
+  <name>ВидыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды времени</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9feed5c3-cc4f-4c9a-a554-9489972c9cee">
+    <name>Рабочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19cd07ae-8b6a-47d9-98de-cb2671cef53b">
+    <name>Нерабочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерабочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

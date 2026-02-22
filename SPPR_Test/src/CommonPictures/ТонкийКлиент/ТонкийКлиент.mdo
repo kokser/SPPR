@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16359cf2-abfc-4e6f-b02b-91634c30a6bf">
+  <name>ТонкийКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тонкий клиент</value>
+  </synonym>
+</mdclass:CommonPicture>

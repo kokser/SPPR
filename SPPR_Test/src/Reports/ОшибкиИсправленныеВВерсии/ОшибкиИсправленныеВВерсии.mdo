@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f416c99-c126-4514-b25e-1d429e031c47">
+  <producedTypes>
+    <objectType typeId="28bc6294-78ee-4ca4-9ba4-c0c6861f9e80" valueTypeId="1a44552f-bb18-4e2e-bbe3-4c80faa6dcd1"/>
+    <managerType typeId="19769409-7c18-4d62-a9da-680c55875d87" valueTypeId="b4eb9a12-6a7d-4c36-9e90-7e84c2f0a548"/>
+  </producedTypes>
+  <name>ОшибкиИсправленныеВВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки исправленные в версии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОшибкиИсправленныеВВерсии.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОшибкиИсправленныеВВерсии.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7421fcaa-0d4e-4a9e-836f-1dcfc5afe289">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6129cbca-81b7-4bef-a618-570d9bfb5125">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0f3942ee-7845-43b3-8eff-77052a246e62">
+    <name>МакетРасшифровкиТХТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет расшифровки ТХТ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7b845ede-dab8-4649-ba9b-065973fec453">
+    <name>МакетHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет HTML</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="296e8a23-38bf-4084-8cdc-c5702f832220">
+    <name>ОшибкиИсправленныеВВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки, исправленные в версии</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.СборкиВерсии</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

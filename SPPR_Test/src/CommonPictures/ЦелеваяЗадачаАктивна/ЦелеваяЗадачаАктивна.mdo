@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42fafb5d-119c-4ae6-b244-001f1660c23f">
+  <name>ЦелеваяЗадачаАктивна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Целевая задача активна</value>
+  </synonym>
+</mdclass:CommonPicture>

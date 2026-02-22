@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fad130b9-3c88-46d8-be04-03bbccbe3734">
+  <name>ПриоритетыОчередиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты очереди работ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>Catalog.ПриоритетыРабот</content>
+  <content>Constant.ИспользоватьПриоритетыРабот</content>
+  <content>FunctionalOption.ИспользоватьПриоритетыРабот</content>
+  <content>InformationRegister.ПриоритетыРабот</content>
+  <content>CommonPicture.ПриоритетПодменю</content>
+  <content>CommonModule.ПриоритетыОчередиРабот</content>
+  <content>CommonModule.ПриоритетыОчередиРаботыКлиент</content>
+  <content>CommonModule.ПриоритетыОчередиРаботыВызовСервера</content>
+  <content>CommonModule.ПриоритетыОчередиРаботыКлиентСервер</content>
+  <content>InformationRegister.ОчередиРаботСотрудников</content>
+  <content>Role.ЧтениеПриоритетов</content>
+  <content>Constant.ИспользоватьОчередиЗадач</content>
+  <content>FunctionalOption.ИспользоватьОчередиЗадач</content>
+  <content>CommonModule.ПриоритетыОчередиРаботыПовтИсп</content>
+  <content>Constant.МаксимальныйПорядокПриоритетаРаботы</content>
+  <content>Role.ИзменениеПриоритетаТехническихПроектов</content>
+  <content>Role.ИзменениеПриоритетаЗадач</content>
+  <content>EventSubscription.ПриоритетыПередЗаписьюОбъекта</content>
+  <content>EventSubscription.ПриоритетыПриЗаписиОбъекта</content>
+  <content>Role.ЧтениеОчередейРабот</content>
+</mdclass:Subsystem>

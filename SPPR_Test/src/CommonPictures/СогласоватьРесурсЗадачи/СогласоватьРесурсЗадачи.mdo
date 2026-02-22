@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50dc652c-1547-4d7f-bc7f-fa40206abdb7">
+  <name>СогласоватьРесурсЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласовать ресурс задачи</value>
+  </synonym>
+</mdclass:CommonPicture>

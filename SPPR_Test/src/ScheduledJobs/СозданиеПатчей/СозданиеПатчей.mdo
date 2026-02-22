@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29849028-acbf-43c1-b1f9-cdd5f54ea55e">
+  <name>СозданиеПатчей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание патчей</value>
+  </synonym>
+  <methodName>CommonModule.ПатчиСлужебный.ПроверитьСоздатьПатчи</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

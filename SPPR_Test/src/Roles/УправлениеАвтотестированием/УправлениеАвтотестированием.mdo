@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee7f2be8-fb1d-448d-85c7-29b7a6b276ef">
+  <name>УправлениеАвтотестированием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление автотестированием</value>
+  </synonym>
+</mdclass:Role>
