@@ -1614,6 +1614,7 @@
   <webServices>WebService.FunctionModel</webServices>
   <webServices>WebService.InterfaceVersion</webServices>
   <httpServices>HTTPService.AssemblyUpload</httpServices>
+  <httpServices>HTTPService.RegErrors</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьИспользованиеПланаОбмена</eventSubscriptions>

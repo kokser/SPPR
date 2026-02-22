@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41c64ede-3875-49e0-9e0c-ece14694b30d">
+  <name>RegErrors</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reg errors</value>
+  </synonym>
+  <rootURL>error</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+</mdclass:HTTPService>
