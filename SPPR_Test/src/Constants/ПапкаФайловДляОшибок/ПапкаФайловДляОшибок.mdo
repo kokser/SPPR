@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad984717-afb2-4abb-988f-17a076a7090b">
+  <producedTypes>
+    <managerType typeId="84ecd13c-025b-40ac-b7da-845647be0ec8" valueTypeId="5e1d47dc-65a4-4ec1-9e57-357f67fb9e78"/>
+    <valueManagerType typeId="10a2faaf-90c4-49df-bf93-cf6d6f96264c" valueTypeId="5688604e-eaf7-46e5-be06-77f025b76bda"/>
+    <valueKeyType typeId="505acfa7-6991-484b-ba50-b3bb9428e608" valueTypeId="b22752a2-3e4f-47d3-b845-a62d26492c27"/>
+  </producedTypes>
+  <name>ПапкаФайловДляОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка файлов для ошибок</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПапкиФайлов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

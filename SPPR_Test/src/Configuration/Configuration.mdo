@@ -83,6 +83,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.Тестирование</subsystems>
   <subsystems>Subsystem.Уведомления</subsystems>
+  <subsystems>Subsystem.Доработки</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -1152,6 +1153,7 @@
   <roles>Role.ЧтениеШаговСценариевПользователя</roles>
   <roles>Role.ЧтениеЭталонныхБазТестирования</roles>
   <roles>Role.ШифрованиеИРасшифровкаДанных</roles>
+  <roles>Role.Разработчик</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияДляУстановкиКодаДляПредопределенногоУзла_ru</commonTemplates>
@@ -1576,6 +1578,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РегистрацияОшибок</commonModules>
   <exchangePlans>ExchangePlan.ИнтеграцияС1СДокументооборотомПереопределяемый</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменДаннымиССервисомПубликации</exchangePlans>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
@@ -2091,6 +2094,8 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ШрифтФорматированногоТекста</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
+  <constants>Constant.ПолучательОшибок</constants>
+  <constants>Constant.ПапкаФайловДляОшибок</constants>
   <commonForms>CommonForm.ERДиаграммаОбъекта</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
