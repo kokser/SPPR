@@ -58,7 +58,7 @@
     </levels>
   </timeScale>
   <periods>
-    <begin>2026-02-22T00:00:00</begin>
-    <end>2026-02-22T23:59:59</end>
+    <begin>2026-03-14T00:00:00</begin>
+    <end>2026-03-14T23:59:59</end>
   </periods>
 </planner:PlannerSettings>

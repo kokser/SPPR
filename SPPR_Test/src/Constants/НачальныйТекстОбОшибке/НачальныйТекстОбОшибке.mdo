@@ -5,15 +5,21 @@
     <valueManagerType typeId="10a2faaf-90c4-49df-bf93-cf6d6f96264c" valueTypeId="5688604e-eaf7-46e5-be06-77f025b76bda"/>
     <valueKeyType typeId="505acfa7-6991-484b-ba50-b3bb9428e608" valueTypeId="b22752a2-3e4f-47d3-b845-a62d26492c27"/>
   </producedTypes>
-  <name>ПапкаФайловДляОшибок</name>
+  <name>НачальныйТекстОбОшибке</name>
   <synonym>
     <key>ru</key>
-    <value>Папка файлов для ошибок</value>
+    <value>Начальный текст об ошибке пользователю</value>
   </synonym>
   <type>
-    <types>CatalogRef.ПапкиФайлов</types>
+    <types>String</types>
+    <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Текст, который будет всплывать у пользователя при возникновении ошибки</value>
+  </explanation>
+  <multiLine>true</multiLine>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

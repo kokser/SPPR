@@ -2094,8 +2094,8 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ШрифтФорматированногоТекста</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
-  <constants>Constant.ПолучательОшибок</constants>
-  <constants>Constant.ПапкаФайловДляОшибок</constants>
+  <constants>Constant.НачальныйТекстОбОшибке</constants>
+  <constants>Constant.ОшибкаПоУмолчанию</constants>
   <commonForms>CommonForm.ERДиаграммаОбъекта</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
@@ -2196,6 +2196,7 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.WebСервисыСвойства</catalogs>
   <catalogs>Catalog.WSСсылкиСвойства</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>

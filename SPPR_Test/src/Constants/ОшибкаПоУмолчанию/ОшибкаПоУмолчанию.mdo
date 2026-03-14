@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c67b8587-b0b0-4f22-8361-f93aa461ad7b">
+  <producedTypes>
+    <managerType typeId="cd3184a5-30cc-410d-8bd7-f231259432b3" valueTypeId="febe49bf-e21f-4ea7-be0a-a32b058c792f"/>
+    <valueManagerType typeId="eb8864f3-c1d3-43eb-9000-509e02b5ed9f" valueTypeId="17ded5fb-ddb3-49e0-9705-99ea4d739be5"/>
+    <valueKeyType typeId="4ee69c7a-0895-4967-bb0d-e6059cc308ec" valueTypeId="41c56971-99a1-4ebf-b1e8-9f7ccaaecc6d"/>
+  </producedTypes>
+  <name>ОшибкаПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибка по умолчанию</value>
+  </synonym>
+  <comment>Поля для создания ошибки по умолчанию</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -6,9 +6,7 @@
     <value>Доработки</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Constant.ПолучательОшибок</content>
-  <content>Constant.ПапкаФайловДляОшибок</content>
+  <content>Constant.НачальныйТекстОбОшибке</content>
   <content>CommonModule.РегистрацияОшибок</content>
   <content>HTTPService.RegErrors</content>
 </mdclass:Subsystem>

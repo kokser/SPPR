@@ -24,6 +24,8 @@
   <content>Report.АнализЖурналаРегистрации</content>
   <content>Report.ОбъемНенужныхФайлов</content>
   <content>Report.СведенияОПользователях</content>
+  <content>Constant.ОшибкаПоУмолчанию</content>
+  <content>Constant.НачальныйТекстОбОшибке</content>
   <subsystems>НастройкаПараметровСистемы</subsystems>
   <subsystems>НастройкиИнтеграции</subsystems>
   <subsystems>Пользователи</subsystems>
